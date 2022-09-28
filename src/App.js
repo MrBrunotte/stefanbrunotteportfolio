@@ -1,24 +1,48 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MyNavbar from './components/navbar/myNavbar';
+import About from './components/about/about';
+import Landingpage from './components/landingpage/landingpage';
+import Contact from './components/contact/contact';
+import MyWorkData from './components/work/myWorkData';
+import { workData } from './components/work/workData';
+import MyAcademicsData from './components/academics/myAcademicsData';
+import { academicsData } from './components/academics/academicsData';
 
-function App() {
+let App = () => {
+  const columnsWork = [
+    { field: "company", header: "Company"},
+    { field: "workDescription", header: "Work"},
+    { field: "description", header: "Description"},
+    { field: "tags", header: "Tags"},
+    { field: "startDate", header: "Start date"},
+    { field: "endDate", header: "End Date"}
+  ];
+  const columnsAcademics = [
+    { field: "school", header: "University"},
+    { field: "course", header: "Course"},
+    { field: "description", header: "Description"},
+    { field: "tags", header: "Tags"},
+    { field: "startDate", header: "Start date"},
+    { field: "endDate", header: "End Date"}
+  ]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyNavbar></MyNavbar>
+
+      <Landingpage></Landingpage>
+      <About></About>
+      <MyWorkData 
+        workData = {workData} 
+        columnsWork = {columnsWork}>
+      </MyWorkData>
+      <MyAcademicsData
+        academicsData = {academicsData}
+        columnsAca = {columnsAcademics}>
+      </MyAcademicsData>
+      <Contact></Contact>
+    </>
   );
 }
 

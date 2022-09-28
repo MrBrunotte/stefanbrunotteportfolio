@@ -1,0 +1,35 @@
+.nav-background {
+    background-color: #222529;
+}
+.nav-padding {
+    padding-right: 10.5rem!important;
+    padding-left: 10.5rem!important;
+}
+.nav-style {
+    padding:20px 50px;
+}
+
+.my-nav-link {
+    color: white !important;
+    margin-right: 45px;
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px !important;
+}
+
+.my-border {
+    border-style: solid;
+    border-color: #CAA532;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.my-nav-logo {
+    margin-left: 100px;
+    color: white !important;
+}
+.my-logo {
+    margin-top: 25px;
+    height: 300px;
+    border-radius: 50px;
+}

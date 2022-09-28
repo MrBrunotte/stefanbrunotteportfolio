@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.myH1 {
+    font-size: 98px;
+    text-align: center;
+    font-family: 'Notable', sans-serif;
+}
+table {
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th, td {
+    border-bottom: 1px solid white !important;
+    text-align: left;
+    padding: 15px 10px 15px 0px;
+    color: #caa532;
+}
+th {
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+td {
+    vertical-align: top;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.striped:nth-child(even){
+    background-color: gray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hover:hover {
+    background-color: #3e3e3efc;
+    color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.noDataToShow {
+    font-size: 98px;
+    text-align: center;
+    font-family: 'Notable', sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td:nth-child(1){
+    width: 10%;
+}
+td:nth-child(2),
+th:nth-child(2){
+    width: 15%;
+    text-align: center;
+}
+td:nth-child(3){
+    width: 40%;
+    color: white;
+    font-style: italic;    
+}
+td:nth-child(4),
+th:nth-child(4){
+    width: 10%;
+    text-align: center;
+}
+td:nth-child(5),
+th:nth-child(5){
+    width: 15%;
+    text-align: center;
+}
+td:nth-child(6),
+th:nth-child(6){
+    width: 15%;
+    text-align: end;
 }
