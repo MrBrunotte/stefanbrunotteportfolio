@@ -31,8 +31,8 @@ let App = () => {
     <>
       <MyNavbar></MyNavbar>
 
-      <Landingpage></Landingpage>
       <About></About>
+      <Landingpage></Landingpage>
       <MyWorkData 
         workData = {workData} 
         columnsWork = {columnsWork}>
