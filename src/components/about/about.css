@@ -1,6 +1,9 @@
 .marginTop {
     margin-top: 60px;
 }
+.iconMarginTop{
+    margin-top: 2rem !important;
+}
 .h1About {
     font-size: 58px;
     text-align: end;
@@ -19,6 +22,9 @@
     text-align: center;
     color: #9b9b9b;
     font-size: 25px;
+}
+.myIcons:hover{
+    color: #caa532;
 }
 .textArea{
     padding: 0 0 0 80px;

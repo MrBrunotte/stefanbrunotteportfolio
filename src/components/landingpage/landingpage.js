@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 let Landingpage = () => {
     return (
     <>
-    <Div100vh>
+    {/* <Div100vh> */}
         <Container className="mt-3">
         <h1 className="myH1">Landingpage</h1>
                 <Row>
@@ -17,7 +17,7 @@ let Landingpage = () => {
                     </Col>
                 </Row>
         </Container>     
-    </Div100vh>
+    {/* </Div100vh> */}
     </>
     )
 };

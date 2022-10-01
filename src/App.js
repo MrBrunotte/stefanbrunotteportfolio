@@ -8,6 +8,7 @@ import MyWorkData from './components/work/myWorkData';
 import { workData } from './components/work/workData';
 import MyAcademicsData from './components/academics/myAcademicsData';
 import { academicsData } from './components/academics/academicsData';
+import MyProjects from './components/myProjects/myProjects';
 
 let App = () => {
   const columnsWork = [
@@ -32,6 +33,7 @@ let App = () => {
       <MyNavbar></MyNavbar>
 
       <About></About>
+      <MyProjects></MyProjects>
       <Landingpage></Landingpage>
       <MyWorkData 
         workData = {workData} 
