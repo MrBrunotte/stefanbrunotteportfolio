@@ -3,6 +3,7 @@
 }
 .iconMarginTop{
     margin-top: 2rem !important;
+    text-align: center;
 }
 .h1About {
     font-size: 58px;
@@ -18,12 +19,13 @@
     margin-right: auto;
     width: 100%;
 }
-.myIcons{
+.myIcons a{
     text-align: center;
     color: #9b9b9b;
     font-size: 25px;
+    margin: 0 20%;
 }
-.myIcons:hover{
+.myIcons a:hover{
     color: #caa532;
 }
 .textArea{

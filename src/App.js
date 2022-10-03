@@ -9,6 +9,7 @@ import { workData } from './components/work/workData';
 import MyAcademicsData from './components/academics/myAcademicsData';
 import { academicsData } from './components/academics/academicsData';
 import MyProjects from './components/myProjects/myProjects';
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
 let App = () => {
   const columnsWork = [
@@ -30,11 +31,15 @@ let App = () => {
 
   return (
     <>
+    <ThemeProvider
+        breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
+        minBreakpoint="xs"
+        >
       <MyNavbar></MyNavbar>
 
+      <Landingpage></Landingpage>
       <About></About>
       <MyProjects></MyProjects>
-      <Landingpage></Landingpage>
       <MyWorkData 
         workData = {workData} 
         columnsWork = {columnsWork}>
@@ -44,6 +49,7 @@ let App = () => {
         columnsAca = {columnsAcademics}>
       </MyAcademicsData>
       <Contact></Contact>
+      </ThemeProvider>
     </>
   );
 }

@@ -1,7 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import './myAcademics.css';
 
-let MyAcademicsData = ({academicsData = null, columnsAca = null, hover=true, striped=true}) => {
+let MyAcademicsData = ({
+        academicsData = null, 
+        columnsAca = null, 
+        hover=true, 
+        striped=true
+    }) => {
     const getCaps = (str) => {
         return str.toUpperCase();
     }
@@ -9,7 +15,7 @@ let MyAcademicsData = ({academicsData = null, columnsAca = null, hover=true, str
         <Container>
             <h1 className="myH1">my academics</h1>
             <table>
-                <thead>
+                <thead className="hidden-xxs hidden-xs hidden-sm hidden-md">
                     <tr>
                         {columnsAca &&
                         columnsAca.map(head => <th>{ getCaps(head.header) }</th>)}

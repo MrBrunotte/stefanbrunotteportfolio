@@ -1,7 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-let MyWorkData = ({workData = null, columnsWork = null, hover=true, striped=true}) => {
+
+let MyWorkData = ({
+        workData = null, 
+        columnsWork = null, 
+        hover=true, 
+        striped=true
+    }) => {
     const getCaps = (str) => {
         return str.toUpperCase();
     }

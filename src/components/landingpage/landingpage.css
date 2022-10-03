@@ -1,0 +1,11 @@
+.h1Landingpage,
+.landingpageSpan {
+    font-family: 'Notable', sans-serif;
+    color: #9b9b9b;
+}
+.h1Landingpage {
+    font-size: 22px;
+}
+.landingpageSpan {
+    font-size: 20px;
+}

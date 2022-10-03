@@ -1,6 +1,34 @@
-.card-title {
+.card {
+    border: 2px solid #caa532 !important;
+    margin-bottom: 24px;
+}
+.card,
+.list-group-item {
+    background-color: #222529 !important;
+    color: #6f6f72 !important;
+}
+.card-img-top {
+    height: 227px;
+}
+.projectText {
+    padding-bottom: 0px !important;
+}
+.card-body a {
+    padding: 0 15px;
+}
+.card-title,
+.card-text h5 {
+    text-align: center;
+    text-transform: uppercase;
     color: #9b9b9b;
 }
-.card-text {
-    color: #6f6f72;
+.card-text p {
+    text-align: center;
+    color:#caa532;
+    margin: 0;
+}
+a .myIcons{
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 25px;
 }
