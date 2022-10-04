@@ -17,16 +17,16 @@ let App = () => {
     { field: "workDescription", header: "Work"},
     { field: "description", header: "Description"},
     { field: "tags", header: "Tags"},
-    { field: "startDate", header: "Start date"},
-    { field: "endDate", header: "End Date"}
+    { field: "startDate", header: "Start"},
+    { field: "endDate", header: "End"}
   ];
   const columnsAcademics = [
     { field: "school", header: "University"},
     { field: "course", header: "Course"},
     { field: "description", header: "Description"},
     { field: "tags", header: "Tags"},
-    { field: "startDate", header: "Start date"},
-    { field: "endDate", header: "End Date"}
+    { field: "startDate", header: "Start"},
+    { field: "endDate", header: "End"}
   ]
 
   return (

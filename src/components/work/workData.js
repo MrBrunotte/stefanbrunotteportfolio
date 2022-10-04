@@ -5,7 +5,7 @@ export const workData = [
         "workDescription": "Daytrader",
         "description": "Trading futures on the the CBOT, CME and NYMEX markets by analysing the price movement using PA (price action). I trade using the NinjaTrader 8 platform and I also create my own custom indicators and trading scripts.",
         "gainedExperience": "I have developed my own trading plan based on traditional PA (price action), and I am currently working on the automation of the static parameters of my trading plan.",
-        "tags": ["C#, .NET, futures"],
+        "tags": ["C#, .NET, futures, NT8 plattform, Price Action, Ninja script"],
         "startDate": "15/4/2005",
         "endDate": "Ongoing (part-time)"
     },
