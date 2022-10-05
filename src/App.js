@@ -1,36 +1,19 @@
 import React from 'react';
+import { 
+  Route, 
+  Routes } from 'react-router-dom';
 import './App.css';
-import MyNavbar from './components/navbar/myNavbar';
-import About from './components/about/about';
-import Landingpage from './components/landingpage/landingpage';
-import Contact from './components/contact/contact';
-import MyWorkData from './components/work/myWorkData';
-import { workData } from './components/work/workData';
-import MyAcademicsData from './components/academics/myAcademicsData';
-import { academicsData } from './components/academics/academicsData';
-import MyProjects from './components/myProjects/myProjects';
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
-
-import AcademicsDataJSON from './components/academicsNew/academicsNew';
-import WorkDataJSON from './components/work/workNew';
+import MyNavbar from './components/navbar/myNavbar';
+import Landingpage from './components/landingpage/landingpage';
+import About  from './components/about/about';
+import MyProjects from './components/myProjects/myProjects';
+import Work from './components/work/work';
+import Academics from './components/academics/academics';
+import Contact from './components/contact/contact';
+import Resume from './components/resume/resume';
 
 let App = () => {
-  // const columnsWork = [
-  //   { field: "company", header: "Company"},
-  //   { field: "workDescription", header: "Work"},
-  //   { field: "description", header: "Description"},
-  //   { field: "tags", header: "Tags"},
-  //   { field: "startDate", header: "Start"},
-  //   { field: "endDate", header: "End"}
-  // ];
-  // const columnsAcademics = [
-  //   { field: "school", header: "University"},
-  //   { field: "course", header: "Course"},
-  //   { field: "description", header: "Description"},
-  //   { field: "tags", header: "Tags"},
-  //   { field: "startDate", header: "Start"},
-  //   { field: "endDate", header: "End"}
-  // ]
 
   return (
     <>
@@ -38,23 +21,19 @@ let App = () => {
         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
         minBreakpoint="xs"
         >
-      <MyNavbar></MyNavbar>
 
-      <WorkDataJSON></WorkDataJSON>
-      <AcademicsDataJSON></AcademicsDataJSON>
-      {/* <MyAcademicsData
-        academicsData = {academicsData}
-        columnsAca = {columnsAcademics}>
-      </MyAcademicsData> */}
-      {/* <MyWorkData 
-        workData = {workData} 
-        columnsWork = {columnsWork}>
-      </MyWorkData> */}
+    <MyNavbar></MyNavbar>
 
-      <Landingpage></Landingpage>
-      <About></About>
-      <MyProjects></MyProjects>
-      <Contact></Contact>
+    <Routes>
+      <Route path="/" element={<Landingpage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<MyProjects />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/academics" element={<Academics />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} />
+    </Routes>
+
       </ThemeProvider>
     </>
   );

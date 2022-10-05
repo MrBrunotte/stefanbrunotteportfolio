@@ -1,0 +1,10 @@
+.cvPDFImg {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.my-btn{
+    margin: 25px 0;
+}

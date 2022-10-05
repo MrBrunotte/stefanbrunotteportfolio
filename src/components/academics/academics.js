@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import MyAcademicData from '../../myAcademics.json';
-import './academicsNew.css';
+import '../../myWorkAcademics.css';
 
-let AcademicsDataJSON = () => {
+let Academics = () => {
     return (
         <Container>
         <h1 className="myH1">academics</h1>
@@ -33,4 +33,4 @@ let AcademicsDataJSON = () => {
     )
 };
 
-export default AcademicsDataJSON;
+export default Academics;

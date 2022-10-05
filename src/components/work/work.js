@@ -1,8 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import MyWorkData from '../../myWork.json';
+import '../../myWorkAcademics.css';
 
-let WorkDataJSON = () => {
+let Work = () => {
     return (
         <Container>
         <h1 className="myH1">Work</h1>
@@ -32,4 +33,4 @@ let WorkDataJSON = () => {
     )
 };
 
-export default WorkDataJSON;
+export default Work;

@@ -8,7 +8,6 @@
 .nav-style {
     padding:20px 50px;
 }
-
 .my-nav-link {
     color: #9b9b9b !important;
     margin-right: 45px;
@@ -16,20 +15,32 @@
     letter-spacing: 3px;
     font-size: 12px !important;
 }
-
 .my-border {
     border-style: solid;
     border-color: #CAA532;
     border-radius: 10px;
     padding: 5px 10px;
 }
-
-.my-nav-logo {
-    margin-left: 100px;
-    color: white !important;
+.my-resume {
+    text-decoration: none;
+    background-color: #222529;
+    border: 3px solid #CAA532;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 auto;
 }
-.my-logo {
-    margin-top: 25px;
-    height: 300px;
-    border-radius: 50px;
+.my-resume:hover {
+    border-color:#9b9b9b; 
+}
+.a-resume {
+    text-decoration: none;
+    background-color: #222529;
+    color: #9b9b9b;
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+.a-resume:hover {
+    color: #9b9b9b;
 }

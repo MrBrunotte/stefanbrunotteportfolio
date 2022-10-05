@@ -5,7 +5,12 @@
 }
 .h1Landingpage {
     font-size: 22px;
+    color: #caa532;
 }
 .landingpageSpan {
     font-size: 20px;
+    color: #caa532;
+}
+.myIcons:hover {
+    color: #caa532;
 }

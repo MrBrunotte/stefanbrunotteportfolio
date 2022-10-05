@@ -1,65 +1,6 @@
 .myH1 {
-    font-size:24px;
+    font-size:54px;
     text-align: center;
     font-family: 'Notable', sans-serif;
     color: #9b9b9b;
-}
-table {
-    width: 100%;
-}
-
-th, td {
-    border-bottom: 1px solid white !important;
-    text-align: left;
-    padding: 15px 10px 15px 0px;
-    color: #caa532;
-}
-th {
-    font-family: 'Notable', sans-serif;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
-td {
-    vertical-align: top;
-}
-
-.striped:nth-child(even){
-    background-color: gray;
-}
-.hover:hover {
-    background-color: #3e3e3efc;
-    color: white;
-}
-.noDataToShow {
-    font-size: 98px;
-    text-align: center;
-    font-family: 'Notable', sans-serif;
-}
-td:nth-child(1){
-    width: 10%;
-}
-td:nth-child(2),
-th:nth-child(2){
-    width: 15%;
-    text-align: center;
-}
-td:nth-child(3){
-    width: 40%;
-    color: white;
-    font-style: italic;    
-}
-td:nth-child(4),
-th:nth-child(4){
-    width: 10%;
-    text-align: center;
-}
-td:nth-child(5),
-th:nth-child(5){
-    width: 15%;
-    text-align: center;
-}
-td:nth-child(6),
-th:nth-child(6){
-    width: 15%;
-    text-align: end;
 }
