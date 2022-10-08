@@ -1,6 +1,7 @@
 .card {
     border: 2px solid #caa532 !important;
     margin-bottom: 24px;
+    max-height: 530px;
 }
 .card,
 .list-group-item {
@@ -8,10 +9,48 @@
     color: #6f6f72 !important;
 }
 .card-img-top {
-    height: 227px;
+    height: 200px;
+}
+.myCardTitle {
+    padding: 0 0 2vh 0;
+    margin: 0;
+}
+.myCardHeader {
+    padding: 2vh 0;
+    margin: 0;
+}
+.myCardText {
+    font-size: 1rem;
+    text-align: left;
+    color:#caa532;
+    margin: 0;
+}
+.myCardText:hover {
+    color: white;
+}
+.card-body::-webkit-scrollbar {
+    width: 1vh;
+}
+.card-body::-webkit-scrollbar-thumb {
+background-color: #9b9b9b;
+}
+.card-body::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+    }
+.card-body::-webkit-scrollbar-track {
+background-color: #222529;
+}
+.projectText {
+    overflow-y: scroll;
 }
 .projectText {
     padding-bottom: 0px !important;
+}
+.myCardTags {
+    font-size: 1rem;
+    text-align: center;
+    color:#caa532;
+    margin: 0;
 }
 .card-body a {
     padding: 0 15px;
@@ -22,13 +61,9 @@
     text-transform: uppercase;
     color: #9b9b9b;
 }
-.card-text p {
-    text-align: center;
-    color:#caa532;
-    margin: 0;
-}
+
 a .myIcons{
     text-align: center;
     color: #9b9b9b;
-    font-size: 25px;
+    font-size: 1.563rem;
 }

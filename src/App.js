@@ -17,12 +17,12 @@ let App = () => {
 
   return (
     <>
+    <MyNavbar></MyNavbar>
     <ThemeProvider
         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
         minBreakpoint="xs"
         >
 
-    <MyNavbar></MyNavbar>
 
     <Routes>
       <Route path="/" element={<Landingpage />} />

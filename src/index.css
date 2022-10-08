@@ -1,3 +1,16 @@
+html {
+  /*14 px = 0.875rem*/
+  font-size: .875rem;
+}
+html::-webkit-scrollbar {
+  width: 2vh;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #caa532;
+}
+html::-webkit-scrollbar-track {
+  background-color: #9b9b9b;
+}
 body {
   margin: 0;
   background-color: #222529 !important;
@@ -8,8 +21,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+a {
+  font-weight: 900;
+  font-size: 1.15rem;
+  color:#caa532 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  font-size: 1.5rem;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.myH1 {
+  font-size:3.375rem;
+  text-align: center;
+  font-family: 'Notable', sans-serif;
+  color: #9b9b9b;
+  margin: 8vh;
+}
+.myUppercase {
+  text-transform: uppercase;
+}
+

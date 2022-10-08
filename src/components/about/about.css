@@ -6,23 +6,30 @@
     text-align: center;
 }
 .h1About {
-    font-size: 58px;
+    font-size: 3.625rem;
     text-align: end;
     font-family: 'Notable', sans-serif;
     margin: 0 0 30px;
     color: #9b9b9b;
 }
+.h1AboutMedQue {
+    display: none;
+}
+.photo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 .meImg {
-    height: auto;
-    display: block;
+    width: 100%;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
 }
 .myIcons a{
     text-align: center;
     color: #9b9b9b;
-    font-size: 25px;
+    font-size: 1.563rem;
     margin: 0 20%;
 }
 .myIcons a:hover{
@@ -33,18 +40,73 @@
 }
 
 .textArea p {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #c4c4c4;
 }
 .specialText {
     font-family: 'Notable', sans-serif;
     color: #caa532;
-    letter-spacing: 3px;;
-}
-.question{
-
+    letter-spacing: 3px;
 }
 .answer{
     padding-left: 40px;
     color: #caa532 !important;
+}
+
+/* Media Queries */
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .meImg {
+        width: 30%;
+        max-width: 400px;
+    }
+    .h1About {
+        display: none;
+    }
+    .h1AboutMediaQuery {
+        font-size: 2rem;
+        text-align: start;
+        font-family: 'Notable', sans-serif;
+        margin: 10vh 0 2vh;
+        color: #9b9b9b;
+    }
+    .textArea{
+        padding: 0;
+    }
+    .textArea p {
+        font-size: 1rem;
+        color: #c4c4c4;
+        padding-left: 5vw;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .meImg {
+        width: 40%;
+        max-width: 400px;
+    }
+    .h1About {
+        display: none;
+    }
+    .h1AboutMediaQuery {
+        font-size: 2rem;
+        text-align: start;
+        font-family: 'Notable', sans-serif;
+        margin: 10vh 0 2vh;
+        color: #9b9b9b;
+    }
+    .textArea{
+        padding: 0;
+    }
+    .textArea p {
+        font-size: 1.2rem;
+        color: #c4c4c4;
+        padding-left: 5vw;
+    }
+}
+/* over 992.99px */
+@media (min-width: 992.99px) {
+    .h1AboutMediaQuery {
+        display: none;
+    }
 }

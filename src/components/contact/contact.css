@@ -1,0 +1,52 @@
+.contactContainer {
+    margin: 10vh 0 15vh;
+}
+.contactImg {
+    width: 50%;
+}
+.myEnvelope {
+    width: 10%;
+}
+.ContactArea {
+    font-family: 'Notable', sans-serif;
+    color: #9b9b9b;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    text-align: center;
+    padding: 3vh;
+}
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    font-size: 16px;
+}
+/* .form-control {
+    margin-top: 1rem;
+    font-family: 'Notable', sans-serif;
+    color: #caa532;
+    letter-spacing: 3px;
+} */
+label{
+    margin-top: 1rem;
+    font-family: 'Notable', sans-serif;
+    color: #caa532;
+    letter-spacing: 3px;
+}
+input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: #caa532;
+    color: white;
+    border: none;
+}
+textarea {
+    background-color: #9b9b9b !important;
+    border: none !important;
+    color: white !important;
+    height: 200px;
+}
+::placeholder {
+    color: black !important;
+}

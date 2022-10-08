@@ -15,7 +15,8 @@ let Work = () => {
                             <h4 className="h4Table">{work.company}</h4>
                             <tbody>
                                 <tr className="trBottomBorder">
-                                    <td data-label="University">{work.workDescription}</td>
+                                    <td data-label="Company" className="myUppercase">{work.company}</td>
+                                    <td data-label="Work Title" className="myUppercase">{work.workDescription}</td>
                                     <td data-label="Course">{work.description}</td>
                                     <td data-label="Description">{work.gainedExperience}</td>
                                     <td data-label="Tags">{work.tags}</td>
@@ -28,7 +29,6 @@ let Work = () => {
                 )
             })
         }
-        
         </Container>
     )
 };

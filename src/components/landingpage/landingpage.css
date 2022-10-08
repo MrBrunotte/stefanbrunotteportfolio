@@ -1,16 +1,71 @@
-.h1Landingpage,
-.landingpageSpan {
+.myMargin {
+    padding: 10vh 0 4vh !important;
+}
+.landingpageLink {
     font-family: 'Notable', sans-serif;
+    font-size: 1.25rem !important;
+}
+.h1Header,
+.h2Header {
+    font-family: 'Notable', sans-serif;
+    font-size: 3.375rem;
     color: #9b9b9b;
+    padding-left: 25%;
 }
-.h1Landingpage {
-    font-size: 22px;
+.h1Header {
+    margin: 2vh 0 5vh;
+}
+.h2Header {
+    margin: 5vh 0 5vh;
+}
+.pLandingpage {
+    text-align: justify;
+    margin-left: 2vw;
+}
+.myIcons {
     color: #caa532;
 }
-.landingpageSpan {
-    font-size: 20px;
-    color: #caa532;
+.myIcons:hover,
+.landingpageLink:hover {
+    color: white !important;
 }
-.myIcons:hover {
-    color: #caa532;
+.greeting {
+    color: #caa532 !important;
+    font-weight: 700 !important;
+    font-size: 1.25rem !important;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.myTitle {
+    font-size: 2rem;
+    font-family: 'Notable', sans-serif;
+    letter-spacing: 2px;
+}
+/* Media Queries */  
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+.h1Header,
+.h2Header {
+    font-size: 1.3rem !important;
+}
+.landingpageLink {
+    font-size: 1.4rem !important;
+}
+p {
+    font-size: 1rem;
+}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+.h1Header,
+.h2Header {
+    font-size: 1.4rem !important;
+}
+.landingpageLink {
+    font-size: 1.5rem !important;
+}
+p {
+    font-size: 1.1rem;
+}
 }

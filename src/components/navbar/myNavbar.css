@@ -1,19 +1,19 @@
 .nav-background {
     background-color: #222529;
 }
-.nav-padding {
-    padding-right: 10.5rem!important;
-    padding-left: 10.5rem!important;
-}
+/* .nav-padding {
+    padding-right: 13vw !important;
+    padding-left: 13vw!important;
+} */
 .nav-style {
-    padding:20px 50px;
+    padding: 4vh 0 2vh;
 }
 .my-nav-link {
     color: #9b9b9b !important;
-    margin-right: 45px;
+    margin-right: 1.5vw;
     font-family: 'Notable', sans-serif;
     letter-spacing: 3px;
-    font-size: 12px !important;
+    font-size: 1rem !important;
 }
 .my-border {
     border-style: solid;
@@ -24,14 +24,12 @@
 .my-resume {
     text-decoration: none;
     background-color: #222529;
+    color: #9b9b9b;
     border: 3px solid #CAA532;
     border-radius: 10px;
-    padding: 5px 10px;
-    text-align: center;
-    margin: 0 auto;
 }
 .my-resume:hover {
-    border-color:#9b9b9b; 
+    border-color:white; 
 }
 .a-resume {
     text-decoration: none;
@@ -39,8 +37,20 @@
     color: #9b9b9b;
     font-family: 'Notable', sans-serif;
     letter-spacing: 3px;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .a-resume:hover {
     color: #9b9b9b;
+}
+
+@media (max-width: 767.98px) {
+    .my-resume {
+        border: none;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+   .my-nav-link {
+    font-size: .8rem !important;
+   }
 }

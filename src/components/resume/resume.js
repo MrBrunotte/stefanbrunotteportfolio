@@ -13,7 +13,7 @@ let Landingpage = () => {
         <h1 className="myH1">Resume</h1>
         <Row>
             <Col xs={{span: 12, offset:5}}>
-                <button className='my-resume my-btn'>
+                <button className='resume-btn'>
                     <a className='a-resume' href="../StefanBrunotteCV.pdf" download="StefanBrunotteCV.pdf" target="_blank">Download my CV</a>
                 </button>
             </Col>

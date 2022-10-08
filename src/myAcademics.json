@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "school": "Stockholm School of Economics",
+        "school": "Stockholm School of Economics, SU",
         "course": "Master in Banking & Finance",
         "description": "Both theoretical and practical of finance in a global context, the program also gave me a solid foundation to stand on in my private day trading career. This will also benefit me as a developer since I have a good knowledge of this industry.",
         "tags": ["Portfolio Theory, Derivatives, Econometrics, Fixed Income Securities, Micro Economics, Macro Economics, Corporate Finance, Financial Market Structure, Advanced Financial Theroy, Advanced Financial Emperic research, Master Thesis"],
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "school": "Stockholm School of Economics",
+        "school": "Stockholm School of Economics, SU",
         "course": "Bachelor of Science, Business Administration",
         "description": "Fundamental understaning of the field of Economics including a Bachelor thesis, and other related courses",
         "tags": ["Political economy, Bachelor thesis"],
