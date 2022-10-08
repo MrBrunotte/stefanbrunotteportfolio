@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/StefanBrunottePortfolio/static/css/main.dcd7e01f.css",
-    "main.js": "/StefanBrunottePortfolio/static/js/main.1f89edfa.js",
+    "main.js": "/StefanBrunottePortfolio/static/js/main.33d41fed.js",
     "static/js/787.c133f895.chunk.js": "/StefanBrunottePortfolio/static/js/787.c133f895.chunk.js",
     "static/media/vacationexplorer.jpg": "/StefanBrunottePortfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
     "static/media/StefanBrunotteCV-1.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-1.f9bff05f647d33e05cf4.jpg",
@@ -14,11 +14,11 @@
     "static/media/worldofshape.jpg": "/StefanBrunottePortfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
     "index.html": "/StefanBrunottePortfolio/index.html",
     "main.dcd7e01f.css.map": "/StefanBrunottePortfolio/static/css/main.dcd7e01f.css.map",
-    "main.1f89edfa.js.map": "/StefanBrunottePortfolio/static/js/main.1f89edfa.js.map",
+    "main.33d41fed.js.map": "/StefanBrunottePortfolio/static/js/main.33d41fed.js.map",
     "787.c133f895.chunk.js.map": "/StefanBrunottePortfolio/static/js/787.c133f895.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcd7e01f.css",
-    "static/js/main.1f89edfa.js"
+    "static/js/main.33d41fed.js"
   ]
 }
