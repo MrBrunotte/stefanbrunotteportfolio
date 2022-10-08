@@ -50,3 +50,15 @@ textarea {
 ::placeholder {
     color: black !important;
 }
+
+/* Media Queries */
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    form {
+        width: 100%;
+    }
+}
+/* over 992.99px */
+@media (min-width: 992.99px) {
+   
+}
