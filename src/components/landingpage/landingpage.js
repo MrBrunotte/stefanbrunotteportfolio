@@ -11,7 +11,7 @@ import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import './landingpage.css';
 
-let Landingpage = () => {
+let Home = () => {
     return (
     <>
     <Container className="myMargin">
@@ -94,4 +94,4 @@ let Landingpage = () => {
     )
 };
 
-export default Landingpage;
+export default Home;
