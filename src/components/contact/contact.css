@@ -2,7 +2,7 @@
     margin: 10vh 0 15vh;
 }
 .contactImg {
-    width: 50%;
+    width: 70%;
 }
 .myEnvelope {
     width: 10%;
@@ -22,12 +22,6 @@ form {
     width: 50%;
     font-size: 16px;
 }
-/* .form-control {
-    margin-top: 1rem;
-    font-family: 'Notable', sans-serif;
-    color: #caa532;
-    letter-spacing: 3px;
-} */
 label{
     margin-top: 1rem;
     font-family: 'Notable', sans-serif;
@@ -52,13 +46,29 @@ textarea {
 }
 
 /* Media Queries */
+@media (max-width: 576px) {
+    .contactImg {
+        width: 35% !important;
+    }
+}
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    label {
+        font-size: .8rem;
+    }
     form {
-        width: 100%;
+        width: 90%;
+    }
+    .form-control {
+        padding: 0.175rem 0.45rem !important;
+    }
+    .contactImg {
+        width: 70%;
     }
 }
 /* over 992.99px */
-@media (min-width: 992.99px) {
-   
+@media (min-width: 767.99px) {
+    form {
+        width: 50%;
+    }
 }

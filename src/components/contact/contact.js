@@ -37,14 +37,13 @@ let Contact = () => {
                     </div>
                     </Col>
                     <Col className='container' xxl={6} xl={6} lg={6} md={6} sm={12} xs={12}>
-                        <p className="ContactArea mx-auto">contact me</p>
-                        {/* <p className="myIcons text-center"><a href="mailto:mrbrunotte@gmail.com" target="_blank" rel="noreferrer"><img className="myEnvelope" src={email1} alt="Stefan Brunotte"/></a></p> */}
                     </Col>
                 </div>
             </Row>
             <Row>
                 <Col className='container' xs={12}>
-                <Form className='mx-auto' ref={form} onSubmit={sendEmail}>
+                    <h1 className='myH1'>contact me</h1>
+                    <Form className='mx-auto' ref={form} onSubmit={sendEmail}>
                         <Form.Label> Your Name</Form.Label>
                             <Form.Control type="text" name="user_name" />
                         <Form.Label>Your Email</Form.Label>

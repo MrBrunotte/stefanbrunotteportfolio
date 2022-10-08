@@ -12,10 +12,12 @@ let Landingpage = () => {
         <Container className="mt-3">
         <h1 className="myH1">Resume</h1>
         <Row>
-            <Col xs={{span: 12, offset:5}}>
+            <Col className='container' xs={12}>
+            <div className='d-flex justify-content-center'>
                 <button className='resume-btn'>
                     <a className='a-resume' href="../StefanBrunotteCV.pdf" download="StefanBrunotteCV.pdf" target="_blank">Download my CV</a>
                 </button>
+            </div>
             </Col>
         </Row>
         <Row>

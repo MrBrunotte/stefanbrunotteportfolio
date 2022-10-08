@@ -1,10 +1,12 @@
 .nav-background {
     background-color: #222529;
 }
-/* .nav-padding {
-    padding-right: 13vw !important;
-    padding-left: 13vw!important;
-} */
+.navbar>.container-fluid {
+    justify-content: end;
+}
+.navbar-nav {
+    text-align: end;
+}
 .nav-style {
     padding: 4vh 0 2vh;
 }
