@@ -2,7 +2,7 @@
     background-color: #222529;
 }
 .navbar>.container-fluid {
-    justify-content: end;
+    justify-content: end !important;
 }
 .navbar-nav {
     text-align: end;

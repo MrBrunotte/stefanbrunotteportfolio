@@ -13,7 +13,7 @@ html::-webkit-scrollbar-track {
 }
 body {
   margin: 0;
-  padding: 0 1vw;
+  padding: 0 2vw;
   background-color: #222529 !important;
   color: white !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
