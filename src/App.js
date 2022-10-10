@@ -5,8 +5,8 @@ import {
 import './App.css';
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
 import MyNavbar from './components/navbar/myNavbar';
-import Landingpage from './components/landingpage/landingpage';
 import About  from './components/about/about';
+import Home from './components/home/home';
 import MyProjects from './components/myProjects/myProjects';
 import Work from './components/work/work';
 import Academics from './components/academics/academics';
@@ -26,7 +26,7 @@ let App = () => {
 
 
     <Routes>
-      <Route exact path="/{Landingpage}" element={<Landingpage />} />
+      <Route path="/{App}" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<MyProjects />} />
       <Route path="/work" element={<Work />} />

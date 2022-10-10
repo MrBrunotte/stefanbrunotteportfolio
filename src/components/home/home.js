@@ -9,9 +9,9 @@ import gisysArbProv from '../myProjects/images/gisysArbProv.jpg';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-import './landingpage.css';
+import './home.css';
 
-let Landingpage = () => {
+let Home = () => {
     return (
     <>
     <Container className="myMargin">
@@ -94,4 +94,4 @@ let Landingpage = () => {
     )
 };
 
-export default Landingpage;
+export default Home;
