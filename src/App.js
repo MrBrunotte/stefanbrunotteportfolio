@@ -25,8 +25,8 @@ let App = () => {
         >
 
 
-    <Routes>
-      <Route exact path="/stefanbrunotteportfolio" element={<Home />} />
+    <Routes basename={process.env.PUBLIC_URL}>
+      <Route exact path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<MyProjects />} />
       <Route path="/work" element={<Work />} />

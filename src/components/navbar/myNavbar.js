@@ -12,7 +12,7 @@ function MyNavbar() {
         <Navbar.Collapse id="navbarScroll">
           <Nav className="ms-auto nav-style" style={{ maxHeight: '300px' }} navbarScroll>
 
-            <Nav.Link className='my-nav-link' as={Link} to="/stefanbrunotteportfolio">Home</Nav.Link>
+            <Nav.Link className='my-nav-link' as={Link} to="/">Home</Nav.Link>
             <Nav.Link className='my-nav-link' as={Link} to="/about">About</Nav.Link>
             <Nav.Link className='my-nav-link' as={Link} to="/projects">My Projects</Nav.Link>
             <Nav.Link className='my-nav-link' as={Link} to="/work">Work</Nav.Link>
