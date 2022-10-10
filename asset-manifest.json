@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/StefanBrunottePortfolio/static/css/main.3424cda1.css",
-    "main.js": "/StefanBrunottePortfolio/static/js/main.133636ec.js",
+    "main.js": "/StefanBrunottePortfolio/static/js/main.a333245c.js",
     "static/js/787.c133f895.chunk.js": "/StefanBrunottePortfolio/static/js/787.c133f895.chunk.js",
     "static/media/vacationexplorer.jpg": "/StefanBrunottePortfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
-    "static/media/StefanBrunotteCV-1.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-1.f9bff05f647d33e05cf4.jpg",
-    "static/media/StefanBrunotteCV-2.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-2.691f9979e28c19d83bc0.jpg",
+    "static/media/StefanBrunotteCV-1.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-1.9353c8202eaddb5c98a4.jpg",
+    "static/media/StefanBrunotteCV-2.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-2.9ea01207dad55cb1aafa.jpg",
     "static/media/jag.png": "/StefanBrunottePortfolio/static/media/jag.44ce8403e1b7c8b1579c.png",
     "static/media/teacherOverview.jpeg": "/StefanBrunottePortfolio/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
     "static/media/gisysArbProv.jpg": "/StefanBrunottePortfolio/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
@@ -14,11 +14,11 @@
     "static/media/worldofshape.jpg": "/StefanBrunottePortfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
     "index.html": "/StefanBrunottePortfolio/index.html",
     "main.3424cda1.css.map": "/StefanBrunottePortfolio/static/css/main.3424cda1.css.map",
-    "main.133636ec.js.map": "/StefanBrunottePortfolio/static/js/main.133636ec.js.map",
+    "main.a333245c.js.map": "/StefanBrunottePortfolio/static/js/main.a333245c.js.map",
     "787.c133f895.chunk.js.map": "/StefanBrunottePortfolio/static/js/787.c133f895.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3424cda1.css",
-    "static/js/main.133636ec.js"
+    "static/js/main.a333245c.js"
   ]
 }
