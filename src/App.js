@@ -12,6 +12,7 @@ import Work from './components/work/work';
 import Academics from './components/academics/academics';
 import Contact from './components/contact/contact';
 import Resume from './components/resume/resume';
+import Footer from './components/footer/footer';
 
 let App = () => {
 
@@ -19,7 +20,7 @@ let App = () => {
     <>
     <MyNavbar></MyNavbar>
     <ThemeProvider
-        breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
+        breakpoints={['xl', 'lg', 'md', 'sm', 'xs']}
         minBreakpoint="xs"
         >
 
@@ -33,7 +34,7 @@ let App = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
     </Routes>
-
+    <Footer></Footer>
       </ThemeProvider>
     </>
   );

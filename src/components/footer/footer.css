@@ -1,0 +1,14 @@
+.footerContainer {
+    border-top: 2px solid #caa532;
+    margin: 10vh 0vw 4vh;
+}
+.myIcons a:hover{
+    color: white !important;
+}
+.myFooterH5 {
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Notable', sans-serif;
+    color: #9b9b9b;
+}
