@@ -1,7 +1,7 @@
 {
-  "homepage": "https://mrbrunotte.github.io/StefanBrunottePortfolio/",
   "name": "stefanbrunotteportfolio",
   "version": "0.1.0",
+  "homepage": "https://mrbrunotte.github.io/StefanBrunottePortfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

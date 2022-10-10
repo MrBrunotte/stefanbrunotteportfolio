@@ -1,7 +1,7 @@
 .myMargin {
     padding: 10vh 0 4vh !important;
 }
-.landingpageLink {
+.homeLink {
     font-family: 'Notable', sans-serif;
     font-size: 1.25rem !important;
 }
@@ -26,7 +26,7 @@
     color: #caa532;
 }
 .myIcons:hover,
-.landingpageLink:hover {
+.homeLink:hover {
     color: white !important;
 }
 .greeting {
@@ -48,7 +48,7 @@
 .h2Header {
     font-size: 1.3rem !important;
 }
-.landingpageLink {
+.homeLink {
     font-size: 1.4rem !important;
 }
 p {
@@ -62,7 +62,7 @@ p {
 .h2Header {
     font-size: 1.4rem !important;
 }
-.landingpageLink {
+.homeLink {
     font-size: 1.5rem !important;
 }
 p {

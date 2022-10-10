@@ -17,12 +17,12 @@ let Home = () => {
     <Container className="myMargin">
             <Row>
             <Col xs={12}>
-                <Nav.Link className="landingpageLink" as={Link} to="/about">HELLO, my name is Stefan</Nav.Link>
+                <Nav.Link className="homeLink" as={Link} to="/about">HELLO, my name is Stefan</Nav.Link>
                 <h1 className="h1Header">I'm a software developer</h1>
                 <p>
                 <em>I focus primarely on front-end but I have experience from both backend and database. I'm located in Stockholm Sweden and if you are looking for a teamplayer that love new technologies and creative coding please take a look at my portfolio site.</em>
                 </p>
-                <Nav.Link className="landingpageLink" as={Link} to="/contact">Let's talk!</Nav.Link>
+                <Nav.Link className="homeLink" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="pLandingpage">
                     <em>If you are looking for a new junior software developer that is a quick learner and positve team-player, I'd love to hear from you.</em>
                 </p>
