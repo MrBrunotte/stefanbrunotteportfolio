@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import Div100vh from 'react-div-100vh';
 import emailjs from '@emailjs/browser';
 import { Container, Row, Col, Form } from "react-bootstrap";
 import jag from '../../images/jag.png';
