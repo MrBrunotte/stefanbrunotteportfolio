@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Div100vh from 'react-div-100vh';
 import StefanBrunotteCV1 from '../../images/StefanBrunotteCV-1.jpg';
 import StefanBrunotteCV2 from '../../images/StefanBrunotteCV-2.jpg';
 import './resume.css';
@@ -8,7 +7,6 @@ import './resume.css';
 let Landingpage = () => {
     return (
     <>
-    <Div100vh>
         <Container className="mt-3">
         <h1 className="myH1">Resume</h1>
         <Row>
@@ -34,8 +32,7 @@ let Landingpage = () => {
                     />
             </Col>
         </Row>
-        </Container>   
-    </Div100vh>  
+        </Container> 
     </>
     )
 };
