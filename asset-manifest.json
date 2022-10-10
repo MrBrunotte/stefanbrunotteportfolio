@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8c31ec7.css",
-    "main.js": "/static/js/main.25e16ef1.js",
-    "static/js/787.bbe52eb3.chunk.js": "/static/js/787.bbe52eb3.chunk.js",
-    "static/media/vacationexplorer.jpg": "/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
-    "static/media/StefanBrunotteCV-1.jpg": "/static/media/StefanBrunotteCV-1.9353c8202eaddb5c98a4.jpg",
-    "static/media/StefanBrunotteCV-2.jpg": "/static/media/StefanBrunotteCV-2.9ea01207dad55cb1aafa.jpg",
-    "static/media/jag.png": "/static/media/jag.44ce8403e1b7c8b1579c.png",
-    "static/media/teacherOverview.jpeg": "/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
-    "static/media/gisysArbProv.jpg": "/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
-    "static/media/foodictionary.jpg": "/static/media/foodictionary.dc40a4b99af7bb4331e2.jpg",
-    "static/media/mvcPortfolio.jpg": "/static/media/mvcPortfolio.dbbe44a8094073f55287.jpg",
-    "static/media/worldofshape.jpg": "/static/media/worldofshape.de9677c791fd26870573.jpg",
-    "index.html": "/index.html",
-    "main.d8c31ec7.css.map": "/static/css/main.d8c31ec7.css.map",
-    "main.25e16ef1.js.map": "/static/js/main.25e16ef1.js.map",
-    "787.bbe52eb3.chunk.js.map": "/static/js/787.bbe52eb3.chunk.js.map"
+    "main.css": "/stefanbrunotteportfolio/static/css/main.d8c31ec7.css",
+    "main.js": "/stefanbrunotteportfolio/static/js/main.12e5e35f.js",
+    "static/js/787.bbe52eb3.chunk.js": "/stefanbrunotteportfolio/static/js/787.bbe52eb3.chunk.js",
+    "static/media/vacationexplorer.jpg": "/stefanbrunotteportfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
+    "static/media/StefanBrunotteCV-1.jpg": "/stefanbrunotteportfolio/static/media/StefanBrunotteCV-1.9353c8202eaddb5c98a4.jpg",
+    "static/media/StefanBrunotteCV-2.jpg": "/stefanbrunotteportfolio/static/media/StefanBrunotteCV-2.9ea01207dad55cb1aafa.jpg",
+    "static/media/jag.png": "/stefanbrunotteportfolio/static/media/jag.44ce8403e1b7c8b1579c.png",
+    "static/media/teacherOverview.jpeg": "/stefanbrunotteportfolio/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
+    "static/media/gisysArbProv.jpg": "/stefanbrunotteportfolio/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
+    "static/media/foodictionary.jpg": "/stefanbrunotteportfolio/static/media/foodictionary.dc40a4b99af7bb4331e2.jpg",
+    "static/media/mvcPortfolio.jpg": "/stefanbrunotteportfolio/static/media/mvcPortfolio.dbbe44a8094073f55287.jpg",
+    "static/media/worldofshape.jpg": "/stefanbrunotteportfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
+    "index.html": "/stefanbrunotteportfolio/index.html",
+    "main.d8c31ec7.css.map": "/stefanbrunotteportfolio/static/css/main.d8c31ec7.css.map",
+    "main.12e5e35f.js.map": "/stefanbrunotteportfolio/static/js/main.12e5e35f.js.map",
+    "787.bbe52eb3.chunk.js.map": "/stefanbrunotteportfolio/static/js/787.bbe52eb3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c31ec7.css",
-    "static/js/main.25e16ef1.js"
+    "static/js/main.12e5e35f.js"
   ]
 }
