@@ -1,7 +1,5 @@
 import React from 'react';
-import { 
-  Route, 
-  Routes } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import './App.css';
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
 import MyNavbar from './components/navbar/myNavbar';
@@ -24,8 +22,7 @@ let App = () => {
         minBreakpoint="xs"
         >
 
-
-    <Routes>
+    <HashRouter hashType="noslash" basename='/myportfolio'>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<MyProjects />} />
@@ -33,7 +30,7 @@ let App = () => {
       <Route path="/academics" element={<Academics />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
-    </Routes>
+    </HashRouter>
     <Footer></Footer>
       </ThemeProvider>
     </>
