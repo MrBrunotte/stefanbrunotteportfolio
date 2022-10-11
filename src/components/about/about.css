@@ -5,15 +5,13 @@
     margin-top: 2rem !important;
     text-align: center;
 }
-.h1About {
+.h1About,
+.h1AboutMediaQuery {
     font-size: 3.625rem;
     text-align: end;
     font-family: 'Notable', sans-serif;
     margin: 0 0 30px;
     color: #9b9b9b;
-}
-.h1AboutMedQue {
-    display: none;
 }
 .photo {
     width: 100%;
@@ -48,14 +46,68 @@
     color: #caa532;
     letter-spacing: 3px;
 }
-.answer{
+.aboutTextAnswer{
     padding-left: 40px;
     color: #caa532 !important;
 }
+/* Media Queries */  
 
+/* below 520px */
+@media (max-width: 520.98px) {
+    .meImg {
+        width: 40%;
+    }
+    .h1About {
+        display: none;
+    }
+    .h1AboutMediaQuery {
+        font-size: 1.2rem;
+        text-align: start;
+        margin: 5vh 0vw;
+    }
+    .textArea {
+        padding: 0;
+    }
+    p.aboutText {
+        font-size: 1rem;
+    }
+    .specialText {
+        font-size: .9rem;
+    }
+    p.aboutTextAnswer {
+        font-size: 1.1rem;
+    }
+}
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width: 520.99px) and (max-width: 767.98px) {
+    .meImg {
+        width: 40%;
+        max-width: 400px;
+    }
+    .h1About {
+        display: none;
+    }
+    .h1AboutMediaQuery {
+        font-size: 1.2rem;
+        text-align: start;
+        margin: 5vh 0vw;
+    }
+    .textArea{
+        padding: 0;
+    }
+    p.aboutText {
+        font-size: 1rem;
+        color: #c4c4c4;
+        padding-left: 5vw;
+    }
+    p.aboutTextAnswer {
+        margin: 0vh 5vw;
+        font-size: 1.1rem;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) {
     .meImg {
         width: 30%;
         max-width: 400px;
@@ -66,46 +118,23 @@
     .h1AboutMediaQuery {
         font-size: 2rem;
         text-align: start;
-        font-family: 'Notable', sans-serif;
-        margin: 10vh 0 2vh;
-        color: #9b9b9b;
+        margin: 5vh 0vw;
     }
     .textArea{
         padding: 0;
     }
-    .textArea p {
+    p.aboutText {
         font-size: 1rem;
         color: #c4c4c4;
         padding-left: 5vw;
     }
-}
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .meImg {
-        width: 40%;
-        max-width: 400px;
-    }
-    .h1About {
-        display: none;
-    }
-    .h1AboutMediaQuery {
-        font-size: 2rem;
-        text-align: start;
-        font-family: 'Notable', sans-serif;
-        margin: 10vh 0 2vh;
-        color: #9b9b9b;
-    }
-    .textArea{
-        padding: 0;
-    }
-    .textArea p {
-        font-size: 1.2rem;
-        color: #c4c4c4;
-        padding-left: 5vw;
+    p.aboutTextAnswer {
+        margin: 0vh 5vw;
+        font-size: 1.1rem;
     }
 }
 /* over 992.99px */
-@media (min-width: 992.99px) {
+@media (min-width: 991.99px) {
     .h1AboutMediaQuery {
         display: none;
     }
