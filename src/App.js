@@ -22,7 +22,8 @@ let App = () => {
         minBreakpoint="xs"
         >
 
-    <HashRouter hashType="noslash" basename='/myportfolio'>
+
+    <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<MyProjects />} />
@@ -30,7 +31,7 @@ let App = () => {
       <Route path="/academics" element={<Academics />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
-    </HashRouter>
+    </Routes>
     <Footer></Footer>
       </ThemeProvider>
     </>
