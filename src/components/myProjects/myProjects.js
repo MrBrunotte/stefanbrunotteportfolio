@@ -18,14 +18,14 @@ let MyProjects = () => {
         breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
         minBreakpoint="xxs"
     >
-    <Container className="marginTop">
-    <h1 className="myH1">My Projects</h1>
+    <Container>
+    <h1 className="myH1Projects">My Projects</h1>
     <Row>
         <Col className="text-center" xs={12}>
                 <p className="textHeader">
                 Here is a list of my main project that I have created, you can see the full list of all my activity on my GitHub <a className="myIconsProject" href="https://github.com/MrBrunotte/worldofshape" target="_blank" rel="noreferrer"><FaGithub /></a>
                 </p>
-                <p className="textHeader">
+                <p className="textHeader myMBProjects">
                 There is a link to each deployed sight and a link to the GitHub repository under each project. There is a full description of each project in my GitHub page.
                 </p>
         </Col>

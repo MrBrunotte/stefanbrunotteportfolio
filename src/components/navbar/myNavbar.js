@@ -6,7 +6,7 @@ import './myNavbar.css';
 
 function MyNavbar() {
     return (
-      <Navbar className='nav-background nav-padding' expand="md" variant='dark'>
+      <Navbar className='nav-background nav-padding' expand="lg" variant='dark'>
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse id="navbarScroll">
