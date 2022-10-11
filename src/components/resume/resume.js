@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import StefanBrunotteCV1 from '../../images/StefanBrunotteCV-1.jpg';
-import StefanBrunotteCV2 from '../../images/StefanBrunotteCV-2.jpg';
+import SBCV1 from '../../images/SBCV1.jpg';
+import SBCV2 from '../../images/SBCV2.jpg';
 import './resume.css';
 
 let Landingpage = () => {
@@ -21,13 +21,13 @@ let Landingpage = () => {
         <Row>
             <Col xxl={6} xl={6} lg={6} md={6} sm={12} xs={12}>
             <img className="cvPDFImg rounded"
-                    src={StefanBrunotteCV1}
+                    src={SBCV1}
                     alt="Stefan Brunotte"
                     />
             </Col>
             <Col xxl={6} xl={6} lg={6} md={6} sm={12} xs={12}>
             <img className="cvPDFImg rounded"
-                    src={StefanBrunotteCV2}
+                    src={SBCV2}
                     alt="Stefan Brunotte"
                     />
             </Col>

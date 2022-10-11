@@ -20,8 +20,18 @@ let MyProjects = () => {
     >
     <Container className="marginTop">
     <h1 className="myH1">My Projects</h1>
+    <Row>
+        <Col className="text-center" xs={12}>
+                <p className="textHeader">
+                Here is a list of my main project that I have created, you can see the full list of all my activity on my GitHub <a className="myIconsProject" href="https://github.com/MrBrunotte/worldofshape" target="_blank" rel="noreferrer"><FaGithub /></a>
+                </p>
+                <p className="textHeader">
+                There is a link to each deployed sight and a link to the GitHub repository under each project. There is a full description of each project in my GitHub page.
+                </p>
+        </Col>
+    </Row>
         <Row>
-            <Col  xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
+            <Col xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
             <Card style={{ width: '100%' }}>
                 <Card.Img variant="top" src={worldofshape} />
                 <Card.Body className="projectText">

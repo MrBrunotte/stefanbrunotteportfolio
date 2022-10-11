@@ -62,8 +62,24 @@ background-color: #222529;
     color: #9b9b9b;
 }
 
-a .myIcons{
+a.myIconsProject{
     text-align: center;
     color: #9b9b9b;
-    font-size: 1.563rem;
+    font-size:2rem;
+}
+.myIconsProject:hover {
+    color: white !important;
+}
+.textHeader {
+    color: #9b9b9b;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .textHeader {
+        font-size: 1rem;
+    }
+    a.myIconsProject{
+        font-size: 1.2rem;
+    }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, HashRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import ThemeProvider from 'react-bootstrap/ThemeProvider';
 import MyNavbar from './components/navbar/myNavbar';
