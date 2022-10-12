@@ -12,3 +12,14 @@
     font-family: 'Notable', sans-serif;
     color: #9b9b9b;
 }
+
+/* Media Queries */  
+
+@media (max-width: 991.98px) {
+    .myFooterH5 {
+        font-size: 0.6rem;
+    }
+    .myFooterH5 a {
+        font-size: 1.1rem;
+    }
+}
