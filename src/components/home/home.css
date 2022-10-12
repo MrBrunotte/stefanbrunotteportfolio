@@ -1,6 +1,6 @@
-.myMargin {
+/* .myMargin {
     padding: 10vh 0 4vh !important;
-}
+} */
 a.homeLink {
     font-family: 'Notable', sans-serif;
     font-size: 3rem;
@@ -40,6 +40,10 @@ a.homeLink {
     font-size: 2rem;
     font-family: 'Notable', sans-serif;
     letter-spacing: 2px;
+}
+
+.cardCenterPadding {
+    margin-right: 20px;
 }
 /* Media Queries */  
 

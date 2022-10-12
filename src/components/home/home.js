@@ -5,7 +5,7 @@ import worldofshape from '../myProjects/images/worldofshape.jpg';
 import foodictionary from '../myProjects/images/foodictionary.jpg';
 import vacationExplorer from '../myProjects/images/vacationexplorer.jpg';
 import mvcPortfolio from '../myProjects/images/mvcPortfolio.jpg';
-import gisysArbProv from '../myProjects/images/gisysArbProv.jpg';
+import reactPortfolio from '../myProjects/images/reactPortfolio.jpg';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
@@ -65,29 +65,30 @@ let Home = () => {
                 </Card.Body>
             </Card>
             </Col>
-            <Col  xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
-            <Card style={{ width: '100%' }}>
-                <Card.Img variant="top" src={mvcPortfolio} />
-                <Card.Body className="projectText">
-                    <Card.Title>portfolio Asp .net mvc</Card.Title>
-                </Card.Body>
-                <Card.Body className="text-center">
-                    <Card.Link href="#"><a className="myIcons" href="https://github.com/MrBrunotte/PortfolioMVC" target="_blank" rel="noreferrer"><FaGithub /></a></Card.Link>
-                    <Card.Link href="#"><a className="myIcons" href="https://stefanbrunotte.azurewebsites.net/" target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a></Card.Link>
-                </Card.Body>
-            </Card>
-            </Col>
-            <Col  xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
-            <Card style={{ width: '100%' }}>
-                <Card.Img variant="top" src={gisysArbProv} />
-                <Card.Body className="projectText">
-                    <Card.Title>Angular work sample</Card.Title>
-                </Card.Body>
-                <Card.Body className="text-center">
-                    <Card.Link href="#"><a className="myIcons" href="https://github.com/MrBrunotte/Arbetsprov-Bonus-Calculation" target="_blank" rel="noreferrer"><FaGithub /></a></Card.Link>
-                </Card.Body>
-            </Card>
-            </Col>
+                <Col  xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
+                    <Card style={{ width: '100%' }}>
+                        <Card.Img variant="top" src={mvcPortfolio} />
+                        <Card.Body className="projectText">
+                            <Card.Title>portfolio Asp .net mvc</Card.Title>
+                        </Card.Body>
+                        <Card.Body className="text-center">
+                            <Card.Link href="#"><a className="myIcons" href="https://github.com/MrBrunotte/PortfolioMVC" target="_blank" rel="noreferrer"><FaGithub /></a></Card.Link>
+                            <Card.Link href="#"><a className="myIcons" href="https://stefanbrunotte.azurewebsites.net/" target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a></Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col  xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
+                    <Card style={{ width: '100%' }}>
+                        <Card.Img variant="top" src={reactPortfolio} />
+                        <Card.Body className="projectText">
+                            <Card.Title>New React portfolio page</Card.Title>
+                        </Card.Body>
+                        <Card.Body className="text-center">
+                            <Card.Link href="#"><a className="myIcons" href="https://github.com/MrBrunotte/StefanBrunottePortfolio" target="_blank" rel="noreferrer"><FaGithub /></a></Card.Link>
+                            <Card.Link href="#"><a className="myIcons" href="https://sbportfolio.azurewebsites.net/" target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a></Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
     </Container>     
     </>
