@@ -24,8 +24,11 @@ let About = () => {
                         <p className="aboutTextAnswer"><q><cite>I'm a problem solving team-player that love to exceed customer expectations, I'm also a fast and curious learner that love new technologies and creative coding.</cite></q></p>
                     <Row className="iconMarginTop">  
                         <Col xs={12}>
-                        <span className="myIcons"><a href="https://github.com/MrBrunotte" target="_blank" rel="noreferrer"><FaGithub /></a></span>
-                        <span className="myIcons"><a href="mailto:mrbrunotte@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a></span></Col>
+                        <div className="desktop">
+                            <span className="myIcons"><a href="https://github.com/MrBrunotte" target="_blank" rel="noreferrer"><FaGithub /></a></span>
+                            <span className="myIcons"><a href="mailto:mrbrunotte@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a></span>
+                        </div>
+                        </Col>
                     </Row>
                 </div>
             </Col>
