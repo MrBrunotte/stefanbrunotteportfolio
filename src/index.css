@@ -47,15 +47,36 @@ code {
   text-transform: uppercase;
 }
 
+/* Media Queries */  
+
+/* below 520px */
+@media (max-width: 520.98px) {
+  .desktop {
+      display: none;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 520.99px) and (max-width: 767.98px) {
+  .desktop {
+      display: none;
+  }
+  
+}
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+  .desktop {
+      display: none;
+  }
   .myH1 {
     font-size:2rem;
     margin: 3vh 0vw 3vh;
   }
 }
 /* over 992.99px */
-@media (min-width: 992.99px) {
-  
+@media (min-width: 991.99px) {
+  .mobile {
+    display: none;
+  }
 }
 

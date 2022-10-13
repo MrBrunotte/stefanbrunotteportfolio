@@ -54,9 +54,6 @@
 
 /* below 520px */
 @media (max-width: 520.98px) {
-    .desktop {
-        display: none;
-    }
     .meImg {
         width: 40%;
     }
@@ -84,9 +81,6 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 520.99px) and (max-width: 767.98px) {
-    .desktop {
-        display: none;
-    }
     .meImg {
         width: 40%;
         max-width: 400px;
@@ -114,9 +108,6 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) {
-    .desktop {
-        display: none;
-    }
     .meImg {
         width: 30%;
         max-width: 400px;
