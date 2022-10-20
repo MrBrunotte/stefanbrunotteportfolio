@@ -47,7 +47,7 @@ let Contact = () => {
                     <Form.Label>Your message</Form.Label>
                     <Form.Text name="message" />
                         <Form.Control as="textarea" aria-label="With textarea" />
-                        <Form.Control className='g-recaptcha' type="submit"  data-sitekey="6LcKMF0iAAAAAJVqDKed5juxDc2qWaLwtARvHx5C" value="Click here to send your message" />
+                        <Form.Control type="submit" value="Click here to send your message" />
                     </Form>
                 </Col>
             </Row>
