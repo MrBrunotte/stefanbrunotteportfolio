@@ -8,7 +8,7 @@ import './myNavbar.css';
 function MyNavbar() {
   const [expanded, setExpanded] = useState(false);
   return (
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark">
         <Container fluid>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
