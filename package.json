@@ -1,5 +1,6 @@
 {
-  "homepage": "https://github.com/MrBrunotte/stefanbrunotteportfolio",
+  "homepage": "https://github.com/MrBrunotte/",
+  "name": "stefanbrunotteportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
