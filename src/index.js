@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as HashrRouter, HashRouter } from 'react-router-dom';
 
 /* React Bootstrap Configuration */
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,9 +12,9 @@ import '../node_modules/react-bootstrap/dist/react-bootstrap.min.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter hashType="noslash">
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
