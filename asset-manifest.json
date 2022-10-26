@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/StefanBrunottePortfolio/static/css/main.17561fac.css",
-    "main.js": "/StefanBrunottePortfolio/static/js/main.16459e8a.js",
-    "static/js/787.bbe52eb3.chunk.js": "/StefanBrunottePortfolio/static/js/787.bbe52eb3.chunk.js",
-    "static/media/vacationexplorer.jpg": "/StefanBrunottePortfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
-    "static/media/StefanBrunotteCV-1.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-1.9353c8202eaddb5c98a4.jpg",
-    "static/media/StefanBrunotteCV-2.jpg": "/StefanBrunottePortfolio/static/media/StefanBrunotteCV-2.9ea01207dad55cb1aafa.jpg",
-    "static/media/jag.png": "/StefanBrunottePortfolio/static/media/jag.44ce8403e1b7c8b1579c.png",
-    "static/media/teacherOverview.jpeg": "/StefanBrunottePortfolio/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
-    "static/media/gisysArbProv.jpg": "/StefanBrunottePortfolio/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
-    "static/media/foodictionary.jpg": "/StefanBrunottePortfolio/static/media/foodictionary.dc40a4b99af7bb4331e2.jpg",
-    "static/media/mvcPortfolio.jpg": "/StefanBrunottePortfolio/static/media/mvcPortfolio.dbbe44a8094073f55287.jpg",
-    "static/media/worldofshape.jpg": "/StefanBrunottePortfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
-    "index.html": "/StefanBrunottePortfolio/index.html",
-    "main.17561fac.css.map": "/StefanBrunottePortfolio/static/css/main.17561fac.css.map",
-    "main.16459e8a.js.map": "/StefanBrunottePortfolio/static/js/main.16459e8a.js.map",
-    "787.bbe52eb3.chunk.js.map": "/StefanBrunottePortfolio/static/js/787.bbe52eb3.chunk.js.map"
+    "main.css": "/MrBrunotte/StefanBrunottePortfolio/static/css/main.b7b52398.css",
+    "main.js": "/MrBrunotte/StefanBrunottePortfolio/static/js/main.4669ff2c.js",
+    "static/js/787.7efd31bd.chunk.js": "/MrBrunotte/StefanBrunottePortfolio/static/js/787.7efd31bd.chunk.js",
+    "static/media/vacationexplorer.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
+    "static/media/SBCV1.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/SBCV1.95fb5d657e20ae29a931.jpg",
+    "static/media/SBCV2.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/SBCV2.e75aef9db905e7e122ae.jpg",
+    "static/media/jag.png": "/MrBrunotte/StefanBrunottePortfolio/static/media/jag.44ce8403e1b7c8b1579c.png",
+    "static/media/reactPortfolio.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/reactPortfolio.1dc1c355db3ecdc9e629.jpg",
+    "static/media/teacherOverview.jpeg": "/MrBrunotte/StefanBrunottePortfolio/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
+    "static/media/gisysArbProv.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
+    "static/media/foodictionary.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/foodictionary.dc40a4b99af7bb4331e2.jpg",
+    "static/media/mvcPortfolio.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/mvcPortfolio.dbbe44a8094073f55287.jpg",
+    "static/media/worldofshape.jpg": "/MrBrunotte/StefanBrunottePortfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
+    "index.html": "/MrBrunotte/StefanBrunottePortfolio/index.html",
+    "main.b7b52398.css.map": "/MrBrunotte/StefanBrunottePortfolio/static/css/main.b7b52398.css.map",
+    "main.4669ff2c.js.map": "/MrBrunotte/StefanBrunottePortfolio/static/js/main.4669ff2c.js.map",
+    "787.7efd31bd.chunk.js.map": "/MrBrunotte/StefanBrunottePortfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17561fac.css",
-    "static/js/main.16459e8a.js"
+    "static/css/main.b7b52398.css",
+    "static/js/main.4669ff2c.js"
   ]
 }
