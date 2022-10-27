@@ -4,7 +4,7 @@ import SBCV1 from '../../images/SBCV1.jpg';
 import SBCV2 from '../../images/SBCV2.jpg';
 import './resume.css';
 
-let Landingpage = () => {
+let resume = () => {
     return (
     <>
         <Container className="mt-3">
@@ -37,4 +37,4 @@ let Landingpage = () => {
     )
 };
 
-export default Landingpage;
+export default resume;

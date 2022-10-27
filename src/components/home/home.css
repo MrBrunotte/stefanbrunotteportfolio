@@ -1,6 +1,3 @@
-/* .myMargin {
-    padding: 10vh 0 4vh !important;
-} */
 a.homeLink {
     font-family: 'Notable', sans-serif;
     font-size: 3rem;
@@ -44,6 +41,13 @@ a.homeLink {
 
 .cardCenterPadding {
     margin-right: 20px;
+}
+.email {
+    height: 25px;
+    margin-left: 15px;
+}
+.email:hover {
+    color: rgb(202, 165, 50);
 }
 /* Media Queries */  
 

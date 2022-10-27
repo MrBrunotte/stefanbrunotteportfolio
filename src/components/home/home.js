@@ -6,6 +6,7 @@ import foodictionary from '../myProjects/images/foodictionary.jpg';
 import vacationExplorer from '../myProjects/images/vacationexplorer.jpg';
 import mvcPortfolio from '../myProjects/images/mvcPortfolio.jpg';
 import reactPortfolio from '../myProjects/images/reactPortfolio.jpg';
+import email from '../../images/email.png';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
@@ -20,11 +21,14 @@ let Home = () => {
                 <Nav.Link className="homeLink" as={Link} to="/about">HELLO, my name is Stefan</Nav.Link>
                 <h1 className="h1Header">I'm a software developer</h1>
                 <p className="homeText">
-                    <em>I focus primarely on front-end but I have experience from both backend and database. I'm located in Stockholm Sweden and if you are looking for a teamplayer that love new technologies and creative coding please take a look at my portfolio site.</em>
+                    <em>I focus primarily on front-end but I have experience from both backend and database. I'm located in Stockholm Sweden and if you are looking for a team-player that love new technologies and creative coding please take a look at my portfolio site.</em>
                 </p>
                 <Nav.Link className="homeLink" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
-                    <em>If you are looking for a new junior software developer that is a quick learner and positve team-player, I'd love to hear from you.</em>
+                    <em>If you are looking for a new junior software developer that is a quick learner and positive team-player, I'd love to hear from you. </em>
+                    <a href="mailto:mrbrunotte@gmail.com" target="blank" aria-label="Email: mrbrunotte@gmail.com">
+                        <img className="email" src={email} alt="Stefan Brunotte"></img>
+                    </a>
                 </p>
                 <h2 className="h2Header">Some of my projects</h2>
             </Col>
