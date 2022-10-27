@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7b52398.css",
+    "main.js": "/static/js/main.d311a34b.js",
+    "static/js/787.bbe52eb3.chunk.js": "/static/js/787.bbe52eb3.chunk.js",
+    "static/media/vacationexplorer.jpg": "/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
+    "static/media/SBCV1.jpg": "/static/media/SBCV1.95fb5d657e20ae29a931.jpg",
+    "static/media/SBCV2.jpg": "/static/media/SBCV2.e75aef9db905e7e122ae.jpg",
+    "static/media/jag.png": "/static/media/jag.44ce8403e1b7c8b1579c.png",
+    "static/media/reactPortfolio.jpg": "/static/media/reactPortfolio.1dc1c355db3ecdc9e629.jpg",
+    "static/media/teacherOverview.jpeg": "/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
+    "static/media/gisysArbProv.jpg": "/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
+    "static/media/foodictionary.jpg": "/static/media/foodictionary.dc40a4b99af7bb4331e2.jpg",
+    "static/media/mvcPortfolio.jpg": "/static/media/mvcPortfolio.dbbe44a8094073f55287.jpg",
+    "static/media/worldofshape.jpg": "/static/media/worldofshape.de9677c791fd26870573.jpg",
+    "index.html": "/index.html",
+    "main.b7b52398.css.map": "/static/css/main.b7b52398.css.map",
+    "main.d311a34b.js.map": "/static/js/main.d311a34b.js.map",
+    "787.bbe52eb3.chunk.js.map": "/static/js/787.bbe52eb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7b52398.css",
+    "static/js/main.d311a34b.js"
+  ]
+}
