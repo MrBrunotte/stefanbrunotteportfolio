@@ -12,7 +12,7 @@ import '../node_modules/react-bootstrap/dist/react-bootstrap.min.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router hashType="noslash">
+    <Router hashType="slash">
       <App />
     </Router>
   </React.StrictMode>
