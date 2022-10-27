@@ -1,12 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaEnvelope } from "react-icons/fa";
 import worldofshape from '../myProjects/images/worldofshape.jpg';
 import foodictionary from '../myProjects/images/foodictionary.jpg';
 import vacationExplorer from '../myProjects/images/vacationexplorer.jpg';
 import mvcPortfolio from '../myProjects/images/mvcPortfolio.jpg';
 import reactPortfolio from '../myProjects/images/reactPortfolio.jpg';
-import email from '../../images/email.png';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
@@ -26,9 +25,7 @@ let Home = () => {
                 <Nav.Link className="homeLink" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
                     <em>If you are looking for a new junior software developer that is a quick learner and positive team-player, I'd love to hear from you. </em>
-                    <a href="mailto:mrbrunotte@gmail.com" target="blank" aria-label="Email: mrbrunotte@gmail.com">
-                        <img className="email" src={email} alt="Stefan Brunotte"></img>
-                    </a>
+                    <a href="mailto:mrbrunotte@gmail.com" className="email myIcons" target="_blank" aria-label="Email: mrbrunotte@gmail.com" rel="noreferrer"><FaEnvelope /></a>
                 </p>
                 <h2 className="h2Header">Some of my projects</h2>
             </Col>

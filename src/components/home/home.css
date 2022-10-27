@@ -43,11 +43,7 @@ a.homeLink {
     margin-right: 20px;
 }
 .email {
-    height: 25px;
-    margin-left: 15px;
-}
-.email:hover {
-    color: rgb(202, 165, 50);
+    margin-left: 10px;
 }
 /* Media Queries */  
 
