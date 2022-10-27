@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/stefanbrunotteportfolio/static/css/main.b7b52398.css",
-    "main.js": "/stefanbrunotteportfolio/static/js/main.30d0510d.js",
+    "main.js": "/stefanbrunotteportfolio/static/js/main.69538241.js",
     "static/js/787.bbe52eb3.chunk.js": "/stefanbrunotteportfolio/static/js/787.bbe52eb3.chunk.js",
     "static/media/vacationexplorer.jpg": "/stefanbrunotteportfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
-    "static/media/SBCV1.jpg": "/stefanbrunotteportfolio/static/media/SBCV1.95fb5d657e20ae29a931.jpg",
-    "static/media/SBCV2.jpg": "/stefanbrunotteportfolio/static/media/SBCV2.e75aef9db905e7e122ae.jpg",
+    "static/media/SBCV1.jpg": "/stefanbrunotteportfolio/static/media/SBCV1.2ab6b3d5e8b101d8b8b1.jpg",
+    "static/media/SBCV2.jpg": "/stefanbrunotteportfolio/static/media/SBCV2.64273af0aa7438092822.jpg",
     "static/media/jag.png": "/stefanbrunotteportfolio/static/media/jag.44ce8403e1b7c8b1579c.png",
     "static/media/reactPortfolio.jpg": "/stefanbrunotteportfolio/static/media/reactPortfolio.1dc1c355db3ecdc9e629.jpg",
     "static/media/teacherOverview.jpeg": "/stefanbrunotteportfolio/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
@@ -15,11 +15,11 @@
     "static/media/worldofshape.jpg": "/stefanbrunotteportfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
     "index.html": "/stefanbrunotteportfolio/index.html",
     "main.b7b52398.css.map": "/stefanbrunotteportfolio/static/css/main.b7b52398.css.map",
-    "main.30d0510d.js.map": "/stefanbrunotteportfolio/static/js/main.30d0510d.js.map",
+    "main.69538241.js.map": "/stefanbrunotteportfolio/static/js/main.69538241.js.map",
     "787.bbe52eb3.chunk.js.map": "/stefanbrunotteportfolio/static/js/787.bbe52eb3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7b52398.css",
-    "static/js/main.30d0510d.js"
+    "static/js/main.69538241.js"
   ]
 }
