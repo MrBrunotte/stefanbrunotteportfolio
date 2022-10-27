@@ -30,7 +30,7 @@ let App = () => {
       <Route path="/academics" element={<Academics />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
-      <Route path="/" element={<Home />} />
+      <Route path="/" exact element={<Home />} />
     </Routes>
     <Footer></Footer>
       </ThemeProvider>
