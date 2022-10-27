@@ -24,13 +24,13 @@ let App = () => {
 
 
     <Routes>
-      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<MyProjects />} />
       <Route path="/work" element={<Work />} />
       <Route path="/academics" element={<Academics />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/resume" element={<Resume />} />
+      <Route path="/" element={<Home />} />
     </Routes>
     <Footer></Footer>
       </ThemeProvider>
