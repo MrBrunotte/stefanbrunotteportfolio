@@ -50,6 +50,9 @@
     padding-left: 40px;
     color: #caa532 !important;
 }
+cite {
+    color: #caa532;
+}
 /* Media Queries */  
 
 /* below 520px */
