@@ -51,7 +51,8 @@ code {
 
 /* below 520px */
 @media (max-width: 520.98px) {
-  .desktop {
+  .desktop,
+  .resume-btn {
       display: none;
   }
 }
