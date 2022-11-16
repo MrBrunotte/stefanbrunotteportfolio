@@ -14,7 +14,7 @@ let Contact = () => {
 
     emailjs.sendForm(
         'service_y5eq5oy', 
-        'template_0qo8zfi', 
+        'template_omchafd', 
         form.current, 
         'pOyTf-kcfEiUc9xH6'
     )
@@ -55,14 +55,14 @@ let Contact = () => {
                 <Col className='container' xs={12}>
                     <h1 className='myH1'>contact me</h1>
                     <Form className='mx-auto' ref={form} onSubmit={sendEmail}>
-                    <Form.Label> Your Name</Form.Label>
-                        <Form.Control type="text" name="user_name" />
-                    <Form.Label>Your Email</Form.Label>
-                        <Form.Control type="email" name="user_email" />
-                    <Form.Label>Your message</Form.Label>
-                    <Form.Text name="message" />
-                        <Form.Control as="textarea" aria-label="With textarea" />
-                        <Form.Control onClick={notify} type="submit" value="Click here to send your message" />
+                        <Form.Label> Your Name</Form.Label>
+                            <Form.Control type="text" name="user_name" />
+                        <Form.Label>Your Email</Form.Label>
+                            <Form.Control type="email" name="user_email" />
+                        <Form.Label>Your message</Form.Label>
+                        <Form.Text name="message" />
+                            <Form.Control name="message" as="textarea" rows={5} />
+                            <Form.Control onClick={notify} type="submit" value="Click here to send your message" />
                     </Form>
                 </Col>
             </Row>
