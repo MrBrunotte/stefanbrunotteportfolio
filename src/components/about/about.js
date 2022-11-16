@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import jag from '../../images/jag.png';
-import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
 import './about.css';
 
 let About = () => {
