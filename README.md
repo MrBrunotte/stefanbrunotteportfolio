@@ -5,6 +5,9 @@ This is my personal portfolio page build in React and deployed on my GitHub page
 ## Contact form
 I have used the [www.emailjs.com](https://www.emailjs.com/) page to receive messages through my contact form.
 
+### Toaster
+I have used [React-Toastify](https://www.npmjs.com/package/react-toastify) for the toaster when submitting a message through my contact form.
+
 ## Available Scripts
 
 In the project directory, you can run:
