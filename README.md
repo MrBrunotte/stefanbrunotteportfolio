@@ -2,6 +2,8 @@
 # Stefan Brunotte Portfolio page
 This is my personal portfolio page build in React and deployed on my GitHub pages.
 
+## Contact form
+I have used the [https://www.emailjs.com/](https://www.emailjs.com/) page to receive messages through my contact form.
 
 ## Available Scripts
 
