@@ -29,7 +29,7 @@ let About = () => {
         </Row>
         <Row>
             <Col xs={12}>
-            <div className="textArea">
+            <div className="textArea_noPadding">
                 <p className="aboutText"><span className="specialText">what do I bring to the table?</span></p>
                 <p className="aboutText">With me on your team you will get a dedicated team-player with a positive attitude and a <cite>"You can if you think you can"</cite> mental attitude. I will bring many complimentary skills to the team with my broad background and life experience, I have gained these skills by working with different types of people and cultures during my work and academic career.</p>
                 <p className="aboutText">I am a social person that love to meet new people and help bring out the best in them and myself.</p>
