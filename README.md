@@ -1,10 +1,19 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stefan Brunotte Portfolio page
+This is my personal portfolio page build in React and deployed on my GitHub pages.
+
+## Contact form
+I have used the [www.emailjs.com](https://www.emailjs.com/) page to receive messages through my contact form.
+
+### Toaster
+I have used [React-Toastify](https://www.npmjs.com/package/react-toastify) for the toaster when submitting a message through my contact form.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run deploy`
+Run this command to update project on my GitHub pages 
 
 ### `npm start`
 
