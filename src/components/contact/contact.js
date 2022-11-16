@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 import { Container, Row, Col, Form } from "react-bootstrap";
 import jag from '../../images/jag.png';
@@ -24,6 +26,19 @@ let Contact = () => {
       });
   };
 
+  const notify =() => {
+    toast.success('Tank you for contacting me, I will get back to you ASAP!', {
+        position: "bottom-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        });
+  }
+
     return (
     <>
         <Container className="contactContainer">
@@ -47,10 +62,21 @@ let Contact = () => {
                     <Form.Label>Your message</Form.Label>
                     <Form.Text name="message" />
                         <Form.Control as="textarea" aria-label="With textarea" />
-                        <Form.Control type="submit" value="Click here to send your message" />
+                        <Form.Control onClick={notify} type="submit" value="Click here to send your message" />
                     </Form>
                 </Col>
             </Row>
+            <ToastContainer
+            position="bottom-center"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"/>
         </Container>
     </>
     )
