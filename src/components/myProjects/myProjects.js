@@ -154,7 +154,7 @@ let MyProjects = () => {
                     <Card.Body className="projectText">
                         <Card.Title className="myCardTitle">LMS - MVC .NET core</Card.Title>
                         <Card.Text className="myCardText">
-                        The LMS (Learning Management System) is a Full Stack project that is built in C# ASP .NET core MVC framework. It follows the MVC architecture pattern. Entity Framework and the built in SQL database was used for storing data. SCRUM framework was used under design and the application has the CRUD functionality. <br></br><em>(First time loading site be slow).</em>
+                        The LMS (Learning Management System) is a Full Stack project that is built in C# ASP .NET core MVC framework. It follows the MVC architecture pattern. Entity Framework and the built in SQL database was used for storing data. SCRUM framework was used under design and the application has the CRUD functionality.
                         </Card.Text>
                         <Card.Text>
                             <h5 className="myCardHeader">technologies used</h5>
