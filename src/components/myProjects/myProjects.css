@@ -97,6 +97,9 @@ a.myIconsProject{
     a.myIconsProject {
         font-size: 1.4rem;
     }
+    .text-center p {
+        text-align: left !important;
+    }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) {
