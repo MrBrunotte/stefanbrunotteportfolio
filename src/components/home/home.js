@@ -21,14 +21,21 @@ let Home = () => {
                 <Nav.Link className="homeLink" as={Link} to="/about">HELLO, my name is Stefan</Nav.Link>
                 <h1 className="h1Header">I'm a software developer</h1>
                 <p className="homeText">
-                    <em>I focus primarily on front-end but I have experience from both backend and database. I'm located in Stockholm Sweden and if you are looking for a team-player that love new technologies and creative coding please take a look at my portfolio site.</em>
+                    I focus primarily on front-end but I have experience from both backend and database. I'm located in Stockholm Sweden and if you are looking for a team-player that love new technologies and creative coding please take a look at my portfolio site.
                 </p>
                 <Nav.Link className="homeLink" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
-                    <em>If you are looking for a new junior software developer that is a quick learner and positive team-player, I'd love to hear from you. </em>
+                    If you are looking for a new junior software developer that is a quick learner and positive team-player, I'd love to hear from you.
                     <a href="mailto:mrbrunotte@gmail.com" className="email myIcons" target="_blank" aria-label="Email: mrbrunotte@gmail.com" rel="noreferrer"><FaEnvelope /></a>
                 </p>
                 <h2 className="h2Header">Some of my projects</h2>
+                <p className="homeText">
+                    Take a look at my projects to see what I have created, below are a sample of some of my projects. Click the link to go to my projects page, there you can find out more about each project. 
+                </p>
+                <Nav.Link className="projectsLink" as={Link} to="/projects">see all my projects <FaExternalLinkAlt /></Nav.Link>
+                <p className="homeText">
+                    If you want to go directly to one of the projects displayed here, just click on one of the two icons below each example.<br></br>- Click on the GitHub icon <FaGithub /> to read more about the project, how I built it and the tools I used.<br></br>- Click on the link <FaExternalLinkAlt /> icon to go to the deployed website, the pages are deployed on Heroku so they might render slowly the first time, so please be a little patient and have that in mind.
+                </p>
             </Col>
             
             <Col  xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>

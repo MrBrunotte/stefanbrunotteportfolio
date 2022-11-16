@@ -2,6 +2,12 @@ a.homeLink {
     font-family: 'Notable', sans-serif;
     font-size: 3rem;
 }
+a.projectsLink {
+    font-family: 'Notable', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 .h1Header,
 .h2Header {
     font-family: 'Notable', sans-serif;
@@ -23,7 +29,8 @@ a.homeLink {
     color: #caa532;
 }
 .myIcons:hover,
-.homeLink:hover {
+.homeLink:hover,
+.projectsLink:hover {
     color: white !important;
 }
 .greeting {
