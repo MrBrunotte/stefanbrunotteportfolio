@@ -16,9 +16,9 @@ let Work = () => {
                             <tbody>
                                 <tr className="trBottomBorder">
                                     <td data-label="Company" className="myUppercase">{work.company}</td>
-                                    <td data-label="Work Title" className="myUppercase">{work.workDescription}</td>
+                                    <td data-label="Title" className="myUppercase">{work.workDescription}</td>
                                     <td data-label="Description">{work.description}</td>
-                                    <td data-label="Gained Experiance">{work.gainedExperience}</td>
+                                    <td data-label="Experiance">{work.gainedExperience}</td>
                                     <td data-label="Tags">{work.tags}</td>
                                     <td data-label="Start">{work.startDate}</td>
                                     <td data-label="End">{work.endDate}</td>
