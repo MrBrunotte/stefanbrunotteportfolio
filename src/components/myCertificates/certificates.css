@@ -1,0 +1,131 @@
+.myH1Projects {
+    font-size: 2.375rem;
+    text-align: center;
+    font-family: 'Notable', sans-serif;
+    color: #9b9b9b;
+    margin: 1vh 0vw 2vh;
+}
+.card {
+    border: 2px solid #caa532 !important;
+    margin-bottom: 24px;
+    max-height: 530px;
+}
+.card,
+.list-group-item {
+    background-color: #222529 !important;
+    color: #6f6f72 !important;
+}
+.certImg {
+    padding: 20px 0 0;
+    text-align: center !important;
+}
+.myCardTitle {
+    padding: 0 0 2vh 0;
+    margin: 0;
+}
+.myCardHeader {
+    padding: 2vh 0;
+    margin: 0;
+}
+.myCardText {
+    font-size: 1rem;
+    text-align: left;
+    color:#caa532;
+    margin: 0;
+}
+.myCardText:hover {
+    color: white;
+}
+.card-body::-webkit-scrollbar {
+    width: 1vh;
+}
+.card-body::-webkit-scrollbar-thumb {
+background-color: #9b9b9b;
+}
+.card-body::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+    }
+.card-body::-webkit-scrollbar-track {
+background-color: #222529;
+}
+.projectText {
+    overflow-y: scroll;
+}
+.projectText {
+    padding-bottom: 0px !important;
+}
+.myCardTags {
+    font-size: 1rem;
+    text-align: center;
+    color:#caa532;
+    margin: 0;
+}
+.card-bodydd {
+    height: 800px !important;
+}
+.card-body a {
+    padding: 0 15px;
+}
+.card-title,
+.card-text h5 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #9b9b9b;
+}
+
+a.myIconsProject{
+    text-align: center;
+    color: #9b9b9b;
+    font-size:2rem;
+}
+.myIconsProject:hover {
+    color: white !important;
+}
+.textHeader {
+    color: #9b9b9b;
+}
+
+/* Media Queries */  
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .myH1Projects {
+        font-size: 1.7rem;
+        text-align: center;
+        margin: 5vh 0vw;
+    }
+    .textHeader {
+        font-size: 1rem;
+    }
+    a.myIconsProject {
+        font-size: 1.4rem;
+    }
+    .text-center p {
+        text-align: left !important;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+    
+}
+/* over 992.99px */
+@media (min-width: 991.99px) {
+    .container {
+        margin-top: 5vh;
+    }
+    .myMBProjects {
+        margin-bottom: 10vh;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) {
+    .textHeader {
+        font-size: 1rem;
+    }
+    a.myIconsProject{
+        font-size: 1.2rem;
+    }
+} */

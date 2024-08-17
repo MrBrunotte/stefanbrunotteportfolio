@@ -17,6 +17,7 @@ function MyNavbar() {
               <Nav.Link onClick={() => setExpanded(false)} className="nav-link my-nav-link" as={Link} to="/">Home</Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} className='nav-link my-nav-link' as={Link} to="/about">About</Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} className='nav-link my-nav-link' as={Link} to="/projects">My Projects</Nav.Link>
+              <Nav.Link onClick={() => setExpanded(false)} className='nav-link my-nav-link' as={Link} to="/certificates">My Certificates & Diplomas</Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} className='nav-link my-nav-link' as={Link} to="/work">Work</Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} className='nav-link my-nav-link' as={Link} to="/academics">Academics</Nav.Link>
               <Nav.Link onClick={() => setExpanded(false)} className='nav-link my-nav-link' as={Link} to="/contact">Contact</Nav.Link>

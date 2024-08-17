@@ -6,6 +6,7 @@ import MyNavbar from './components/navbar/myNavbar';
 import About  from './components/about/about';
 import Home from './components/home/home';
 import MyProjects from './components/myProjects/myProjects';
+import MyCertificates from './components/myCertificates/certificates';
 import Work from './components/work/work';
 import Academics from './components/academics/academics';
 import Contact from './components/contact/contact';
@@ -25,6 +26,7 @@ let App = () => {
     <Routes>
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<MyProjects />} />
+      <Route path="/certificates" element={<MyCertificates />} />
       <Route path="/work" element={<Work />} />
       <Route path="/academics" element={<Academics />} />
       <Route path="/contact" element={<Contact />} />

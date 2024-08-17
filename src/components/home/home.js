@@ -21,7 +21,7 @@ let Home = () => {
                 <Nav.Link className="homeLink" as={Link} to="/about">HELLO, my name is Stefan</Nav.Link>
                 <h1 className="h1Header">I'm a software developer & IT-Technician</h1>
                 <p className="homeText">
-                    System developer (junior) and IT support/operations technician with good experience and great life experience. I have a keen interest in IT, Web development and Trading. I consider myself as a social and outgoing person who strives to always excel and grow, both as a person and knowledge wise. I hope that I will spark some interest, and I would love to get the opportunity to introduce myself further.
+                    I am a system developer (junior) and IT support/operations technician with lots of experience life. I have a keen interest in IT, Web development and Trading. I consider myself social and outgoing and I always strive to excel and grow, both as a person and knowledge wise. Please have a look at my REACT portfolio page that I have developed. <br></br>I hope that my page will spark some interest, and I would love to get the opportunity to introduce myself further.
                 </p>
                 <Nav.Link className="homeLink" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
@@ -30,9 +30,10 @@ let Home = () => {
                 </p>
                 <h2 className="h2Header">My certificates</h2>
                 <p className="homeText">
-                    
+                I have taken several certificates, click the link below or "My Certificates" in the navbar to view then.
                 </p>
-                <h2 className="h2Header">Some of my projects</h2>
+                <Nav.Link className="projectsLink" as={Link} to="/certificates">see all my certificates <FaExternalLinkAlt /></Nav.Link>
+                <h2 className="h2Header">my projects</h2>
                 <p className="homeText">
                     Take a look at my projects to see what I have created, below are a sample of some of my projects. Click the link to go to my projects page, there you can find out more about each project. 
                 </p>
