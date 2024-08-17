@@ -18,7 +18,7 @@ let About = () => {
                     <h1 className="h1About">Hey there...</h1>
                     <h1 className="h1AboutMediaQuery">Hey there...</h1>
                     <p className="aboutText">My name is <span className="specialText">Stefan Brunotte</span> and I'm open for work!</p>
-                    <p className="aboutText">I'm a software developer based in Stockholm Sweden. My main focus is currently on frontend but I also have experience in both backend and database. I'm currently a junior .NET developer and I'm aiming to become a senior developer within the next 5 years.</p>
+                    <p className="aboutText">I'm a junior software developer and IT technician based in Stockholm, Sweden. My main focus is currently on frontend but I am also experienced in both backend and database. I am currently working at the KI-Help desk at Karolinska Institutet where I work as first line support. I am open for work and would love to transition more to the developing side.</p>
                     <p className="aboutText"><span className="specialText">Stefan, by the way</span>... If someone asks you to describe yourself, what would you say??</p>
                     <p className="aboutTextAnswer"><q><cite>I'm a problem solving team-player that love to exceed customer expectations, I'm also a fast and curious learner that love new technologies and creative coding.</cite></q></p>
                     <p className="aboutText"><span className="specialText">anything else?</span></p>

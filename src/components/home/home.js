@@ -21,7 +21,7 @@ let Home = () => {
                 <Nav.Link className="homeLink" as={Link} to="/about">HELLO, my name is Stefan</Nav.Link>
                 <h1 className="h1Header">I'm a software developer & IT-Technician</h1>
                 <p className="homeText">
-                    I am a system developer (junior) and IT support/operations technician with lots of experience life. I have a keen interest in IT, Web development and Trading. I consider myself social and outgoing and I always strive to excel and grow, both as a person and knowledge wise. Please have a look at my REACT portfolio page that I have developed. <br></br>I hope that my page will spark some interest, and I would love to get the opportunity to introduce myself further.
+                    I am a junior software developer and IT support/operations technician with lots of experience life. I have a keen interest in IT, Web development and Trading. I consider myself social and outgoing and I always strive to excel and grow, both as a person and knowledge wise. Please have a look at my REACT portfolio page that I have developed. <br></br>I hope that my page will spark some interest, and I would love to get the opportunity to introduce myself further.
                 </p>
                 <Nav.Link className="homeLink" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
