@@ -21,7 +21,7 @@ let Footer = () => {
                         <div className='desktop'>
                             <span className="myIcons">
                                 <h1 className="myFooterH5">
-                                &#169; 2022 Stefan Brunotte || Contact me <a href="mailto:mrbrunotte@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a>
+                                &#169; 2024 Stefan Brunotte || Contact me <a href="mailto:mrbrunotte@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a>
                                 </h1>
                             </span>
                         </div>

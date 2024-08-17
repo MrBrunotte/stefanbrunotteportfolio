@@ -1,33 +1,43 @@
 [
     {
-        "id": 1,
-        "company": "self employed",
-        "workDescription": "Daytrader",
-        "description": "Trading futures on the the CBOT, CME and NYMEX markets by analysing the price movement using PA (price action). I trade using the NinjaTrader 8 platform and I also create my own custom indicators and trading scripts.",
-        "gainedExperience": "I have developed my own trading plan based on traditional PA (price action), and I am currently working on the automation of the static parameters of my trading plan.",
-        "tags": ["Futures, Price Action, NT8 Plattform, Ninja Script, C#, .NET"],
-        "startDate": "15/4/2005",
+        "id": 7,
+        "company": "KI-Help desk (Karolinska Institutet) - ongoing",
+        "workDescription": "IT-Support",
+        "description": "Help desk provides technical support for joint university IT and telephony services. We answer users' questions, rectify faults and give advice about, for example, installations and licenses.",
+        "gainedExperience": "Problem solving, customer interaction, Microsoft 365, Azure.",
+        "tags": ["Dynamics 365. Microsoft 365, Azure, Telia ACE"],
+        "startDate": "2024-08-05",
         "endDate": "Ongoing (part-time)"
     },
     {
-        "id": 2,
+        "id": 7,
+        "company": "self employed",
+        "workDescription": "Daytrader",
+        "description": "Trading futures on the the CBOT, CME and NYMEX markets by analyzing the price movement using PA (price action). I trade using the NinjaTrader 8 platform and I also create my own custom indicators and trading scripts.",
+        "gainedExperience": "I have developed my own trading plan based on traditional PA (price action), and I am currently working on the automation of the static parameters of my trading plan.",
+        "tags": ["Futures, Price Action, NT8 Platform, Ninja Script, C#, .NET"],
+        "startDate": "2005-04-15",
+        "endDate": "Ongoing (part-time)"
+    },
+    {
+        "id": 6,
         "company": "Gisys AB",
         "workDescription": "System developer",
         "description": "Worked on the development of an automated log analysis tool for record opening and co-development of web forms for patients and healthcare providers Developed mainly in frontend but to some extent also in backend, as well as with database management. The Agile work was performed in Azure DevOps Boards.",
-        "gainedExperience": "Gained experience in working with differnt teams with Azure boards, and the development of the log analysis tools.",
+        "gainedExperience": "Gained experience in working with different teams with Azure boards, and the development of the log analysis tools.",
         "tags": ["C#, TypeScript, Angular, Azure Boards, SQL"],
-        "startDate": "1/4/2022",
-        "endDate": "9/9/2022"
+        "startDate": "2022-04-01",
+        "endDate": "2022-09-09"
     },
     {
-        "id": 3,
+        "id": 5,
         "company": "Prog-it AB",
         "workDescription": "System developer",
         "description": "Maintenance and development of existing and new customers' websites, support and troubleshooting. Development of websites from idea to launched site. Responsible for updating our Dedicated server, DNS, development and maintenance of Prog-it's website. Some backend development in WordPress.",
-        "gainedExperience": "Gained porblem solveing skills and understanding of different areas outside the developer field.",
+        "gainedExperience": "Gained problem solving skills and understanding of different areas outside the developer field.",
         "tags": ["Wordpress, TypeScript, frontend, server, DNS, Customer relations"],
-        "startDate": "1/4/2021",
-        "endDate": "1/4/2022"
+        "startDate": "2021-04-01",
+        "endDate": "2022-04-01"
     },
     {
         "id": 4,
@@ -36,38 +46,38 @@
         "description": "Care taker/Treatment assistant at a HVB home for unaccompanied refugee youths. Planning and integration of the youths into Swedish society and mentoring guidance. Responsible for scheduling and other operational tasks, planning activities and excursions. We housed mainly young youths between the age of 14-20 years old, both boys and girls.",
         "gainedExperience": "Working with people from different cultures and mentoring them into the Swedish society and school.",
         "tags": ["Integration, Mentoring, Multi-culture, ADHD, Asperger"],
-        "startDate": "1/4/2015",
-        "endDate": "1/11/2018"
+        "startDate": "2015-04-01",
+        "endDate": "2018-11-01"
     },
     {
-        "id": 5,
+        "id": 3,
         "company": "Siw Kraft Fastighetsmäkleri AB",
         "workDescription": "Real Estate Agent",
-        "description": "Sale of exclusive penthouses in the Stockholm city area. Cost calculations, planning and offering of raw attics before development into penthouses to assosiations and building companies. We often got the contract to sell the finished penthouses on the market, the price tags was up to 32 million sek and I worked in a two-man team from planning and measurement to final sale.",
+        "description": "Sale of exclusive penthouses in the Stockholm city area. Cost calculations, planning and offering of raw attics before development into penthouses to associations and building companies. We often got the contract to sell the finished penthouses on the market, the price tags was up to 32 million sek and I worked in a two-man team from planning and measurement to final sale.",
         "gainedExperience": "Two-man team work, High-end sales",
         "tags": ["High-end sales, Customer relations, Teamwork, High-end penthouses"],
-        "startDate": "1/5/2014",
-        "endDate": "25/11/2014"
+        "startDate": "2014-05-01",
+        "endDate": "2014-11-25"
     },
     {
-        "id": 6,
+        "id": 2,
         "company": "Erik Olsson Fastighetsförmedling AB",
         "workDescription": "Real Estate Agent",
         "description": "Sale of houses and apartments in the Stockholm area. I was a starting member of Erik Olsson Fastighetsförmedlings housing team, we were a team of 4 real estate agents and 4 assistants. I sold the most expensive villa in Hässelby strand (at that time)",
         "gainedExperience": "Customer contact, Mediation between different sellers and buyers.",
         "tags": ["Sales, Customer contact, Mediation"],
-        "startDate": "1/3/2005",
-        "endDate": "1/8/2007"
+        "startDate": "2005-03-01",
+        "endDate": "2007-08-01"
     },
 
     {
-        "id": 7,
+        "id": 1,
         "company": "7/11 Franchisee",
         "workDescription": "Store owner",
         "description": "Owner of a 7/11 store. I had five employees and a store manager reporting to me. The 7/11 store was located in the center of Stockholm in a high-end quiet area.",
         "gainedExperience": "All existing duties as shop owner - staff responsibility, staff-scheduling, product ordering and purchasing optimization and customer contact, book-keeping, Sales forecasts",
         "tags": ["Sales, Staff, Scheduling, Customer contact, Ordering, Book-keeping"],
-        "startDate": "1/1/2000",
-        "endDate": "31/8/2003"
+        "startDate": "2000-01-01",
+        "endDate": "2003-08-31"
     }
 ]
