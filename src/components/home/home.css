@@ -12,6 +12,12 @@ a.projectsLink {
     padding: 2rem;
     
 }
+.myGray {
+    color: #9b9b9b !important;
+}
+.myGray:hover {
+    color: #caa532 !important;
+}
 .h1Header,
 .h2Header {
     font-family: 'Notable', sans-serif;
