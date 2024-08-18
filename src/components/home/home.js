@@ -24,27 +24,28 @@ let Home = () => {
             </Row>
                 <h1 className="h1Header">I'm a software developer & IT-Technician</h1>
                 <p className="homeText">
-                    I am a junior software developer and IT support/operations technician with lots of life experience. I have a keen interest in IT, Web development and Trading. I consider myself social and outgoing and I always strive to excel and grow, both as a person and knowledge wise. Please scroll through my REACT portfolio page that I have created. <br></br>I hope that my page will spark some interest, and I would love to get the opportunity to introduce myself further.
+                I am a software developer and IT technician with a passion for IT, web development, and trading. As a junior in the field, I bring not only technical skills but also a wealth of life experience. I am social, outgoing, and always striving to excel and grow — both personally and professionally.
                 </p>
+                <p className="homeText">I would be thrilled if you could take a moment to scroll through my REACT portfolio page, which I have created to showcase my work and achievements. I hope that what you see sparks your interest, and I would love the chance to introduce myself further.</p>
                 <Nav.Link className="h1Header myGray" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
-                    If you are looking for a junior software developer or It-technician who is a quick learner and positive team-player, I'd love to hear from you. --&gt;
+                If you are in search of a junior software developer or IT technician who is a quick learner and a positive team player, I’d love to hear from you. I am currently open to work and eager to contribute to a dynamic team. --&gt;
                     <a href="mailto:mrbrunotte@gmail.com" className="email myIcons" target="_blank" aria-label="Email: mrbrunotte@gmail.com" rel="noreferrer"><FaEnvelope /></a>
                     <p className="openToWork" ><img src={openToWork} alt="I'm open to work" /></p>
                     <hr></hr>
                 </p>
-                <h2 className="h2Header">My certificates</h2>
+                <h2 className="h2Header">Explore My Work</h2>
                 <p className="homeText">
-                I have taken several certificates, click the link below or "My Certificates" in the navbar to view then.
+                <strong><em>My Certificates: </em></strong>I have earned several certificates, which you can view by clicking the link below or by visiting the "My Certificates" section in the navbar.
                 </p>
                 <Nav.Link className="projectsLink" as={Link} to="/certificates">see all my certificates <FaExternalLinkAlt /></Nav.Link>
-                <h2 className="h2Header">my projects</h2>
+                {/* <h2 className="h2Header">my projects</h2> */}
                 <p className="homeText">
-                    Take a look at my projects to see what I have created, below are a sample of some of my projects. Click the link to go to my projects page, there you can find out more about each project. 
+                <strong><em>My Projects: </em></strong>Take a look at my projects to see what I’ve created. Below is a sample of my work. For more details on each project, please visit my projects page.
                 </p>
                 <Nav.Link className="projectsLink" as={Link} to="/projects">see all my projects <FaExternalLinkAlt /></Nav.Link>
                 <p className="homeText">
-                    If you want to go directly to one of the projects displayed here, just click on one of the two icons below each example.<br></br>- Click on the GitHub icon <FaGithub /> to read more about the project, how I built it and the tools I used.<br></br>- Click on the link <FaExternalLinkAlt /> icon to go to the deployed website, the pages are deployed on Heroku so they might render slowly the first time, so please be a little patient and have that in mind.
+                    If you want to go directly to one of the projects displayed here, just click on one of the two icons below each example.<br></br>- Click on the GitHub icon <FaGithub /> to read more about the project, how I built it and the tools I used.<br></br>- Click on the link icon <FaExternalLinkAlt /> to go to the deployed website.
                 </p>
             </Col>
             

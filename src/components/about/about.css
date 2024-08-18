@@ -5,10 +5,13 @@
     margin-top: 2rem !important;
     text-align: center;
 }
+.mySmallPadding {
+    padding: 1.2rem 0 0 1rem;
+}
 .h1About,
 .h1AboutMediaQuery {
     font-size: 3.625rem;
-    text-align: end;
+    /* text-align: end; */
     font-family: 'Notable', sans-serif;
     margin: 0 0 30px;
     color: #9b9b9b;
@@ -23,6 +26,7 @@
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 7rem;
 }
 .myIcons a{
     text-align: center;
