@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stefanbrunotteportfolio/static/css/main.988539e7.css",
+    "main.css": "/stefanbrunotteportfolio/static/css/main.23aa8b3a.css",
     "main.js": "/stefanbrunotteportfolio/static/js/main.65a546fb.js",
     "static/js/787.08e678c0.chunk.js": "/stefanbrunotteportfolio/static/js/787.08e678c0.chunk.js",
     "static/media/vacationexplorer.jpg": "/stefanbrunotteportfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
@@ -24,12 +24,12 @@
     "static/media/ms900.png": "/stefanbrunotteportfolio/static/media/ms900.a5e37dab66e2e8e5dccc.png",
     "static/media/networkingBasics.png": "/stefanbrunotteportfolio/static/media/networkingBasics.2ec34520655d6081f4e7.png",
     "index.html": "/stefanbrunotteportfolio/index.html",
-    "main.988539e7.css.map": "/stefanbrunotteportfolio/static/css/main.988539e7.css.map",
+    "main.23aa8b3a.css.map": "/stefanbrunotteportfolio/static/css/main.23aa8b3a.css.map",
     "main.65a546fb.js.map": "/stefanbrunotteportfolio/static/js/main.65a546fb.js.map",
     "787.08e678c0.chunk.js.map": "/stefanbrunotteportfolio/static/js/787.08e678c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.988539e7.css",
+    "static/css/main.23aa8b3a.css",
     "static/js/main.65a546fb.js"
   ]
 }
