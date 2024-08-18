@@ -17,6 +17,9 @@
     letter-spacing: 3px;
     font-size: 1rem !important;
 }
+.my-nav-link:hover {
+    color: #CAA532 !important;
+}
 .my-border {
     border-style: solid;
     border-color: #CAA532;

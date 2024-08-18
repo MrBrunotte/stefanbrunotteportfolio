@@ -7,7 +7,11 @@ a.projectsLink {
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
-
+.openToWork {
+    text-align: center !important;
+    padding: 2rem;
+    
+}
 .h1Header,
 .h2Header {
     font-family: 'Notable', sans-serif;

@@ -23,10 +23,7 @@ let MyProjects = () => {
     <Row> 
         <Col className="text-center" xs={12}>
                 <p className="textHeader">
-                Here is a list of all my Certificates and resent diplomas that I have taken.
-                </p>
-                <p className="textHeader myMBProjects">
-                Click on each certificate to view completion date.
+                <em>Click on each certificate to view and verify completion.</em>
                 </p>
         </Col>
     </Row>
