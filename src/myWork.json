@@ -1,6 +1,6 @@
 [
     {
-        "id": 7,
+        "id": 9,
         "company": "KI-Help desk (Karolinska Institutet) - ongoing",
         "workDescription": "IT-Support",
         "description": "Help desk provides technical support for joint university IT and telephony services. We answer users' questions, rectify faults and give advice about, for example, installations and licenses.",
@@ -10,7 +10,7 @@
         "endDate": "Ongoing (part-time)"
     },
     {
-        "id": 7,
+        "id": 8,
         "company": "self employed",
         "workDescription": "Daytrader",
         "description": "Trading futures on the the CBOT, CME and NYMEX markets by analyzing the price movement using PA (price action). I trade using the NinjaTrader 8 platform and I also create my own custom indicators and trading scripts.",
@@ -18,6 +18,16 @@
         "tags": ["Futures, Price Action, NT8 Platform, Ninja Script, C#, .NET"],
         "startDate": "2005-04-15",
         "endDate": "Ongoing (part-time)"
+    },
+    {
+        "id": 7,
+        "company": "Barnebys Group AB",
+        "workDescription": "Technical support",
+        "description": "Provided technical support to identify and resolve customer and system issues, including generating data reports and assisting the development and customer success teams with troubleshooting during live auctions. My role served as a connection between developers and support teams, handling lighter technical matters to alleviate the workload on developers.",
+        "gainedExperience": "Problem solving, customer interaction, Microsoft 365, Azure.",
+        "tags": ["Skeleton (platform), SQL, Scrum, Visual Studio 2022, VSCode, Postman, Windows PowerShell, Azure portal"],
+        "startDate": "2023-03-01",
+        "endDate": "2023-06-05"
     },
     {
         "id": 6,
