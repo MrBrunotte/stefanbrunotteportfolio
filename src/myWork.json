@@ -1,7 +1,7 @@
 [
     {
         "id": 9,
-        "company": "KI-Help desk (Karolinska Institutet) - ongoing",
+        "company": "KI-Help desk (Karolinska Institutet) - Ongoing",
         "workDescription": "IT-Support",
         "description": "Help desk provides technical support for joint university IT and telephony services. We answer users' questions, rectify faults and give advice about, for example, installations and licenses.",
         "gainedExperience": "Problem solving, customer interaction, Microsoft 365, Azure.",
@@ -11,7 +11,7 @@
     },
     {
         "id": 8,
-        "company": "self employed",
+        "company": "Part-time - Ongoing",
         "workDescription": "Daytrader",
         "description": "Trading futures on the the CBOT, CME and NYMEX markets by analyzing the price movement using PA (price action). I trade using the NinjaTrader 8 platform and I also create my own custom indicators and trading scripts.",
         "gainedExperience": "I have developed my own trading plan based on traditional PA (price action), and I am currently working on the automation of the static parameters of my trading plan.",
