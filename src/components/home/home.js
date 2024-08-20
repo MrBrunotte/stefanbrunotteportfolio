@@ -104,7 +104,7 @@ let Home = () => {
                         </Card.Body>
                         <Card.Body className="text-center">
                             <Card.Link href="#"><a className="myIcons" href="https://github.com/MrBrunotte/StefanBrunottePortfolio" target="_blank" rel="noreferrer"><FaGithub /></a></Card.Link>
-                            {/* <Card.Link href="#"><a className="myIcons" href="https://sbportfolio.azurewebsites.net/" target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a></Card.Link> */}
+                            <Card.Link href="#"><a className="myIcons" href="https://mrbrunotte.github.io/stefanbrunotteportfolio/#/" target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a></Card.Link>
                         </Card.Body>
                     </Card>
                 </Col>
