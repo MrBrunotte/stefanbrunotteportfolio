@@ -48,7 +48,7 @@
         "id": 6,
         "school": "Microsoft Azure - AZ 900",
         "course": "AZ-900: Microsoft Azure Fundamentals" ,
-        "description": "Azure Fundamentals exam has given me an opportunity to prove knowledge of cloud concepts, Azure services, Azure workloads, security, and privacy in Azure, as well as Azure pricing and support. Candidates should be familiar with the general technology concepts, including concepts of networking, storage, compute, application support, and application development.",
+        "description": "Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
         "tags": ["Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization"],
         "startDate": "2020-12-21",
         "endDate": "2021-02-23"
