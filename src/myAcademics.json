@@ -1,12 +1,39 @@
 [
     {
-        "id": 8,
+        "id": 11,
         "school": "Lexicon",
         "course": "IT-TECHNICIAN MICROSOFT 365",
-        "description": "Module-based training containing Microsoft 365, networks and troubleshooting in mixed systems. CERTIFICATES --> MS-900: (Microsoft 365 Fundamentals), SC-900: (Security, Compliance, and Identity Fundamentals), ITIL 4 Foundation, Certificate in IT Service Management",
+        "description": "Lexicon's module-based education for IT technicians spans 80 days of full-time study and provides a broad competency in core areas such as Microsoft 365, security administration, and Azure technologies as well as ITIL and relevant service, business and consulting skills.",
         "tags": ["AZ-900 Azure Fundamentals, MS-900: 365 Fundamentals Cloud, SC-900 Fundamentals Security, MS-500: 365 Security Administrator, MD-102: Endpoint Administrator, MS-700 Teams Administrator, Cisco Networking Basics, Virtualization & Hyper-V, AZ-800 Server 2022, Information Security, PowerShell."],
         "startDate": "2024-02-05",
         "endDate": "2024-05-30"
+    },
+     {
+        "id": 10,
+        "school": "ITIL 4 Foundation",
+        "course": "ITIL 4 Foundation - Certificate in IT Service Management" ,
+        "description": "Earners of the Security, Compliance, and Identity Fundamentals demonstrate a functional understanding of security, compliance, and identity (SCI) across cloud-based and related Microsoft services.",
+        "tags": ["Azure, Azure Active Directory, Cloud Security, Compliance, Compliance Management, Identity And Access Management, Information Protection And Governance, Microsoft 365, Microsoft Threat Protection, Security Management"],
+        "startDate": "2024-04-03",
+        "endDate": "2024-04-17"
+    },
+    {
+        "id": 9,
+        "school": "Microsoft 365 - SC-900",
+        "course": "SC-900: Security, Compliance, and Identity Fundamentals" ,
+        "description": "Earners of the Security, Compliance, and Identity Fundamentals demonstrate a functional understanding of security, compliance, and identity (SCI) across cloud-based and related Microsoft services.",
+        "tags": ["Azure, Azure Active Directory, Cloud Security, Compliance, Compliance Management, Identity And Access Management, Information Protection And Governance, Microsoft 365, Microsoft Threat Protection, Security Management"],
+        "startDate": "2024-03-19",
+        "endDate": "2024-04-02"
+    },
+    {
+        "id": 8,
+        "school": "Microsoft 365 - MS 900",
+        "course": "Microsoft 365 Certified: Fundamentals" ,
+        "description": "Earning the Microsoft 365 Fundamentals certification demonstrates an understanding of the options available in Microsoft 365 and the benefits of adopting cloud services, the Software as a Service (SaaS) cloud model, and implementing Microsoft 365 cloud service.",
+        "tags": ["Cloud Services, Compliance, Microsoft 365, Microsoft Cloud Services, Office 365, Security, Teamwork, Windows 10"],
+        "startDate": "2024-03-04",
+        "endDate": "2024-03-18"
     },
     {
         "id": 7,
@@ -19,10 +46,10 @@
     },
     {
         "id": 6,
-        "school": "Microsoft Azure",
+        "school": "Microsoft Azure - AZ 900",
         "course": "AZ-900: Microsoft Azure Fundamentals" ,
         "description": "Azure Fundamentals exam has given me an opportunity to prove knowledge of cloud concepts, Azure services, Azure workloads, security, and privacy in Azure, as well as Azure pricing and support. Candidates should be familiar with the general technology concepts, including concepts of networking, storage, compute, application support, and application development.",
-        "tags": ["Azure, AZ-900"],
+        "tags": ["Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization"],
         "startDate": "2020-12-21",
         "endDate": "2021-02-23"
     },
