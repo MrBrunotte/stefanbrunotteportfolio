@@ -24,12 +24,15 @@ let Home = () => {
             </Row>
                 <h1 className="h1Header">I'm a software developer & IT-Technician</h1>
                 <p className="homeText">
-                I am a software developer and IT technician with a passion for IT, web development, and trading. As a junior in the field, I bring not only technical skills but also a wealth of life experience. I am social, outgoing, and always striving to excel and grow — both personally and professionally.
+                 I’m a software developer and IT technician with a strong passion for IT, web development, and trading. While I’m still early in my career, I bring both technical skills and a wealth of life experience to the table. I’m social, outgoing, and always eager to learn and grow — both personally and professionally.
                 </p>
                 <p className="homeText">I would be thrilled if you could take a moment to scroll through my REACT portfolio page, which I have created to showcase my work and achievements. I hope that what you see sparks your interest, and I would love the chance to introduce myself further.</p>
                 <Nav.Link className="h1Header myGray" as={Link} to="/contact">Let's talk!</Nav.Link>
                 <p className="homeText">
-                If you are in search of a junior software developer or IT technician who is a quick learner and a positive team player, I’d love to hear from you. I am currently open to work and eager to contribute to a dynamic team. --&gt;
+                <p className="homeText">
+                My ideal path is to start in a tech support role and eventually transition into a developer position.
+                </p>
+                If you’re looking for a junior software developer or IT technician who’s a quick learner and a positive team player, I’d love to connect. I’m currently open to work and eager to join a dynamic team. --&gt;
                     <a href="mailto:mrbrunotte@gmail.com" className="email myIcons" target="_blank" aria-label="Email: mrbrunotte@gmail.com" rel="noreferrer"><FaEnvelope /></a>
                     <p className="openToWork" ><img src={openToWork} alt="I'm open to work" /></p>
                     <hr></hr>
