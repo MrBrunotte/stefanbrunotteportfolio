@@ -2,7 +2,7 @@
     {
         "id": 11,
         "school": "Lexicon",
-        "course": "IT-TECHNICIAN MICROSOFT 365",
+        "course": "IT-Technician Microsoft 365",
         "description": "Lexicon's module-based education for IT technicians spans 80 days of full-time study and provides a broad competency in core areas such as Microsoft 365, security administration, and Azure technologies as well as ITIL and relevant service, business and consulting skills.",
         "tags": ["AZ-900 Azure Fundamentals, MS-900: 365 Fundamentals Cloud, SC-900 Fundamentals Security, MS-500: 365 Security Administrator, MD-102: Endpoint Administrator, MS-700 Teams Administrator, Cisco Networking Basics, Virtualization & Hyper-V, AZ-800 Server 2022, Information Security, PowerShell."],
         "startDate": "2024-02-05",
