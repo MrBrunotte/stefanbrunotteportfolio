@@ -34,7 +34,7 @@
         "company": "Gisys AB",
         "workDescription": "System developer",
         "description": "Worked on the development of an automated log analysis tool for record opening and co-development of web forms for patients and healthcare providers Developed mainly in frontend but to some extent also in backend, as well as with database management. The Agile work was performed in Azure DevOps Boards.",
-        "gainedExperience": "Gained experience in working with different teams with Azure boards, and the development of the log analysis tools.",
+        "gainedExperience": "Working with different teams with Azure boards, front-end development in Angular, SQL, TypeScript, C#.",
         "tags": ["C#, TypeScript, Angular, Azure Boards, SQL"],
         "startDate": "2022-04-01",
         "endDate": "2022-09-09"
@@ -44,7 +44,7 @@
         "company": "Prog-it AB",
         "workDescription": "System developer",
         "description": "Maintenance and development of existing and new customers' websites, support and troubleshooting. Development of websites from idea to launched site. Responsible for updating our Dedicated server, DNS, development and maintenance of Prog-it's website. Some backend development in WordPress.",
-        "gainedExperience": "Gained problem solving skills and understanding of different areas outside the developer field.",
+        "gainedExperience": "Problem solving, Customer interaction and trouble shooting, Building WordPress websites, Server management.",
         "tags": ["Wordpress, TypeScript, frontend, server, DNS, Customer relations"],
         "startDate": "2021-04-01",
         "endDate": "2022-04-01"
@@ -64,8 +64,8 @@
         "company": "Siw Kraft Fastighetsmäkleri AB",
         "workDescription": "Real Estate Agent",
         "description": "Sale of exclusive penthouses in the Stockholm city area. Cost calculations, planning and offering of raw attics before development into penthouses to associations and building companies. We often got the contract to sell the finished penthouses on the market, the price tags was up to 32 million sek and I worked in a two-man team from planning and measurement to final sale.",
-        "gainedExperience": "Two-man team work, High-end sales",
-        "tags": ["High-end sales, Customer relations, Teamwork, High-end penthouses"],
+        "gainedExperience": "High-end sales, Customer relations, Teamwork, High-end penthouse valuations, Complete sales process including lead generation, lead qualification, needs analysis, property search and viewing, negotiation, and closing.",
+        "tags": ["High-end sales, Customer relations, Teamwork, High-end penthouse valuations"],
         "startDate": "2014-05-01",
         "endDate": "2014-11-25"
     },
@@ -74,7 +74,7 @@
         "company": "Erik Olsson Fastighetsförmedling AB",
         "workDescription": "Real Estate Agent",
         "description": "Sale of houses and apartments in the Stockholm area. I was a starting member of Erik Olsson Fastighetsförmedlings housing team, we were a team of 4 real estate agents and 4 assistants. I sold the most expensive villa in Hässelby strand (at that time)",
-        "gainedExperience": "Customer contact, Mediation between different sellers and buyers.",
+        "gainedExperience": "Customer contact, Seller and buyer negotiation, Complete sales process including lead generation, lead qualification, needs analysis, property search and viewing, negotiation, and closing.",
         "tags": ["Sales, Customer contact, Mediation"],
         "startDate": "2005-03-01",
         "endDate": "2007-08-01"
