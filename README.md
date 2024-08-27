@@ -1,6 +1,7 @@
 
 # Stefan Brunotte Portfolio page
 This is my personal portfolio page build in React and deployed on my GitHub pages.
+
 ![My landing page](src/images/myPortfolioLandingpage.png)
 
 ## Contact form
