@@ -6,7 +6,8 @@ html::-webkit-scrollbar {
   width: 2vh;
 }
 html::-webkit-scrollbar-thumb {
-  background-color: #caa532;
+  /*background-color: #caa532;*/
+  background-color: #595958;
 }
 html::-webkit-scrollbar-track {
   background-color: #9b9b9b;
