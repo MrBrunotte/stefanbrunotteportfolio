@@ -24,7 +24,7 @@ let Home = () => {
             </Row>
                 <h1 className="h1Header">I'm a software developer & IT-Technician</h1>
                 <p className="homeText">
-                 I’m a software developer and IT technician with a strong passion for IT, web development, and trading. While I’m still early in my career, I bring both technical skills and a wealth of life experience to the table. I’m social, outgoing, and always eager to learn and grow — both personally and professionally.
+                 I’m a junior software developer and IT technician with a strong passion for IT, web development, and trading. While I’m still early in my career, I bring both technical skills and a wealth of life experience to the table. I’m social, outgoing, and always eager to learn and grow — both personally and professionally.
                 </p>
                 <p className="homeText">I would be thrilled if you could take a moment to scroll through my REACT portfolio page, which I have created to showcase my work and achievements. I hope that what you see sparks your interest, and I would love the chance to introduce myself further.</p>
                 <Nav.Link className="h1Header myGray" as={Link} to="/contact">Let's talk!</Nav.Link>
