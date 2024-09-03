@@ -10,14 +10,14 @@ let Footer = () => {
         <Row>
             <Col xs={12}>
                 <Row className="iconMarginTop"> 
-                    <Col xs={4}>
+                    <Col xs={2}>
                         <div className='desktop'>
                             <span className="myIcons">
                                 <a href="https://github.com/MrBrunotte" target="_blank" rel="noreferrer"><FaGithub /></a>
                             </span>
                         </div> 
                     </Col>
-                    <Col xs={4}>
+                    <Col xs={8}>
                         <div className='desktop'>
                             <span className="myIcons">
                                 <h1 className="myFooterH5">
@@ -26,7 +26,7 @@ let Footer = () => {
                             </span>
                         </div>
                     </Col>
-                    <Col xs={4}>
+                    <Col xs={2}>
                         <div className='desktop'>
                             <span className="myIcons">
                                 <a href="https://www.linkedin.com/in/stefan-brunotte/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
@@ -43,14 +43,14 @@ let Footer = () => {
         <Row>
             <Col xs={12}>
                 <Row className="iconMarginTop"> 
-                    <Col xs={4}>
+                    <Col xs={3}>
                         <div className='desktops'>
                             <span className="myIcons">
                                 <a href="https://github.com/MrBrunotte" target="_blank" rel="noreferrer"><FaGithub /></a>
                             </span>
                         </div> 
                     </Col>
-                    <Col xs={4}>
+                    <Col xs={6}>
                         <div className='desktops'>
                             <span className="myIcons">
                                 <h1 className="myFooterH5"><a href="mailto:mrbrunotte@gmail.com" target="_blank" rel="noreferrer"><FaEnvelope /></a>
@@ -58,7 +58,7 @@ let Footer = () => {
                             </span>
                         </div>
                     </Col>
-                    <Col xs={4}>
+                    <Col xs={3}>
                         <div className='desktops'>
                             <span className="myIcons">
                                 <a href="https://www.linkedin.com/in/stefan-brunotte/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
