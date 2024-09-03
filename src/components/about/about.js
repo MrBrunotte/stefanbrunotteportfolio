@@ -41,7 +41,7 @@ let About = () => {
                 </p>
                 <p className="aboutText">I am a social person that love to meet new people and help bring out the best in them and myself.</p>
                 <p className="aboutText"><span className="specialText">Let's connect</span></p>
-                <p className="aboutText">If my background and skills align with what you're looking for, I would love the opportunity to introduce myself further. Please feel free to reach out through my contact form:<br></br><Nav.Link className="projectsLink mySmallPadding" as={Link} to="/certificates">Contact form <FaExternalLinkAlt /></Nav.Link>
+                <p className="aboutText">If my background and skills align with what you're looking for, I would love the opportunity to introduce myself further. Please feel free to reach out through my contact form:<br></br><Nav.Link className="projectsLink mySmallPadding" as={Link} to="/contact">Contact form <FaExternalLinkAlt /></Nav.Link>
                 Looking forward to the possibility of working together.
                 </p>
             </div>
