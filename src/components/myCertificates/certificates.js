@@ -63,6 +63,22 @@ let MyProjects = () => {
             </Col>
             <Col xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
                 <Card style={{ width: '100%' }}>
+                    <Card.Body className="projectText">
+                        <Card.Title className="myCardTitle">ITIL 4 Foundation, Certificate in IT Service Management	</Card.Title>
+                        <Card.Text className="myCardText">
+                        The ITIL 4 module has introduced me to key concepts, and provided me with a solid foundation for understanding IT service management and its core elements, such as Service management concepts, Service value system, Four dimensions of service management, Guiding principles, Service Value Chain, ITIL practices, Continuous improvement, Service Level Agreements, Key metrics and performance indicators.
+                        </Card.Text>
+                        <Card.Text>
+                            <h5 className="myCardHeader">completion date: 2024-04-17</h5>
+                            <p className="projectTags myCardTags"><em>ITIL 4 Foundation, Certificate in IT Service Management</em></p>
+                            <p className="certImg"><img alt="Certificate" src={ITIL4Smaller} /> </p>
+                        </Card.Text>
+                        <br></br>
+                    </Card.Body>
+                </Card>    
+            </Col>
+            <Col xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
+                <Card style={{ width: '100%' }}>
                     {/* <Card.Img variant="top" src={az900} /> */}
                     <Card.Body className="projectText">
                         <Card.Title className="myCardTitle">AZ-900: Microsoft Azure Fundamentals</Card.Title>
@@ -142,24 +158,6 @@ let MyProjects = () => {
                     </Card.Body>
                 </Card>    
             </Col>
-            <Col xxl={4} xl={4} lg={4} md={6} sm={12} xs={12}>
-                <Card style={{ width: '100%' }}>
-                    <Card.Body className="projectText">
-                        <Card.Title className="myCardTitle">ITIL 4 Foundation, Certificate in IT Service Management	</Card.Title>
-                        <Card.Text className="myCardText">
-                        The ITIL 4 module has introduced me to key concepts, and provided me with a solid foundation for understanding IT service management and its core elements, such as Service management concepts, Service value system, Four dimensions of service management, Guiding principles, Service Value Chain, ITIL practices, Continuous improvement, Service Level Agreements, Key metrics and performance indicators.
-                        </Card.Text>
-                        <Card.Text>
-                            <h5 className="myCardHeader">completion date: 2024-04-17</h5>
-                            <p className="projectTags myCardTags"><em>ITIL 4 Foundation, Certificate in IT Service Management</em></p>
-                            <p className="certImg"><img alt="Certificate" src={ITIL4Smaller} /> </p>
-                        </Card.Text>
-                        <br></br>
-                    </Card.Body>
-                </Card>    
-            </Col>
-            
-
         </Row>
     </Container>
     </ThemeProvider>
