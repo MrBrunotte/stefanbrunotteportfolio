@@ -147,11 +147,11 @@ let MyProjects = () => {
                     <Card.Body className="projectText">
                         <Card.Title className="myCardTitle">ITIL 4 Foundation, Certificate in IT Service Management	</Card.Title>
                         <Card.Text className="myCardText">
-                        Cisco verifies the earner of this badge successfully completed the Networking Basics course and achieved this student level credential. Earner has knowledge of the types of networks, how they work, how devices send and receive data, the types of network cabling, how IP addresses find information on the Internet, how transport and applications operate, and has practiced building a home wireless network. Participated in up to 13 Cisco Packet Tracer activities.
+                        The ITIL 4 module has introduced me to key concepts, and provided me with a solid foundation for understanding IT service management and its core elements, such as Service management concepts, Service value system, Four dimensions of service management, Guiding principles, Service Value Chain, ITIL practices, Continuous improvement, Service Level Agreements, Key metrics and performance indicators.
                         </Card.Text>
                         <Card.Text>
                             <h5 className="myCardHeader">completion date: 2024-04-17</h5>
-                            <p className="projectTags myCardTags"><em>Cisco: Networking Basics</em></p>
+                            <p className="projectTags myCardTags"><em>ITIL 4 Foundation, Certificate in IT Service Management</em></p>
                             <p className="certImg"><img alt="Certificate" src={ITIL4Smaller} /> </p>
                         </Card.Text>
                         <br></br>
