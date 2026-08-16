@@ -1,35 +1,31 @@
 {
   "files": {
-    "main.css": "/stefanbrunotteportfolio/static/css/main.3349ef46.css",
-    "main.js": "/stefanbrunotteportfolio/static/js/main.4068b512.js",
+    "main.css": "/stefanbrunotteportfolio/static/css/main.40e7bfa3.css",
+    "main.js": "/stefanbrunotteportfolio/static/js/main.8e5a69d0.js",
     "static/js/787.08e678c0.chunk.js": "/stefanbrunotteportfolio/static/js/787.08e678c0.chunk.js",
     "static/media/vacationexplorer.jpg": "/stefanbrunotteportfolio/static/media/vacationexplorer.f1d8a154e46c9c96988f.jpg",
+    "static/media/Home_img.png": "/stefanbrunotteportfolio/static/media/Home_img.350acf4cea34689bcba9.png",
     "static/media/jag.png": "/stefanbrunotteportfolio/static/media/jag.44ce8403e1b7c8b1579c.png",
     "static/media/ITIL4Smaller.png": "/stefanbrunotteportfolio/static/media/ITIL4Smaller.f56702ff10c2e57a15a9.png",
-    "static/media/sbcv1.png": "/stefanbrunotteportfolio/static/media/sbcv1.36393c4732a5198405ca.png",
-    "static/media/sbcv2.png": "/stefanbrunotteportfolio/static/media/sbcv2.030a5823c2fdc92bd15f.png",
-    "static/media/sbcv3.png": "/stefanbrunotteportfolio/static/media/sbcv3.867ca6697b32244ccbce.png",
-    "static/media/reactPortfolio.jpg": "/stefanbrunotteportfolio/static/media/reactPortfolio.1dc1c355db3ecdc9e629.jpg",
     "static/media/teacherOverview.jpeg": "/stefanbrunotteportfolio/static/media/teacherOverview.78570a99259530b6f2ee.jpeg",
     "static/media/gisysArbProv.jpg": "/stefanbrunotteportfolio/static/media/gisysArbProv.2ace3ec1a2d07c54b29f.jpg",
     "static/media/foodictionary.jpg": "/stefanbrunotteportfolio/static/media/foodictionary.dc40a4b99af7bb4331e2.jpg",
     "static/media/mvcPortfolio.jpg": "/stefanbrunotteportfolio/static/media/mvcPortfolio.dbbe44a8094073f55287.jpg",
     "static/media/worldofshape.jpg": "/stefanbrunotteportfolio/static/media/worldofshape.de9677c791fd26870573.jpg",
-    "static/media/openToWorkCropped.png": "/stefanbrunotteportfolio/static/media/openToWorkCropped.c844ec40fc490cb88b01.png",
-    "static/media/sbcv4.png": "/stefanbrunotteportfolio/static/media/sbcv4.a7e7c79f3899186127a6.png",
     "static/media/lexiconDotNet.png": "/stefanbrunotteportfolio/static/media/lexiconDotNet.42b07ed78ba29a0d25cb.png",
     "static/media/itTechSup.png": "/stefanbrunotteportfolio/static/media/itTechSup.62347992ebe6a263f84b.png",
+    "static/media/networkingBasics.png": "/stefanbrunotteportfolio/static/media/networkingBasics.16bf73cab7bb42d06edc.png",
+    "static/media/cyberSecurity.png": "/stefanbrunotteportfolio/static/media/cyberSecurity.b95e14c5f95033c2cac8.png",
     "static/media/sc900.png": "/stefanbrunotteportfolio/static/media/sc900.39f96a891f7fb4da2274.png",
     "static/media/az900.png": "/stefanbrunotteportfolio/static/media/az900.193df54f610b3603efe5.png",
     "static/media/ms900.png": "/stefanbrunotteportfolio/static/media/ms900.a5e37dab66e2e8e5dccc.png",
-    "static/media/networkingBasics.png": "/stefanbrunotteportfolio/static/media/networkingBasics.2ec34520655d6081f4e7.png",
     "index.html": "/stefanbrunotteportfolio/index.html",
-    "main.3349ef46.css.map": "/stefanbrunotteportfolio/static/css/main.3349ef46.css.map",
-    "main.4068b512.js.map": "/stefanbrunotteportfolio/static/js/main.4068b512.js.map",
+    "main.40e7bfa3.css.map": "/stefanbrunotteportfolio/static/css/main.40e7bfa3.css.map",
+    "main.8e5a69d0.js.map": "/stefanbrunotteportfolio/static/js/main.8e5a69d0.js.map",
     "787.08e678c0.chunk.js.map": "/stefanbrunotteportfolio/static/js/787.08e678c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3349ef46.css",
-    "static/js/main.4068b512.js"
+    "static/css/main.40e7bfa3.css",
+    "static/js/main.8e5a69d0.js"
   ]
 }
