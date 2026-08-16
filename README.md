@@ -2,9 +2,9 @@
 
 ![My landing page](src/images/myPortfolioLandingpage.png)
 
-Personal portfolio focused on technical support, system support and software projects.
+Personal portfolio focused on Application Support, Technical Support, System Support and practical technical projects.
 
-The site presents my professional background, technical skills, certifications and selected projects, with a particular focus on the intersection between support, systems, troubleshooting and practical technical development.
+The site presents my professional background, technical skills, certifications and selected projects, with a particular focus on troubleshooting, Microsoft 365 environments, application understanding, system support and practical technical development.
 
 ## Live portfolio
 
@@ -35,7 +35,7 @@ My target roles include:
 
 ### MrBrunotte's Trading Journal
 
-An ongoing local-first desktop application project focused on structured trade review, analytics, workflow design and reusable behavioral history.
+An ongoing local-first desktop application project focused on structured trade review, analytics, workflow design and structured behavioral review history.
 
 I own the product requirements, workflows, system behavior, prioritization, testing, validation and development decisions. ChatGPT is used as the coding implementation layer.
 
@@ -59,6 +59,7 @@ https://trading-journal-case-study.netlify.app/
 The portfolio itself is built with:
 
 - React
+- React Router
 - JavaScript
 - HTML
 - CSS
@@ -87,6 +88,9 @@ This repository contains the source code for my personal portfolio website.
 The portfolio is intended to provide a concise overview of my professional experience, technical background and selected projects for recruiters, hiring managers and technical teams.
 
 ## Contact
+
+**Portfolio:**  
+https://mrbrunotte.github.io/stefanbrunotteportfolio/
 
 **LinkedIn:**  
 https://www.linkedin.com/in/stefanbrunotte/
