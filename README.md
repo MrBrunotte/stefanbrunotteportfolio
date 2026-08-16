@@ -1,85 +1,98 @@
-
-# Stefan Brunotte Portfolio page
-This is my personal portfolio page build in React and deployed on my GitHub pages.
+# Stefan Brunotte Portfolio
 
 ![My landing page](src/images/myPortfolioLandingpage.png)
 
-## Contact form
-I have used the [www.emailjs.com](https://www.emailjs.com/) page to receive messages through my contact form.
+Personal portfolio focused on technical support, system support and software projects.
 
-### Toaster
-I have used [React-Toastify](https://www.npmjs.com/package/react-toastify) for the toaster when submitting a message through my contact form.
+The site presents my professional background, technical skills, certifications and selected projects, with a particular focus on the intersection between support, systems, troubleshooting and practical technical development.
 
-## Available Scripts
+## Live portfolio
 
-In the project directory, you can run:
+https://mrbrunotte.github.io/stefanbrunotteportfolio/
 
-### `npm i`
-Installs react into the project
+## Current focus
 
+I currently work with technical IT support and administration in areas including:
 
-### `npm start`
+- Microsoft 365
+- Microsoft Entra ID
+- Active Directory
+- Intune
+- Outlook and OneDrive
+- MFA and authentication
+- Windows client management
+- Permissions and user administration
+- Technical troubleshooting and escalation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My target roles include:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Application Support
+- Technical Support
+- System Support
+- Application Specialist
 
-### `npm run deploy`
-Run this command to update project on my GitHub pages 
+## Featured technical project
 
-### `npm test`
+### MrBrunotte's Trading Journal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+An ongoing local-first desktop application project focused on structured trade review, analytics, workflow design and reusable behavioral history.
 
-### `npm run build`
+I own the product requirements, workflows, system behavior, prioritization, testing, validation and development decisions. ChatGPT is used as the coding implementation layer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The public case study covers areas such as:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- CSV import and normalization
+- Data modelling
+- Multi-account execution handling
+- Review workflows
+- Analytics
+- Local persistence with SQLite
+- Backup and restore
+- Rule- and data-driven behavioral analysis
+- Refactoring and maintainability
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Public case study:**  
+https://trading-journal-case-study.netlify.app/
 
-### `npm run eject`
+## Portfolio technology
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The portfolio itself is built with:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- JavaScript
+- HTML
+- CSS
+- GitHub Pages
+- EmailJS
+- React Toastify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Other technical experience
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+My background also includes software development and web projects using technologies such as:
 
-## Learn More
+- React
+- JavaScript
+- TypeScript
+- C#
+- .NET
+- SQL
+- Git
+- GitHub
+- WordPress
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Purpose of this repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This repository contains the source code for my personal portfolio website.
 
-### Code Splitting
+The portfolio is intended to provide a concise overview of my professional experience, technical background and selected projects for recruiters, hiring managers and technical teams.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+**LinkedIn:**  
+https://www.linkedin.com/in/stefanbrunotte/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**GitHub:**  
+https://github.com/MrBrunotte
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Trading Journal Case Study:**  
+https://trading-journal-case-study.netlify.app/
