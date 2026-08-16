@@ -1,74 +1,297 @@
-.contactContainer {
-    margin: 10vh 0 15vh;
-}
-.contactImg {
-    width: 70%;
-}
-.myEnvelope {
-    width: 10%;
-}
-.ContactArea {
-    font-family: 'Notable', sans-serif;
-    color: #9b9b9b;
-    letter-spacing: 3px;
-    font-size: 4rem;
-    text-align: center;
-    padding: 3vh;
-}
-form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 50%;
-    font-size: 16px;
-}
-label{
-    margin-top: 1rem;
-    font-family: 'Notable', sans-serif;
-    color: #caa532;
-    letter-spacing: 3px;
-}
-input[type="submit"] {
-    margin-top: 2rem;
-    cursor: pointer;
-    background: #caa532;
-    color: white;
-    border: none;
-}
-textarea {
-    background-color: #9b9b9b !important;
-    border: none !important;
-    color: white !important;
-    height: 200px;
-}
-::placeholder {
-    color: black !important;
+.contactPage {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
 }
 
-/* Media Queries */
-@media (max-width: 576px) {
-    .contactImg {
-        width: 35% !important;
-    }
+.contactPageContainer {
+  max-width: 1280px !important;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
-/* Small devices (landscape phones, less than 768px) */
+
+/* HERO */
+
+.contactHero {
+  max-width: 950px;
+  padding: 2rem 0 4rem;
+}
+
+.contactEyebrow,
+.contactSectionLabel,
+.contactMiniLabel {
+  margin: 0;
+  color: #eab308;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.contactHero h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(2.8rem, 5vw, 4.4rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.contactLead {
+  max-width: 880px;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* SECTIONS */
+
+.contactSeparator {
+  border-top: 1px solid #262626;
+}
+
+.contactSection {
+  padding: 4rem 0;
+}
+
+/* CARDS */
+
+.contactInfoCard,
+.contactFormCard {
+  height: 100%;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 2rem;
+}
+
+.contactInfoCard h2,
+.contactFormCard h2,
+.contactClosing h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.contactInfoText {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+/* LINKS */
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #262626;
+  background: #000;
+  padding: 1rem;
+  color: #fff !important;
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.contactLink:hover {
+  border-color: #eab308;
+  background: #080808;
+}
+
+.contactLink svg {
+  flex-shrink: 0;
+  color: #eab308;
+  font-size: 1.15rem;
+}
+
+.contactLink span {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.contactLink strong {
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.contactLink small {
+  margin-top: 0.2rem;
+  overflow: hidden;
+  color: #737373;
+  font-size: 0.78rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.contactAvailability {
+  margin-top: 2rem;
+  border-left: 2px solid #eab308;
+  padding-left: 1rem;
+}
+
+.contactAvailability > p:last-child {
+  margin: 0.6rem 0 0;
+  color: #d4d4d4;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* FORM */
+
+.contactForm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.contactField {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactField label {
+  margin: 0 0 0.5rem;
+  color: #d4d4d4;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contactField .form-control {
+  border: 1px solid #404040 !important;
+  border-radius: 0 !important;
+  background: #000 !important;
+  padding: 0.85rem 1rem !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  font-size: 0.9rem;
+}
+
+.contactField .form-control:focus {
+  border-color: #eab308 !important;
+  box-shadow: none !important;
+}
+
+.contactField textarea.form-control {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.contactField .form-control::placeholder {
+  color: #525252 !important;
+}
+
+.contactSubmitButton {
+  width: fit-content;
+  margin-top: 0.5rem;
+  border: 1px solid #eab308;
+  background: #eab308;
+  padding: 0.8rem 1.2rem;
+  color: #000;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.contactSubmitButton:hover:not(:disabled) {
+  background: transparent;
+  color: #eab308;
+}
+
+.contactSubmitButton:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+/* CLOSING */
+
+.contactClosing {
+  max-width: 900px;
+  padding: 4rem 0 1rem;
+}
+
+.contactClosing > p:not(.contactSectionLabel) {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* TOAST */
+
+.Toastify__toast {
+  border: 1px solid #404040;
+  border-radius: 0 !important;
+  background: #050505 !important;
+  color: #fff !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991.98px) {
+  .contactPageContainer {
+    padding-top: 2rem;
+  }
+
+  .contactHero {
+    padding: 2rem 0 3.5rem;
+  }
+
+  .contactSection {
+    padding: 3.5rem 0;
+  }
+}
+
 @media (max-width: 767.98px) {
-    label {
-        font-size: .8rem;
-    }
-    form {
-        width: 90%;
-    }
-    .form-control {
-        padding: 0.175rem 0.45rem !important;
-    }
-    .contactImg {
-        width: 70%;
-    }
-}
-/* over 992.99px */
-@media (min-width: 767.99px) {
-    form {
-        width: 50%;
-    }
+  .contactPageContainer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .contactHero h1 {
+    font-size: 2.8rem;
+  }
+
+  .contactLead {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .contactInfoCard,
+  .contactFormCard {
+    padding: 1.4rem;
+  }
+
+  .contactSubmitButton {
+    width: 100%;
+  }
 }

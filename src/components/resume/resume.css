@@ -1,22 +1,290 @@
-.cvPDFImg {
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2vh;
+.resumePage {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.resumeContainer {
+  max-width: 1280px !important;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+/* HERO */
+
+.resumeHero {
+  max-width: 980px;
+  padding: 2rem 0 4rem;
+}
+
+.resumeEyebrow,
+.resumeSectionLabel,
+.resumeCardLabel {
+  margin: 0;
+  color: #eab308;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.resumeHero h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(2.8rem, 5vw, 4.4rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.resumeLead {
+  max-width: 900px;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* CV LANGUAGE GROUPS */
+
+.resumeLanguageGroups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.resumeLanguageGroup {
+  min-width: 0;
+}
+
+.resumeLanguageLabel {
+  margin: 0 0 0.75rem;
+  color: #eab308;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* BUTTONS */
+
+.resumeActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.resumePrimaryButton,
+.resumeSecondaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.78rem !important;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.resumePrimaryButton {
+  border: 1px solid #eab308;
+  background: #eab308;
+  color: #000 !important;
+}
+
+.resumePrimaryButton:hover {
+  background: transparent;
+  color: #eab308 !important;
+}
+
+.resumeSecondaryButton {
+  border: 1px solid #404040;
+  background: transparent;
+  color: #fff !important;
+}
+
+.resumeSecondaryButton:hover {
+  border-color: #eab308;
+  color: #eab308 !important;
+}
+
+/* SECTIONS */
+
+.resumeSeparator {
+  border-top: 1px solid #262626;
+}
+
+.resumeSection {
+  padding: 4rem 0;
+}
+
+.resumeSectionHeader {
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+
+.resumeSectionHeader h2,
+.resumeClosing h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.resumeSectionHeader > p:not(.resumeSectionLabel),
+.resumeClosing > p:not(.resumeSectionLabel) {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.resumeClosing a {
+  color: #eab308 !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resumeClosing a:hover {
+  color: #fff !important;
+}
+
+/* PROFILE / FOCUS CARDS */
+
+.resumeFocusCard {
+  position: relative;
+  height: 100%;
+  min-height: 250px;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 1.6rem;
+}
+
+.resumeCardNumber {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #525252;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.resumeFocusCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.resumeFocusCard > p:last-child {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+/* CV DOCUMENT CARDS */
+
+.resumeDocumentCard {
+  display: flex;
+  height: 100%;
+  min-height: 260px;
+  flex-direction: column;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 1.6rem;
+}
+
+.resumeDocumentCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.resumeDocumentCard > p:not(.resumeCardLabel) {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.resumeDocumentCard .resumeActions {
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+
+/* CLOSING */
+
+.resumeClosing {
+  max-width: 900px;
+  padding: 4rem 0 1rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991.98px) {
+  .resumeContainer {
+    padding-top: 2rem;
+  }
+
+  .resumeHero {
+    padding: 2rem 0 3.5rem;
+  }
+
+  .resumeSection {
+    padding: 3.5rem 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .resumeContainer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .resumeHero h1 {
+    font-size: 2.8rem;
+  }
+
+  .resumeLead {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .resumeLanguageGroups {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .resumeActions {
+    flex-direction: column;
+  }
+
+  .resumePrimaryButton,
+  .resumeSecondaryButton {
     width: 100%;
-}
-.resume-btn {
-    text-decoration: none;
-    background-color: #222529;
-    color: #9b9b9b;
-    border: 3px solid #CAA532;
-    border-radius: 10px;
-    padding: 5px 10px;
-    margin: 3vh 0;
-}
-.resume-btn:hover,
-.a-resume:hover {
-    border-color:white;
-    color: #CAA532;
+  }
+
+  .resumeFocusCard,
+  .resumeDocumentCard {
+    min-height: auto;
+  }
 }

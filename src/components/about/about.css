@@ -1,152 +1,402 @@
-.marginTop {
-    margin-top: 60px;
-}
-.iconMarginTop{
-    margin-top: 2rem !important;
-    text-align: center;
-}
-.mySmallPadding {
-    padding: 1.2rem 0 0 1rem;
-}
-.h1About,
-.h1AboutMediaQuery {
-    font-size: 3.625rem;
-    /* text-align: end; */
-    font-family: 'Notable', sans-serif;
-    margin: 0 0 30px;
-    color: #9b9b9b;
-}
-.photo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.meImg {
-    width: 100%;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7rem;
-}
-.myIcons a{
-    text-align: center;
-    color: #9b9b9b;
-    font-size: 1.563rem;
-    margin: 0 20%;
-}
-.myIcons a:hover{
-    color: #caa532;
-}
-.textArea_noPadding {
-    padding: 0;
-    font-size: 1.375rem;
-    color: #c4c4c4;
-}
-.textArea{
-    padding: 0 0 0 80px;
-}
-.textArea p {
-    font-size: 1.375rem;
-    color: #c4c4c4;
-}
-.specialText {
-    font-family: 'Notable', sans-serif;
-    color: #caa532;
-    letter-spacing: 3px;
-}
-.aboutTextAnswer{
-    padding-left: 40px;
-    color: #caa532 !important;
-}
-cite {
-    color: #caa532;
-}
-/* Media Queries */  
-
-/* below 520px */
-@media (max-width: 520.98px) {
-    .meImg {
-        width: 40%;
-    }
-    .h1About {
-        display: none;
-    }
-    .h1AboutMediaQuery {
-        font-size: 1.2rem;
-        text-align: start;
-        margin: 5vh 0vw;
-    }
-    .textArea {
-        padding: 0;
-    }
-    p.aboutText {
-        font-size: 1rem;
-    }
-    .specialText {
-        font-size: .9rem;
-    }
-    p.aboutTextAnswer {
-        font-size: 1.1rem;
-    }
+.aboutPage {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (min-width: 520.99px) and (max-width: 767.98px) {
-    .meImg {
-        width: 40%;
-        max-width: 400px;
-    }
-    .h1About {
-        display: none;
-    }
-    .h1AboutMediaQuery {
-        font-size: 1.2rem;
-        text-align: start;
-        margin: 5vh 0vw;
-    }
-    .textArea{
-        padding: 0;
-    }
-    p.aboutText {
-        font-size: 1rem;
-        color: #c4c4c4;
-        padding-left: 5vw;
-    }
-    p.aboutTextAnswer {
-        margin: 0vh 5vw;
-        font-size: 1.1rem;
-    }
+.aboutContainer {
+  max-width: 1280px !important;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
-/* Medium devices (tablets, less than 992px) */
-@media (min-width: 767.99px) and (max-width: 991.98px) {
-    .meImg {
-        width: 30%;
-        max-width: 400px;
-    }
-    .h1About {
-        display: none;
-    }
-    .h1AboutMediaQuery {
-        font-size: 2rem;
-        text-align: start;
-        margin: 5vh 0vw;
-    }
-    .textArea{
-        padding: 0;
-    }
-    p.aboutText {
-        font-size: 1rem;
-        color: #c4c4c4;
-        padding-left: 5vw;
-    }
-    p.aboutTextAnswer {
-        margin: 0vh 5vw;
-        font-size: 1.1rem;
-    }
+
+/* INTRO */
+
+.aboutHero {
+  padding: 2rem 0 4.5rem;
 }
-/* over 992.99px */
-@media (min-width: 991.99px) {
-    .h1AboutMediaQuery {
-        display: none;
-    }
+
+.aboutPhotoFrame {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 2rem;
+}
+
+.aboutPhoto {
+  width: 100%;
+  max-height: 380px;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center top;
+  background: #050505;
+}
+
+.aboutPhotoMeta {
+  border-top: 1px solid #262626;
+  padding: 1rem 1.2rem;
+}
+
+.aboutPhotoLabel,
+.aboutEyebrow,
+.aboutSectionLabel,
+.aboutCardLabel,
+.aboutQuoteLabel {
+  margin: 0;
+  color: #eab308;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.aboutPhotoValue {
+  margin: 0.35rem 0 0;
+  color: #d4d4d4;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.aboutIntro h1 {
+  max-width: 900px;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(2.5rem, 4.5vw, 4.1rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.aboutLead {
+  max-width: 900px;
+  margin-top: 1.7rem;
+  margin-bottom: 0;
+  color: #e5e5e5;
+  font-size: 1.15rem;
+  line-height: 1.75;
+}
+
+.aboutText {
+  max-width: 900px;
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.aboutTechRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.75rem;
+}
+
+.aboutTechRow span {
+  border: 1px solid #404040;
+  background: #050505;
+  padding: 0.55rem 0.8rem;
+  color: #d4d4d4;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* SECTIONS */
+
+.aboutSeparator {
+  border-top: 1px solid #262626;
+}
+
+.aboutSection {
+  padding: 4rem 0;
+}
+
+.aboutSectionHeader {
+  max-width: 880px;
+  margin-bottom: 2rem;
+}
+
+.aboutSectionHeader h2,
+.aboutSplit h2,
+.aboutProject h2,
+.aboutContactSection h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.aboutSectionHeader > p:not(.aboutSectionLabel) {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* CARDS */
+
+.aboutCard {
+  position: relative;
+  height: 100%;
+  min-height: 280px;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 1.6rem;
+}
+
+.aboutCardNumber {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #525252;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.aboutCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.aboutCard > p:last-child {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+/* WORKING STYLE */
+
+.aboutSplit {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+  grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
+}
+
+.aboutQuote {
+  border-left: 2px solid #eab308;
+  padding: 0.3rem 0 0.3rem 1.5rem;
+}
+
+.aboutQuote blockquote {
+  margin: 1rem 0 0;
+  color: #fff;
+  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+/* PROJECT */
+
+.aboutProject {
+  display: grid;
+  gap: 3rem;
+  align-items: end;
+  grid-template-columns: minmax(0, 1.4fr) minmax(260px, 0.6fr);
+}
+
+.aboutProjectActions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* CONTACT */
+
+.aboutContactSection {
+  display: grid;
+  gap: 3rem;
+  align-items: end;
+  grid-template-columns: minmax(0, 1.4fr) minmax(260px, 0.6fr);
+}
+
+.aboutContactActions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* LINKS & BUTTONS */
+
+.aboutPrimaryButton {
+  display: inline-flex !important;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 48px;
+  border: 1px solid #eab308;
+  padding: 0.8rem 1rem !important;
+  background: #eab308;
+  color: #000 !important;
+  font-size: 0.9rem !important;
+  font-weight: 900;
+  text-decoration: none !important;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease;
+}
+
+.aboutPrimaryButton:hover {
+  border-color: #facc15;
+  background: #facc15;
+  color: #000 !important;
+}
+
+.aboutInlineLink {
+  display: inline-flex !important;
+  width: fit-content;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.2rem;
+  color: #eab308 !important;
+  font-size: 0.9rem !important;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.aboutInlineLink:hover {
+  color: #fff !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991.98px) {
+  .aboutContainer {
+    padding-top: 2rem;
+  }
+
+  .aboutHero {
+    padding: 2rem 0 3.5rem;
+  }
+
+  .aboutPhotoFrame {
+    max-width: 420px;
+  }
+
+  .aboutSection {
+    padding: 3.5rem 0;
+  }
+
+  .aboutSplit,
+  .aboutProject,
+  .aboutContactSection {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .aboutContainer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .aboutHero {
+    padding: 1.75rem 0 3rem;
+  }
+
+  .aboutPhotoFrame {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 2.5rem;
+  }
+
+  .aboutPhoto {
+    width: 100%;
+    max-height: 520px;
+    aspect-ratio: 4 / 5;
+    object-fit: contain;
+    object-position: center bottom;
+    background: #050505;
+  }
+
+  .aboutPhotoMeta {
+    padding: 0.9rem 1rem;
+  }
+
+  .aboutIntro h1 {
+    font-size: clamp(2.25rem, 10vw, 3rem);
+    line-height: 1;
+  }
+
+  .aboutLead {
+    margin-top: 1.4rem;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .aboutText {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .aboutTechRow {
+    gap: 0.5rem;
+    margin-top: 1.4rem;
+  }
+
+  .aboutTechRow span {
+    padding: 0.45rem 0.65rem;
+    font-size: 0.7rem;
+  }
+
+  .aboutSection {
+    padding: 3rem 0;
+  }
+
+  .aboutSectionHeader {
+    margin-bottom: 1.5rem;
+  }
+
+  .aboutSectionHeader h2,
+  .aboutSplit h2,
+  .aboutProject h2,
+  .aboutContactSection h2 {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+  }
+
+  .aboutCard {
+    min-height: auto;
+    padding: 1.4rem;
+  }
+
+  .aboutSplit,
+  .aboutProject,
+  .aboutContactSection {
+    gap: 2rem;
+  }
+
+  .aboutQuote {
+    padding-left: 1rem;
+  }
+
+  .aboutPrimaryButton {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutPhoto {
+    max-height: 440px;
+  }
+
+  .aboutIntro h1 {
+    font-size: 2.25rem;
+  }
+
+  .aboutLead {
+    font-size: 0.95rem;
+  }
 }

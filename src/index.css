@@ -1,32 +1,31 @@
 html {
   /*14 px = 0.875rem*/
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 html::-webkit-scrollbar {
   width: 2vh;
 }
 html::-webkit-scrollbar-thumb {
-  /*background-color: #caa532;*/
-  background-color: #595958;
+  background-color: #404040;
 }
 html::-webkit-scrollbar-track {
-  background-color: #9b9b9b;
+  background-color: #0a0a0a;
 }
 body {
   margin: 0;
-  padding: 0 5vw;
-  background-color: #222529 !important;
-  color: white !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  background-color: #000 !important;
+  color: #fff !important;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 a {
   font-weight: 900;
   font-size: 1.15rem;
-  color:#caa532 !important;
+  color: #caa532 !important;
   text-decoration: none;
   cursor: pointer;
 }
@@ -34,13 +33,13 @@ p {
   font-size: 1.375rem;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 .myH1 {
   font-size: 2.375rem;
   text-align: center;
-  font-family: 'Notable', sans-serif;
+  font-family: "Notable", sans-serif;
   color: #9b9b9b;
   margin: 1vh 0vw 2vh;
 }
@@ -48,13 +47,13 @@ code {
   text-transform: uppercase;
 }
 
-/* Media Queries */  
+/* Media Queries */
 
 /* below 520px */
 @media (max-width: 520.98px) {
   .desktop,
   .resume-btn {
-      display: none;
+    display: none;
   }
 }
 
@@ -62,17 +61,16 @@ code {
 @media (min-width: 520.99px) and (max-width: 767.98px) {
   .desktop,
   .resume-btn {
-      display: none;
+    display: none;
   }
-  
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) {
   .desktop {
-      display: none;
+    display: none;
   }
   .myH1 {
-    font-size:2rem;
+    font-size: 2rem;
     margin: 3vh 0vw 3vh;
   }
 }
@@ -82,4 +80,3 @@ code {
     display: none;
   }
 }
-

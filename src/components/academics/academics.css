@@ -1,0 +1,315 @@
+.academicsPage {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.academicsContainer {
+  max-width: 1280px !important;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+/* HERO */
+
+.academicsHero {
+  max-width: 1000px;
+  padding: 2rem 0 4rem;
+}
+
+.academicsEyebrow,
+.academicsSectionLabel,
+.academicsCardLabel {
+  margin: 0;
+  color: #eab308;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.academicsHero h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(2.8rem, 5vw, 4.4rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.academicsLead {
+  max-width: 920px;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* SECTIONS */
+
+.academicsSeparator {
+  border-top: 1px solid #262626;
+}
+
+.academicsSection {
+  padding: 4rem 0;
+}
+
+.academicsSectionHeader {
+  max-width: 920px;
+  margin-bottom: 2rem;
+}
+
+.academicsSectionHeader h2,
+.academicsClosing h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.academicsSectionHeader > p:not(.academicsSectionLabel),
+.academicsClosing > p:not(.academicsSectionLabel) {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* EDUCATION CARDS */
+
+.academicsCard {
+  display: flex;
+  height: 100%;
+  min-height: 430px;
+  flex-direction: column;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 1.6rem;
+}
+
+.academicsCardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.academicsCardTop h3 {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.academicsCardNumber {
+  flex-shrink: 0;
+  color: #525252;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.academicsDates {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+  color: #737373;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.academicsDateLine {
+  width: 28px;
+  height: 1px;
+  background: #404040;
+}
+
+.academicsDescription {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+/* TAGS */
+
+.academicsTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+
+.academicsTags span {
+  border: 1px solid #404040;
+  background: #000;
+  padding: 0.45rem 0.65rem;
+  color: #d4d4d4;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* FOCUS CARDS */
+
+.academicsFocusCard {
+  position: relative;
+  height: 100%;
+  min-height: 260px;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 1.6rem;
+}
+
+.academicsFocusCard > .academicsCardNumber {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.academicsFocusCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.academicsFocusCard > p:last-child {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+/* TIMELINE */
+
+.academicsTimeline {
+  max-width: 1000px;
+}
+
+.academicsTimelineItem {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 46px minmax(0, 1fr);
+}
+
+.academicsTimelineMarker {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #404040;
+  background: #000;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.academicsTimelineContent {
+  margin-bottom: 2rem;
+  border-left: 1px solid #262626;
+  padding: 0 0 2rem 1.5rem;
+}
+
+.academicsTimelineHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.academicsTimelineHeading h3 {
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.academicsTimelineDates {
+  flex-shrink: 0;
+  margin: 0;
+  color: #737373;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.academicsTimelineContent > p {
+  max-width: 820px;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+/* CLOSING */
+
+.academicsClosing {
+  max-width: 900px;
+  padding: 4rem 0 1rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991.98px) {
+  .academicsContainer {
+    padding-top: 2rem;
+  }
+
+  .academicsHero {
+    padding: 2rem 0 3.5rem;
+  }
+
+  .academicsSection {
+    padding: 3.5rem 0;
+  }
+
+  .academicsCard {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .academicsContainer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .academicsHero h1 {
+    font-size: 2.8rem;
+  }
+
+  .academicsLead {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .academicsTimelineHeading {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .academicsTimelineItem {
+    gap: 1rem;
+    grid-template-columns: 40px minmax(0, 1fr);
+  }
+
+  .academicsTimelineContent {
+    padding-left: 1rem;
+  }
+}

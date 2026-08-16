@@ -1,85 +1,230 @@
-import React, { useRef } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import emailjs from '@emailjs/browser';
-import { Container, Row, Col, Form } from "react-bootstrap";
-import jag from '../../images/jag.png';
-import './contact.css'
+// src/components/contact/contact.js
 
-let Contact = () => {
-    const form = useRef();
+import React, { useRef, useState } from "react";
+import { Col, Container, Form, Row } from "react-bootstrap";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
-  const sendEmail = (e) => {
+import "react-toastify/dist/ReactToastify.css";
+import "./contact.css";
+
+export default function Contact() {
+  const form = useRef();
+  const [isSending, setIsSending] = useState(false);
+
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-        'service_y5eq5oy', 
-        'template_omchafd', 
-        form.current, 
-        'pOyTf-kcfEiUc9xH6'
-    )
-      .then((result) => {
-          console.log(result.text);
-          console.log("message sent");
-      }, (error) => {
-          console.log(error.text);
+    if (isSending) {
+      return;
+    }
+
+    setIsSending(true);
+
+    try {
+      await emailjs.sendForm(
+        "service_y5eq5oy",
+        "template_omchafd",
+        form.current,
+        "pOyTf-kcfEiUc9xH6",
+      );
+
+      toast.success(
+        "Thank you for contacting me. I will get back to you as soon as possible.",
+        {
+          position: "bottom-center",
+          autoClose: 3000,
+          theme: "dark",
+        },
+      );
+
+      form.current.reset();
+    } catch (error) {
+      console.error("EmailJS error:", error);
+      console.error("EmailJS status:", error?.status);
+      console.error("EmailJS text:", error?.text);
+
+      toast.error(`EmailJS error: ${error?.text || "Unknown error"}`, {
+        position: "bottom-center",
+        autoClose: 4000,
+        theme: "dark",
       });
+    } finally {
+      setIsSending(false);
+    }
   };
 
-  const notify =() => {
-    toast.success('Tank you for contacting me, I will get back to you ASAP!', {
-        position: "bottom-center",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        });
-  }
+  return (
+    <main className="contactPage">
+      <Container className="contactPageContainer">
+        {/* HERO */}
+        <section className="contactHero">
+          <p className="contactEyebrow">CONTACT</p>
 
-    return (
-    <>
-        <Container className="contactContainer">
-            <Row>
-                <div>
-                    <Col className='container' xxl={6} xl={6} lg={6} md={6} sm={6} xs={12}>
-                        <div className='d-flex justify-content-center'>
-                            <img className="contactImg" src={jag} alt="Stefan Brunotte"/>
-                        </div>
-                    </Col>
+          <h1>Let&apos;s connect</h1>
+
+          <p className="contactLead">
+            I&apos;m open to conversations about Application Support, Technical
+            Support, System Support and Application Specialist opportunities,
+            particularly roles where troubleshooting, system understanding and
+            collaboration are important.
+          </p>
+        </section>
+
+        <div className="contactSeparator" />
+
+        {/* CONTACT AREA */}
+        <section className="contactSection">
+          <Row className="g-4">
+            {/* LEFT */}
+            <Col lg={5}>
+              <div className="contactInfoCard">
+                <p className="contactSectionLabel">GET IN TOUCH</p>
+
+                <h2>Have a role or project in mind?</h2>
+
+                <p className="contactInfoText">
+                  The easiest way to reach me is through the form, LinkedIn or
+                  email. I&apos;m based in Stockholm, Sweden.
+                </p>
+
+                <div className="contactLinks">
+                  <a
+                    href="mailto:stefanbrunotte@gmail.com"
+                    className="contactLink"
+                  >
+                    <FaEnvelope />
+                    <span>
+                      <strong>Email</strong>
+                      <small>stefanbrunotte@gmail.com</small>
+                    </span>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/stefanbrunotte/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="contactLink"
+                  >
+                    <FaLinkedin />
+                    <span>
+                      <strong>LinkedIn</strong>
+                      <small>Stefan Brunotte</small>
+                    </span>
+                  </a>
+
+                  <a
+                    href="https://github.com/MrBrunotte"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="contactLink"
+                  >
+                    <FaGithub />
+                    <span>
+                      <strong>GitHub</strong>
+                      <small>MrBrunotte</small>
+                    </span>
+                  </a>
                 </div>
-            </Row>
-            <Row>
-                <Col className='container' xs={12}>
-                    <h1 className='myH1'>contact me</h1>
-                    <Form className='mx-auto' ref={form} onSubmit={sendEmail}>
-                        <Form.Label> Your Name</Form.Label>
-                            <Form.Control type="text" name="user_name" />
-                        <Form.Label>Your Email</Form.Label>
-                            <Form.Control type="email" name="user_email" />
-                        <Form.Label>Your message</Form.Label>
-                        <Form.Text name="message" />
-                            <Form.Control name="message" as="textarea" rows={5} />
-                            <Form.Control onClick={notify} type="submit" value="Click here to send your message" />
-                    </Form>
-                </Col>
-            </Row>
-            <ToastContainer
-            position="bottom-center"
-            autoClose={3000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-            theme="dark"/>
-        </Container>
-    </>
-    )
-};
 
-export default Contact;
+                <div className="contactAvailability">
+                  <p className="contactMiniLabel">CURRENT FOCUS</p>
+
+                  <p>
+                    Application Support · Technical Support · System Support ·
+                    Application Specialist
+                  </p>
+                </div>
+              </div>
+            </Col>
+
+            {/* RIGHT */}
+            <Col lg={7}>
+              <div className="contactFormCard">
+                <p className="contactSectionLabel">SEND A MESSAGE</p>
+
+                <h2>Contact me directly</h2>
+
+                <Form ref={form} onSubmit={sendEmail} className="contactForm">
+                  <div className="contactField">
+                    <Form.Label htmlFor="contact-name">Your name</Form.Label>
+
+                    <Form.Control
+                      id="contact-name"
+                      type="text"
+                      name="user_name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+
+                  <div className="contactField">
+                    <Form.Label htmlFor="contact-email">Your email</Form.Label>
+
+                    <Form.Control
+                      id="contact-email"
+                      type="email"
+                      name="user_email"
+                      placeholder="name@example.com"
+                      required
+                    />
+                  </div>
+
+                  <div className="contactField">
+                    <Form.Label htmlFor="contact-message">
+                      Your message
+                    </Form.Label>
+
+                    <Form.Control
+                      id="contact-message"
+                      name="message"
+                      as="textarea"
+                      rows={7}
+                      placeholder="Write your message here..."
+                      required
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    className="contactSubmitButton"
+                    disabled={isSending}
+                  >
+                    {isSending ? "Sending..." : "Send message"}
+                  </button>
+                </Form>
+              </div>
+            </Col>
+          </Row>
+        </section>
+
+        <div className="contactSeparator" />
+
+        {/* CLOSING */}
+        <section className="contactClosing">
+          <p className="contactSectionLabel">PROFESSIONAL PROFILE</p>
+
+          <h2>Technical support with broader system understanding</h2>
+
+          <p>
+            My background combines hands-on IT support, application
+            troubleshooting, Microsoft technologies, development knowledge and
+            customer-facing experience.
+          </p>
+        </section>
+      </Container>
+
+      <ToastContainer
+        position="bottom-center"
+        autoClose={3000}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
+    </main>
+  );
+}

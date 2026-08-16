@@ -1,108 +1,434 @@
-a.homeLink {
-    font-family: 'Notable', sans-serif;
+.portfolioHome {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.portfolioContainer {
+  max-width: 1280px !important;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+/* HERO */
+
+.portfolioHero {
+  max-width: 1120px;
+  padding: 1.5rem 0 4rem;
+}
+
+.portfolioEyebrow,
+.portfolioSectionLabel,
+.portfolioCardLabel {
+  margin: 0;
+  color: #eab308;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.portfolioHeroTitle {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 900;
+  letter-spacing: -0.045em;
+  line-height: 0.95;
+}
+
+.portfolioHeroSubtitle {
+  max-width: 1040px;
+  margin-top: 1.75rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: clamp(1.5rem, 3vw, 2.7rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.portfolioHeroText {
+  max-width: 950px;
+  margin-top: 1.75rem;
+  margin-bottom: 0;
+  color: #b3b3b3;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.portfolioTechRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.75rem;
+}
+
+.portfolioTechRow span {
+  border: 1px solid #404040;
+  background: #050505;
+  padding: 0.55rem 0.8rem;
+  color: #d4d4d4;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.portfolioTechRowCompact {
+  margin-top: 1.4rem;
+}
+
+.portfolioHeroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.portfolioPrimaryButton,
+.portfolioSecondaryButton {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 48px;
+  padding: 0.8rem 1rem !important;
+  font-size: 0.9rem !important;
+  font-weight: 800;
+  text-decoration: none !important;
+  transition:
+    background 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease;
+}
+
+.portfolioPrimaryButton {
+  border: 1px solid #eab308;
+  background: #eab308;
+  color: #000 !important;
+}
+
+.portfolioPrimaryButton:hover {
+  border-color: #facc15;
+  background: #facc15;
+  color: #000 !important;
+}
+
+.portfolioSecondaryButton {
+  border: 1px solid #525252;
+  background: #050505;
+  color: #fff !important;
+}
+
+.portfolioSecondaryButton:hover {
+  border-color: #eab308;
+  color: #eab308 !important;
+}
+
+/* SECTIONS */
+
+.portfolioSeparator {
+  border-top: 1px solid #262626;
+}
+
+.portfolioSection {
+  padding: 4rem 0;
+}
+
+.portfolioSectionHeader {
+  max-width: 860px;
+  margin-bottom: 2rem;
+}
+
+.portfolioSectionHeader h2,
+.portfolioBottomCard h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.portfolioSectionHeader > p:not(.portfolioSectionLabel),
+.portfolioBottomCard > p:not(.portfolioSectionLabel) {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #b3b3b3;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.portfolioSectionHeaderRow {
+  display: flex;
+  max-width: none;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.portfolioAllProjectsLink {
+  flex-shrink: 0;
+}
+
+/* INFO CARDS */
+
+.portfolioInfoCard {
+  position: relative;
+  height: 100%;
+  min-height: 270px;
+  border: 1px solid rgba(234, 179, 8, 0.32);
+  background: #050505;
+  padding: 1.6rem;
+}
+
+.portfolioCardNumber {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #525252;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.portfolioInfoCard h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.portfolioInfoCard > p:last-child {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  line-height: 1.7;
+}
+
+/* FEATURED PROJECT */
+
+.portfolioFeaturedProject {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid rgba(234, 179, 8, 0.38);
+  background: #050505;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
+}
+
+.portfolioFeaturedImage {
+  min-height: 440px;
+  overflow: hidden;
+  border-right: 1px solid #262626;
+  background: #000;
+}
+
+.portfolioFeaturedImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+}
+
+.portfolioFeaturedContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.portfolioFeaturedContent h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.portfolioFeaturedContent > p:not(.portfolioCardLabel) {
+  margin-top: 1.2rem;
+  margin-bottom: 0;
+  color: #a3a3a3;
+  line-height: 1.75;
+}
+
+/* LINKS */
+
+.portfolioInlineLink {
+  display: inline-flex !important;
+  width: fit-content;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.6rem;
+  color: #eab308 !important;
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.portfolioInlineLink:hover {
+  color: #fff !important;
+}
+
+/* PROJECT CARDS */
+
+.portfolioProjectCard {
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(234, 179, 8, 0.3) !important;
+  border-radius: 0 !important;
+  background: #050505 !important;
+  color: #fff !important;
+}
+
+.portfolioProjectImage {
+  height: 220px;
+  border-bottom: 1px solid #262626;
+  border-radius: 0 !important;
+  object-fit: cover;
+}
+
+.portfolioProjectBody {
+  display: flex;
+  min-height: 260px;
+  flex-direction: column;
+  padding: 1.4rem !important;
+}
+
+.portfolioProjectTitle {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0 !important;
+  color: #fff !important;
+  font-size: 1.25rem !important;
+  font-weight: 900 !important;
+}
+
+.portfolioProjectDescription {
+  margin-top: 0.9rem !important;
+  margin-bottom: 0 !important;
+  color: #a3a3a3 !important;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.portfolioProjectLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+
+.portfolioProjectLinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #eab308;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.portfolioProjectLinks a:hover {
+  color: #fff;
+}
+
+/* BOTTOM */
+
+.portfolioBottomGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.portfolioBottomCard {
+  min-height: 290px;
+  border: 1px solid rgba(234, 179, 8, 0.3);
+  background: #050505;
+  padding: 2rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991.98px) {
+  .portfolioContainer {
+    padding-top: 2rem;
+  }
+
+  .portfolioHero {
+    padding: 2rem 0 3rem;
+  }
+
+  .portfolioSection {
+    padding: 3.5rem 0;
+  }
+
+  .portfolioFeaturedProject {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolioFeaturedImage {
+    min-height: 360px;
+    border-right: 0;
+    border-bottom: 1px solid #262626;
+  }
+
+  .portfolioSectionHeaderRow {
+    display: block;
+  }
+
+  .portfolioAllProjectsLink {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .portfolioContainer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .portfolioHeroTitle {
     font-size: 3rem;
-}
-a.projectsLink {
-    font-family: 'Notable', sans-serif;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-}
-.openToWork {
-    text-align: center !important;
-    padding: 4rem;
-    
-}
-.myGray {
-    color: #9b9b9b !important;
-    font-size: 2.375rem !important;
-    /* padding-left: 5% !important; */
-}
-.myGray:hover {
-    color: #caa532 !important;
-}
-.h1Header,
-.h2Header {
-    font-family: 'Notable', sans-serif;
-    font-size: 2.375rem;
-    color: #9b9b9b;
-    /* padding-left: 5%; */
-}
-.h1Header {
-    margin: 3vh 0 1vh;
-}
-.h2Header {
-    margin: 3vh 0 1vh;
-}
-.homeText {
-    text-align: justify;
-    color: #9b9b9b;
-}
-.myIcons {
-    color: #caa532;
-}
-.myIcons:hover,
-.homeLink:hover,
-.projectsLink:hover {
-    color: white !important;
-}
-.greeting {
-    color: #caa532 !important;
-    font-weight: 700 !important;
-    font-size: 1.25rem !important;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-.myTitle {
-    font-size: 2rem;
-    font-family: 'Notable', sans-serif;
-    letter-spacing: 2px;
-}
+  }
 
-.cardCenterPadding {
-    margin-right: 20px;
-}
-.email {
-    margin-left: 10px;
-}
-/* Media Queries */  
+  .portfolioHeroSubtitle {
+    font-size: 1.6rem;
+  }
 
-/* below 520px */
-@media (max-width: 520.98px) {
-    a.homeLink {
-        font-size: 1.2rem;
-    }
-    .h1Header,
-    .h2Header {
-        font-size: .9rem;
-    }
-    .homeText {
-        font-size: 1rem;
-    }
-}
-/* below 575.98px */
-@media (min-width: 520.99px) and (max-width: 767.98px) {
-    .h1Header,
-    .h2Header {
-        font-size: 1.3rem;
-    }
-    a.homeLink {
-        font-size: 1.4rem;
-    }
-    p {
-        font-size: 1rem;
-    }
-}
+  .portfolioHeroText,
+  .portfolioSectionHeader > p:not(.portfolioSectionLabel) {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
 
-/* Medium devices (tablets, less than 992px) */
-@media (min-width: 767.99px) and (max-width: 991.98px) {
-    .h1Header,
-    .h2Header {
-        font-size: 1.4rem;
-    }
-    a.homeLink {
-        font-size: 1.5rem;
-    }
-    p {
-        font-size: 1.1rem;
-    }
+  .portfolioHeroActions {
+    flex-direction: column;
+  }
+
+  .portfolioPrimaryButton,
+  .portfolioSecondaryButton {
+    width: 100%;
+  }
+
+  .portfolioFeaturedImage {
+    min-height: 240px;
+  }
+
+  .portfolioFeaturedContent {
+    padding: 1.4rem;
+  }
+
+  .portfolioProjectImage {
+    height: 200px;
+  }
+
+  .portfolioBottomGrid {
+    grid-template-columns: 1fr;
+  }
 }

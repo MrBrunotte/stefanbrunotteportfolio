@@ -1,101 +1,119 @@
 [
-    {
-        "id": 11,
-        "school": "Lexicon",
-        "course": "IT-Technician Microsoft 365",
-        "description": "Lexicon's module-based education for IT technicians spans 80 days of full-time study and provides a broad competency in core areas such as Microsoft 365, security administration, and Azure technologies as well as ITIL and relevant service, business and consulting skills.",
-        "tags": ["AZ-900 Azure Fundamentals, MS-900: 365 Fundamentals Cloud, SC-900 Fundamentals Security, MS-500: 365 Security Administrator, MD-102: Endpoint Administrator, MS-700 Teams Administrator, Cisco Networking Basics, Virtualization & Hyper-V, AZ-800 Server 2022, Information Security, PowerShell."],
-        "startDate": "2024-02-05",
-        "endDate": "2024-05-30"
-    },
-     {
-        "id": 10,
-        "school": "ITIL 4 Foundation",
-        "course": "ITIL 4 Foundation - Certificate in IT Service Management" ,
-        "description": "The ITIL 4 module has introduced me to key concepts, and provided me with a solid foundation for understanding IT service management and its core elements.",
-        "tags": ["Service management concepts, Service value system, Four dimensions of service management, Guiding principles, Service Value Chain, ITIL practices, Continuous improvement, Service Level Agreements, Key metrics and performance indicators"],
-        "startDate": "2024-04-03",
-        "endDate": "2024-04-17"
-    },
-    {
-        "id": 9,
-        "school": "Microsoft 365 - SC-900",
-        "course": "SC-900: Security, Compliance, and Identity Fundamentals" ,
-        "description": "Earners of the Security, Compliance, and Identity Fundamentals demonstrate a functional understanding of security, compliance, and identity (SCI) across cloud-based and related Microsoft services.",
-        "tags": ["Azure, Azure Active Directory, Cloud Security, Compliance, Compliance Management, Identity And Access Management, Information Protection And Governance, Microsoft 365, Microsoft Threat Protection, Security Management"],
-        "startDate": "2024-03-19",
-        "endDate": "2024-04-02"
-    },
-    {
-        "id": 8,
-        "school": "Microsoft 365 - MS 900",
-        "course": "Microsoft 365 Certified: Fundamentals" ,
-        "description": "Earning the Microsoft 365 Fundamentals certification demonstrates an understanding of the options available in Microsoft 365 and the benefits of adopting cloud services, the Software as a Service (SaaS) cloud model, and implementing Microsoft 365 cloud service.",
-        "tags": ["Cloud Services, Compliance, Microsoft 365, Microsoft Cloud Services, Office 365, Security, Teamwork, Windows 10"],
-        "startDate": "2024-03-04",
-        "endDate": "2024-03-18"
-    },
-    {
-        "id": 7,
-        "school": "Lexicon",
-        "course": "C# ASP.NET Core MVC",
-        "description": "Throughout the course I have gained a good understanding of the underlying pillars of OOP and C# as a language. The projects in the course have given me a good understanding of ASP .NET Core framework and Visual Studio. I am now able to build full stack web applications using C# and ASP .NET Core Framework including Entity framework and MySQL. When building the project we followed the SCRUM framework.",
-        "tags": ["C#, .NET, OOP, SCRUM, AZ-900, REST API, Generics, Linq, Testing, HTML5, CSS3, JavaScript, Git, GitHub, Visual Studio 2022, VSCode, Entity Framework, Code first, SQL, UI/UX, jQuery, Unit-testing, SCRUM, LMS-project (full-stack app)"],
-        "startDate": "2020-08-20",
-        "endDate": "2021-02-15"
-    },
-    {
-        "id": 6,
-        "school": "Microsoft Azure - AZ 900",
-        "course": "AZ-900: Microsoft Azure Fundamentals" ,
-        "description": "Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
-        "tags": ["Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization"],
-        "startDate": "2020-12-21",
-        "endDate": "2021-02-23"
-    },
-    {
-        "id": 5,
-        "school": "Code Institute, Dublin Ireland" ,
-        "course": "Full Stack Web Developer" ,
-        "description": "Throughout the course I learned to work remotely and independently. The course covered all three aspect of a Full Stack Web Developer. Three projects were deployed during the course and they are available at my homepage.",
-        "tags": ["HTML5, CSS3, JavaScript, Python, Visual Studio 2022, VSCode, Git, GitHub, Django, Flask, MongoDB Atlas, SQLite, Code first, Heroku, Adobe Xd, UI/UX, jQuery, CI/CD"],
-        "startDate": "2019-02-19",
-        "endDate": "2020-06-30"
-    },
-    {
-        "id": 4,
-        "school": "Komvux",
-        "course": "Programming 1 Basic C#",
-        "description": "Fundamental understanding of the C# language and VSCode",
-        "tags": ["C#, VSCode"],
-        "startDate": "2018-08-01",
-        "endDate": "2018-09-28"
-    },
-    {
-        "id": 3,
-        "school": "Stockholm School of Economics, SU",
-        "course": "Master in Banking & Finance",
-        "description": "Both theoretical and practical of finance in a global context, the program also gave me a solid foundation to stand on in my private day trading career. This will also benefit me as a developer since I have a good knowledge of this industry.",
-        "tags": ["Portfolio Theory, Derivatives, Econometrics, Fixed Income Securities, Micro Economics, Macro Economics, Corporate Finance, Financial Market Structure, Advanced Financial Theory, Advanced Financial Empiric research, Master Thesis"],
-        "startDate": "2009-08-17",
-        "endDate": "2011-06-19"
-    },
-    {
-        "id": 2,
-        "school": "Stockholm School of Economics, SU",
-        "course": "Bachelor of Science, Business Administration",
-        "description": "Fundamental understanding of the field of Economics including a Bachelor thesis, and other related courses",
-        "tags": ["Political economy, Bachelor thesis"],
-        "startDate": "2008-01-14",
-        "endDate": "2009-06-12"
-    },
-    {
-        "id": 1,
-        "school": "Gävle Högskola",
-        "course": "Estate Agent Program (Fastighetsmäklare programmet)",
-        "description": "Fundamental understanding of the Swedish Real Estate market, Sales, and Swedish Taxation law",
-        "tags": ["Beskattningsrätt, Juridik, Redovisning, Fastighetsmäkleri, Byggnadsteknik, Fastighetsvärdering, Fastighetsrätt, Marknadsföring"],
-        "startDate": "2003-03-03",
-        "endDate": "2005-03-25"
-    }
+  {
+    "id": 11,
+    "school": "Lexicon",
+    "course": "IT-Technician Microsoft 365",
+    "description": "Lexicon's module-based education for IT technicians spans 80 days of full-time study and provides a broad competency in core areas such as Microsoft 365, security administration, and Azure technologies as well as ITIL and relevant service, business and consulting skills.",
+    "tags": [
+      "AZ-900 Azure Fundamentals, MS-900: 365 Fundamentals Cloud, SC-900 Fundamentals Security, MS-500: 365 Security Administrator, MD-102: Endpoint Administrator, MS-700 Teams Administrator, Cisco Networking Basics, Virtualization & Hyper-V, AZ-800 Server 2022, Information Security, PowerShell."
+    ],
+    "startDate": "2024-02-05",
+    "endDate": "2024-05-30"
+  },
+  {
+    "id": 10,
+    "school": "ITIL 4 Foundation",
+    "course": "ITIL 4 Foundation - Certificate in IT Service Management",
+    "description": "The ITIL 4 module has introduced me to key concepts, and provided me with a solid foundation for understanding IT service management and its core elements.",
+    "tags": [
+      "Service management concepts, Service value system, Four dimensions of service management, Guiding principles, Service Value Chain, ITIL practices, Continuous improvement, Service Level Agreements, Key metrics and performance indicators"
+    ],
+    "startDate": "2024-04-03",
+    "endDate": "2024-04-17"
+  },
+  {
+    "id": 9,
+    "school": "Microsoft 365 - SC-900",
+    "course": "SC-900: Security, Compliance, and Identity Fundamentals",
+    "description": "Earners of the Security, Compliance, and Identity Fundamentals demonstrate a functional understanding of security, compliance, and identity (SCI) across cloud-based and related Microsoft services.",
+    "tags": [
+      "Azure, Azure Active Directory, Cloud Security, Compliance, Compliance Management, Identity And Access Management, Information Protection And Governance, Microsoft 365, Microsoft Threat Protection, Security Management"
+    ],
+    "startDate": "2024-03-19",
+    "endDate": "2024-04-02"
+  },
+  {
+    "id": 8,
+    "school": "Microsoft 365 - MS-900",
+    "course": "Microsoft 365 Certified: Fundamentals",
+    "description": "Earning the Microsoft 365 Fundamentals certification demonstrates an understanding of the options available in Microsoft 365 and the benefits of adopting cloud services, the Software as a Service (SaaS) cloud model, and implementing Microsoft 365 cloud service.",
+    "tags": [
+      "Cloud Services, Compliance, Microsoft 365, Microsoft Cloud Services, Office 365, Security, Teamwork, Windows 10"
+    ],
+    "startDate": "2024-03-04",
+    "endDate": "2024-03-18"
+  },
+  {
+    "id": 7,
+    "school": "Lexicon",
+    "course": "C# ASP.NET Core MVC",
+    "description": "Throughout the course I have gained a good understanding of the underlying pillars of OOP and C# as a language. The projects in the course have given me a good understanding of ASP .NET Core framework and Visual Studio. I am now able to build full stack web applications using C# and ASP .NET Core Framework including Entity framework and MySQL. When building the project we followed the SCRUM framework.",
+    "tags": [
+      "C#, .NET, OOP, SCRUM, AZ-900, REST API, Generics, Linq, Testing, HTML5, CSS3, JavaScript, Git, GitHub, Visual Studio 2022, VSCode, Entity Framework, Code first, SQL, UI/UX, jQuery, Unit-testing, SCRUM, LMS-project (full-stack app)"
+    ],
+    "startDate": "2020-08-20",
+    "endDate": "2021-02-15"
+  },
+  {
+    "id": 6,
+    "school": "Microsoft Azure - AZ-900",
+    "course": "AZ-900: Microsoft Azure Fundamentals",
+    "description": "Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
+    "tags": [
+      "Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization"
+    ],
+    "startDate": "2020-12-21",
+    "endDate": "2021-02-23"
+  },
+  {
+    "id": 5,
+    "school": "Code Institute (Online, Dublin, Ireland)",
+    "course": "Full Stack Web Developer",
+    "description": "Online full-stack web development program completed remotely through Code Institute in Dublin, Ireland. The course covered frontend and backend development, databases, deployment and independent project work. Three projects were developed and deployed during the program.",
+    "tags": [
+      "HTML5, CSS3, JavaScript, Python, Visual Studio 2022, VSCode, Git, GitHub, Django, Flask, MongoDB Atlas, SQLite, Code first, Heroku, Adobe Xd, UI/UX, jQuery, CI/CD"
+    ],
+    "startDate": "2019-02-19",
+    "endDate": "2020-06-30"
+  },
+  {
+    "id": 4,
+    "school": "Komvux",
+    "course": "Programming 1 Basic C#",
+    "description": "Fundamental understanding of the C# language and VSCode",
+    "tags": ["C#, VSCode"],
+    "startDate": "2018-08-01",
+    "endDate": "2018-09-28"
+  },
+  {
+    "id": 3,
+    "school": "Stockholm School of Economics, (SU)",
+    "course": "Master in Banking & Finance",
+    "description": "Both theoretical and practical of finance in a global context, the program also gave me a solid foundation to stand on in my private day trading career. This will also benefit me as a developer since I have a good knowledge of this industry.",
+    "tags": [
+      "Portfolio Theory, Derivatives, Econometrics, Fixed Income Securities, Micro Economics, Macro Economics, Corporate Finance, Financial Market Structure, Advanced Financial Theory, Advanced Financial Empiric research, Master Thesis"
+    ],
+    "startDate": "2009-08-17",
+    "endDate": "2011-06-19"
+  },
+  {
+    "id": 2,
+    "school": "Stockholm School of Economics, (SU)",
+    "course": "Bachelor of Science, Business Administration",
+    "description": "Fundamental understanding of the field of Economics including a Bachelor thesis, and other related courses",
+    "tags": ["Political economy, Bachelor thesis"],
+    "startDate": "2008-01-14",
+    "endDate": "2009-06-12"
+  },
+  {
+    "id": 1,
+    "school": "Gävle Högskola",
+    "course": "Estate Agent Program (Fastighetsmäklare programmet)",
+    "description": "Fundamental understanding of the Swedish Real Estate market, Sales, and Swedish Taxation law",
+    "tags": [
+      "Beskattningsrätt, Juridik, Redovisning, Fastighetsmäkleri, Byggnadsteknik, Fastighetsvärdering, Fastighetsrätt, Marknadsföring"
+    ],
+    "startDate": "2003-03-03",
+    "endDate": "2005-03-25"
+  }
 ]

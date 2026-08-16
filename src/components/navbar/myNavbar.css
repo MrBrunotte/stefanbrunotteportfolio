@@ -1,61 +1,249 @@
-.nav-background {
-    background-color: #222529;
-}
-.navbar>.container-fluid {
-    justify-content: end !important;
-}
-.navbar-nav {
-    text-align: end;
-}
-.nav-style {
-    padding: 4vh 0 2vh;
-}
-.my-nav-link {
-    color: #9b9b9b !important;
-    margin-right: 1.5vw;
-    font-family: 'Notable', sans-serif;
-    letter-spacing: 3px;
-    font-size: 1rem !important;
-}
-.my-nav-link:hover {
-    color: #CAA532 !important;
-}
-.my-border {
-    border-style: solid;
-    border-color: #CAA532;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-.my-resume {
-    text-decoration: none;
-    background-color: #222529;
-    color: #9b9b9b;
-    border: 3px solid #CAA532;
-    border-radius: 10px;
-}
-.my-resume:hover {
-    border-color:white; 
-}
-.a-resume {
-    text-decoration: none;
-    background-color: #222529;
-    color: #9b9b9b;
-    font-family: 'Notable', sans-serif;
-    letter-spacing: 3px;
-    font-size: 0.75rem;
-}
-.a-resume:hover {
-    color: #9b9b9b;
+.portfolioNavbar {
+  z-index: 1000;
+  border-bottom: 1px solid #1f1f1f;
+  background: rgba(0, 0, 0, 0.96) !important;
+  backdrop-filter: blur(12px);
 }
 
-@media (max-width: 767.98px) {
-    .my-resume {
-        border: none;
-    }
+.portfolioNavbarContainer {
+  max-width: 1400px !important;
+  min-height: 76px;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
 }
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 1025px) {
-   .my-nav-link {
-    font-size: .8rem !important;
-   }
+
+.portfolioBrand {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.8rem;
+  margin-right: 2rem !important;
+  padding: 0 !important;
+  text-decoration: none !important;
+}
+
+.portfolioBrandMark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border: 1px solid #eab308;
+  background: transparent;
+  color: #eab308;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.portfolioBrandText {
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.portfolioBrandText span {
+  color: #d4d4d4;
+}
+
+.portfolioNav {
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.portfolioNavLink {
+  position: relative;
+  padding: 0.8rem 0.75rem !important;
+  color: #b3b3b3 !important;
+  font-family: inherit !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transition:
+    color 160ms ease,
+    background 160ms ease;
+}
+
+.portfolioNavLink:hover {
+  color: #fff !important;
+}
+
+.portfolioNavLink.active {
+  color: #fff !important;
+}
+
+.portfolioNavLink.active::after {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.35rem;
+  left: 0.75rem;
+  height: 2px;
+  background: #eab308;
+  content: "";
+}
+
+.portfolioResumeLink {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  margin-left: 0.7rem;
+  border: 1px solid #eab308;
+  border-radius: 0 !important;
+  padding: 0.55rem 0.85rem !important;
+  background: transparent !important;
+  color: #eab308 !important;
+  font-family: inherit !important;
+  font-size: 0.72rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  transition:
+    background 160ms ease,
+    color 160ms ease;
+}
+
+.portfolioResumeLink:hover {
+  background: #eab308 !important;
+  color: #000 !important;
+}
+
+/* MOBILE MENU BUTTON */
+
+.portfolioNavbarToggle {
+  display: inline-flex !important;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #404040 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.portfolioNavbarToggle:focus {
+  border-color: #404040 !important;
+  box-shadow: none !important;
+}
+
+.portfolioNavbarToggle:hover {
+  border-color: #eab308 !important;
+}
+
+.portfolioNavbarToggle .navbar-toggler-icon {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 14px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background-image: none !important;
+  filter: none;
+}
+
+.portfolioNavbarToggle .navbar-toggler-icon::before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 100%;
+  border-top: 2px solid #fff;
+  content: "";
+}
+
+.portfolioNavbarToggle:hover .navbar-toggler-icon,
+.portfolioNavbarToggle:hover .navbar-toggler-icon::before {
+  border-color: #eab308;
+}
+
+/* TABLET / SMALLER DESKTOP */
+
+@media (max-width: 1199.98px) {
+  .portfolioBrandText {
+    font-size: 0.75rem;
+  }
+
+  .portfolioNavLink {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    font-size: 0.65rem !important;
+  }
+
+  .portfolioResumeLink {
+    margin-left: 0.35rem;
+    font-size: 0.65rem !important;
+  }
+}
+
+/* COLLAPSED NAVIGATION */
+
+@media (max-width: 991.98px) {
+  .portfolioNavbarContainer {
+    min-height: 68px;
+  }
+
+  .portfolioBrand {
+    padding: 0.6rem 0 !important;
+  }
+
+  .portfolioNav {
+    align-items: stretch;
+    gap: 0;
+    border-top: 1px solid #262626;
+    padding: 1rem 0 1.5rem;
+  }
+
+  .portfolioNavLink {
+    padding: 0.85rem 0 !important;
+    text-align: left;
+  }
+
+  .portfolioNavLink.active::after {
+    right: auto;
+    bottom: 0.55rem;
+    left: 0;
+    width: 34px;
+  }
+
+  .portfolioResumeLink {
+    width: fit-content;
+    margin-top: 0.6rem;
+    margin-left: 0;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 575.98px) {
+  .portfolioNavbarContainer {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .portfolioBrandText {
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+  }
+
+  .portfolioBrandMark {
+    width: 30px;
+    height: 30px;
+    font-size: 0.64rem;
+  }
+
+  .portfolioNavbarToggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .portfolioNavbarToggle .navbar-toggler-icon {
+    width: 18px;
+  }
 }

@@ -1,93 +1,106 @@
 [
-    {
-        "id": 9,
-        "company": "KI-Help desk (Karolinska Institutet) - Ongoing",
-        "workDescription": "IT-Support",
-        "description": "Help desk provides technical support for joint university IT and telephony services. We answer users' questions, rectify faults and give advice about, for example, installations and licenses.",
-        "gainedExperience": "Problem solving, customer interaction, Microsoft 365, Azure.",
-        "tags": ["Dynamics 365. Microsoft 365, Azure, Telia ACE"],
-        "startDate": "2024-08-05",
-        "endDate": "Ongoing (part-time)"
-    },
-    {
-        "id": 8,
-        "company": "Part-time - Ongoing",
-        "workDescription": "Daytrader",
-        "description": "Trading futures on the the CBOT, CME and NYMEX markets by analyzing the price movement using PA (price action). I trade using the NinjaTrader 8 platform and I also create my own custom indicators and trading scripts.",
-        "gainedExperience": "I have developed my own trading plan based on traditional PA (price action), and I am currently working on the automation of the static parameters of my trading plan.",
-        "tags": ["Futures, Price Action, NT8 Platform, Ninja Script, C#, .NET"],
-        "startDate": "2005-04-15",
-        "endDate": "Ongoing (part-time)"
-    },
-    {
-        "id": 7,
-        "company": "Barnebys Group AB",
-        "workDescription": "Technical support",
-        "description": "Provided technical support to identify and resolve customer and system issues, including generating data reports and assisting the development and customer success teams with troubleshooting during live auctions. My role served as a connection between developers and support teams, handling lighter technical matters to alleviate the workload on developers.",
-        "gainedExperience": "Problem solving, customer interaction, Microsoft 365, Azure.",
-        "tags": ["Skeleton (platform), SQL, Scrum, Visual Studio 2022, VSCode, Postman, Windows PowerShell, Azure portal"],
-        "startDate": "2023-03-01",
-        "endDate": "2023-06-05"
-    },
-    {
-        "id": 6,
-        "company": "Gisys AB",
-        "workDescription": "System developer",
-        "description": "Worked on the development of an automated log analysis tool for record opening and co-development of web forms for patients and healthcare providers Developed mainly in frontend but to some extent also in backend, as well as with database management. The Agile work was performed in Azure DevOps Boards.",
-        "gainedExperience": "Working with different teams with Azure boards, front-end development in Angular, SQL, TypeScript, C#.",
-        "tags": ["C#, TypeScript, Angular, Azure Boards, SQL"],
-        "startDate": "2022-04-01",
-        "endDate": "2022-09-09"
-    },
-    {
-        "id": 5,
-        "company": "Prog-it AB",
-        "workDescription": "System developer",
-        "description": "Maintenance and development of existing and new customers' websites, support and troubleshooting. Development of websites from idea to launched site. Responsible for updating our Dedicated server, DNS, development and maintenance of Prog-it's website. Some backend development in WordPress.",
-        "gainedExperience": "Problem solving, Customer interaction and trouble shooting, Building WordPress websites, Server management.",
-        "tags": ["Wordpress, TypeScript, frontend, server, DNS, Customer relations"],
-        "startDate": "2021-04-01",
-        "endDate": "2022-04-01"
-    },
-    {
-        "id": 4,
-        "company": "Attendo IOF",
-        "workDescription": "Care taker",
-        "description": "Care taker/Treatment assistant at a HVB home for unaccompanied refugee youths. Planning and integration of the youths into Swedish society and mentoring guidance. Responsible for scheduling and other operational tasks, planning activities and excursions. We housed mainly young youths between the age of 14-20 years old, both boys and girls.",
-        "gainedExperience": "Working with people from different cultures and mentoring them into the Swedish society and school.",
-        "tags": ["Integration, Mentoring, Multi-culture, ADHD, Asperger"],
-        "startDate": "2015-04-01",
-        "endDate": "2018-11-01"
-    },
-    {
-        "id": 3,
-        "company": "Siw Kraft Fastighetsmäkleri AB",
-        "workDescription": "Real Estate Agent",
-        "description": "Sale of exclusive penthouses in the Stockholm city area. Cost calculations, planning and offering of raw attics before development into penthouses to associations and building companies. We often got the contract to sell the finished penthouses on the market, the price tags was up to 32 million sek and I worked in a two-man team from planning and measurement to final sale.",
-        "gainedExperience": "High-end sales, Customer relations, Teamwork, High-end penthouse valuations, Complete sales process including lead generation, lead qualification, needs analysis, property search and viewing, negotiation, and closing.",
-        "tags": ["High-end sales, Customer relations, Teamwork, High-end penthouse valuations"],
-        "startDate": "2014-05-01",
-        "endDate": "2014-11-25"
-    },
-    {
-        "id": 2,
-        "company": "Erik Olsson Fastighetsförmedling AB",
-        "workDescription": "Real Estate Agent",
-        "description": "Sale of houses and apartments in the Stockholm area. I was a starting member of Erik Olsson Fastighetsförmedlings housing team, we were a team of 4 real estate agents and 4 assistants. I sold the most expensive villa in Hässelby strand (at that time)",
-        "gainedExperience": "Customer contact, Seller and buyer negotiation, Complete sales process including lead generation, lead qualification, needs analysis, property search and viewing, negotiation, and closing.",
-        "tags": ["Sales, Customer contact, Mediation"],
-        "startDate": "2005-03-01",
-        "endDate": "2007-08-01"
-    },
-
-    {
-        "id": 1,
-        "company": "7/11 Franchisee",
-        "workDescription": "Store owner",
-        "description": "Owner of a 7/11 store. I had five employees and a store manager reporting to me. The 7/11 store was located in the center of Stockholm in a high-end quiet area.",
-        "gainedExperience": "All existing duties as shop owner - staff responsibility, staff-scheduling, product ordering and purchasing optimization and customer contact, book-keeping, Sales forecasts",
-        "tags": ["Sales, Staff, Scheduling, Customer contact, Ordering, Book-keeping"],
-        "startDate": "2000-01-01",
-        "endDate": "2003-08-31"
-    }
+  {
+    "id": 9,
+    "company": "Karolinska Institutet",
+    "workDescription": "IT Technician / Technical Support",
+    "description": "Provide technical IT support and administration in a large university environment. The work includes troubleshooting user and device issues, Microsoft 365 support, identity and access-related tasks, telephony support, permissions, shared resources and general application support. I also assist users with installations, licenses, authentication issues and day-to-day technical problems.",
+    "gainedExperience": "Hands-on technical support in Microsoft 365 environments, user and identity administration, troubleshooting, permissions, endpoint-related issues, customer communication and structured incident handling.",
+    "tags": [
+      "Microsoft 365, Entra ID, Active Directory, Intune, Outlook, OneDrive, MFA, LAPS, Dynamics 365, Telia ACE, Troubleshooting, User Support"
+    ],
+    "startDate": "2024-08-05",
+    "endDate": "Ongoing"
+  },
+  {
+    "id": 8,
+    "company": "Independent / Part-time",
+    "workDescription": "Futures Trader",
+    "description": "Trade futures markets as a long-term personal interest, focusing on market structure, execution, review and continuous improvement. Trading has also led to the development of my own desktop Trading Journal application for structured review, analytics and behavioral learning.",
+    "gainedExperience": "Structured review, data analysis, risk awareness, decision-making under uncertainty, workflow design and iterative improvement.",
+    "tags": [
+      "Futures, Trading Journal, Data Analysis, Review Workflows, Risk Management"
+    ],
+    "startDate": "2005-04-15",
+    "endDate": "Ongoing (part-time)"
+  },
+  {
+    "id": 7,
+    "company": "Barnebys Group AB",
+    "workDescription": "Technical Support Staff",
+    "description": "Provided technical support for customer and system issues in a live auction environment. I generated data reports, investigated technical problems and supported both the customer success and development teams during ongoing auctions. The role often involved acting as a technical link between first-line support and developers when issues required deeper system understanding or troubleshooting.",
+    "gainedExperience": "Technical troubleshooting, customer interaction, issue reproduction, system understanding, SQL-based data work and collaboration with development and customer-facing teams.",
+    "tags": [
+      "SQL, Technical Support, Troubleshooting, Postman, PowerShell, Azure Portal, Visual Studio, VS Code, Scrum"
+    ],
+    "startDate": "2023-03-01",
+    "endDate": "2023-06-05"
+  },
+  {
+    "id": 6,
+    "company": "Gisys AB",
+    "workDescription": "Junior System Developer",
+    "description": "Worked on the development of an automated log analysis tool and on web forms used by patients and healthcare providers. My work was mainly frontend-focused, with some backend and database-related tasks. Development was carried out in an agile environment using Azure DevOps Boards.",
+    "gainedExperience": "Frontend development, debugging, SQL, TypeScript, C#, Angular and collaboration in agile development teams using Azure DevOps.",
+    "tags": [
+      "Angular, TypeScript, C#, SQL, Azure DevOps, Frontend Development, Agile"
+    ],
+    "startDate": "2022-04-01",
+    "endDate": "2022-09-09"
+  },
+  {
+    "id": 5,
+    "company": "Prog-it AB",
+    "workDescription": "Web Developer / Technical Support",
+    "description": "Maintained and developed customer websites, provided technical support and troubleshooting, and built WordPress websites from initial idea through launch. I also worked with DNS, server maintenance and the development and maintenance of Prog-it's own website.",
+    "gainedExperience": "Technical troubleshooting, customer communication, WordPress development, DNS, server administration, frontend work and managing websites through their full lifecycle.",
+    "tags": [
+      "WordPress, Technical Support, Troubleshooting, DNS, Server Administration, Frontend, Customer Relations"
+    ],
+    "startDate": "2021-04-01",
+    "endDate": "2022-04-01"
+  },
+  {
+    "id": 4,
+    "company": "Attendo IOF",
+    "workDescription": "Treatment Assistant",
+    "description": "Worked at an HVB home for unaccompanied refugee youths, supporting integration into Swedish society and school. The role included mentoring, daily planning, scheduling, activities and practical guidance for young people from different cultural backgrounds.",
+    "gainedExperience": "Communication, mentoring, responsibility, conflict handling, planning and working with people from different cultural and personal backgrounds.",
+    "tags": [
+      "Mentoring, Communication, Planning, Responsibility, Multicultural Environment"
+    ],
+    "startDate": "2015-04-01",
+    "endDate": "2018-11-01"
+  },
+  {
+    "id": 3,
+    "company": "Siw Kraft Fastighetsmäkleri AB",
+    "workDescription": "Real Estate Agent",
+    "description": "Worked with the sale of high-end penthouses and undeveloped attic spaces in central Stockholm. The role included valuation, cost calculations, planning, customer contact, negotiations and sales from early-stage opportunity through completed transaction.",
+    "gainedExperience": "High-value sales, negotiation, customer relations, valuation, planning and ownership of complex sales processes.",
+    "tags": ["Sales, Negotiation, Customer Relations, Valuation, Planning"],
+    "startDate": "2014-05-01",
+    "endDate": "2014-11-25"
+  },
+  {
+    "id": 2,
+    "company": "Erik Olsson Fastighetsförmedling AB",
+    "workDescription": "Real Estate Agent",
+    "description": "Worked with the sale of houses and apartments in the Stockholm area as part of a dedicated housing team. The role covered the complete sales process including lead generation, needs analysis, property viewings, negotiation and closing.",
+    "gainedExperience": "Customer communication, sales, negotiation, needs analysis, relationship management and responsibility for end-to-end sales processes.",
+    "tags": ["Sales, Customer Relations, Negotiation, Communication"],
+    "startDate": "2005-03-01",
+    "endDate": "2007-08-01"
+  },
+  {
+    "id": 1,
+    "company": "7-Eleven Franchisee",
+    "workDescription": "Store Owner",
+    "description": "Owned and operated a 7-Eleven store in central Stockholm with five employees and a store manager. Responsibilities included staffing, scheduling, purchasing, stock control, customer service, bookkeeping and sales forecasting.",
+    "gainedExperience": "Leadership, staff responsibility, scheduling, business operations, purchasing, customer service and financial responsibility.",
+    "tags": [
+      "Leadership, Staff Management, Scheduling, Customer Service, Purchasing, Bookkeeping"
+    ],
+    "startDate": "2000-01-01",
+    "endDate": "2003-08-31"
+  }
 ]
