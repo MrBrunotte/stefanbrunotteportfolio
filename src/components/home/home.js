@@ -76,25 +76,39 @@ export default function Home() {
           <h1 className="portfolioHeroTitle">Stefan Brunotte</h1>
 
           <h2 className="portfolioHeroSubtitle">
-            Technical support with a stronger focus on systems, applications and
-            structured problem solving.
+            Looking for my next step in Application Support, Technical Support
+            or System Support.
           </h2>
 
           <p className="portfolioHeroText">
-            I work with technical IT support and troubleshooting across
-            Microsoft 365, identity, client management, permissions and
-            user-facing technical issues. My background also includes software
-            development and technical support roles where I have worked between
-            users, support teams and developers.
+            I currently work with technical IT support and troubleshooting
+            across Microsoft 365, identity, client management, permissions and
+            user-facing technical issues.
+          </p>
+
+          <p className="portfolioHeroText">
+            My background also includes software development and a technical
+            support role where I worked between first-line support and
+            developers, giving me experience from both the user-facing and
+            technical sides of IT.
+          </p>
+
+          <p className="portfolioHeroText">
+            I am now looking for a role where I can move closer to applications
+            and systems, take greater technical responsibility and work with
+            deeper troubleshooting, system administration and problem solving. I
+            am particularly interested in environments where support works
+            closely with development, product teams or other technical
+            specialists.
           </p>
 
           <div className="portfolioTechRow">
+            <span>Application Support</span>
             <span>Microsoft 365</span>
             <span>Entra ID</span>
-            <span>Intune</span>
-            <span>Active Directory</span>
-            <span>SQL</span>
             <span>Troubleshooting</span>
+            <span>System Support</span>
+            <span>SQL</span>
           </div>
 
           <div className="portfolioHeroActions">
@@ -124,14 +138,13 @@ export default function Home() {
         {/* CURRENT FOCUS */}
         <section className="portfolioSection">
           <div className="portfolioSectionHeader">
-            <p className="portfolioSectionLabel">CURRENT FOCUS</p>
+            <p className="portfolioSectionLabel">WHAT I BRING</p>
 
-            <h2>Support experience combined with system understanding</h2>
+            <h2>Support experience with a technical perspective</h2>
 
             <p>
-              I am particularly interested in roles where troubleshooting,
-              application knowledge and collaboration between users, support
-              teams and development teams meet.
+              My background combines user-facing support, system troubleshooting
+              and previous development experience.
             </p>
           </div>
 
@@ -140,10 +153,14 @@ export default function Home() {
               <article className="portfolioInfoCard">
                 <span className="portfolioCardNumber">01</span>
                 <p className="portfolioCardLabel">SUPPORT</p>
+
                 <h3>Technical troubleshooting</h3>
+
                 <p>
-                  User-facing technical support involving Microsoft 365,
-                  authentication, identity, client management and permissions.
+                  Hands-on support across Microsoft 365, identity,
+                  authentication, permissions and client environments, with a
+                  focus on understanding the cause of the problem rather than
+                  only resolving the immediate symptom.
                 </p>
               </article>
             </Col>
@@ -152,11 +169,13 @@ export default function Home() {
               <article className="portfolioInfoCard">
                 <span className="portfolioCardNumber">02</span>
                 <p className="portfolioCardLabel">SYSTEMS</p>
-                <h3>Application & system understanding</h3>
+
+                <h3>System understanding</h3>
+
                 <p>
-                  I enjoy understanding how systems behave, tracing problems
-                  across workflows and identifying where an issue actually
-                  originates.
+                  I like tracing issues across users, permissions, applications
+                  and workflows to understand where a problem originates and
+                  what needs to change.
                 </p>
               </article>
             </Col>
@@ -165,11 +184,14 @@ export default function Home() {
               <article className="portfolioInfoCard">
                 <span className="portfolioCardNumber">03</span>
                 <p className="portfolioCardLabel">DEVELOPMENT</p>
-                <h3>Technical projects</h3>
+
+                <h3>Development perspective</h3>
+
                 <p>
-                  My development background helps me communicate with
-                  developers, understand implementation constraints and test
-                  technical solutions more effectively.
+                  Previous development experience helps me communicate with
+                  developers, understand technical constraints, test solutions
+                  and bridge the gap between users, support and development
+                  teams.
                 </p>
               </article>
             </Col>

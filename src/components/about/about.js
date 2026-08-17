@@ -74,101 +74,100 @@ export default function About() {
 
         <div className="aboutSeparator" />
 
-        {/* WHAT I BRING */}
-        <section className="aboutSection">
-          <div className="aboutSectionHeader">
-            <p className="aboutSectionLabel">WHAT I BRING</p>
+{/* HOW I WORK */}
+<section className="aboutSection">
+  <div className="aboutSectionHeader">
+    <p className="aboutSectionLabel">HOW I WORK</p>
 
-            <h2>A combination of support experience and technical depth</h2>
+    <h2>Structured troubleshooting, ownership and clear communication</h2>
 
-            <p>
-              My strongest value is not one isolated technology. It is the
-              ability to understand technical problems from both the user and
-              system perspective.
-            </p>
-          </div>
+    <p>
+      I work best when I can understand the full context of a problem, trace
+      where it originates and communicate the next step clearly to both users
+      and technical teams.
+    </p>
+  </div>
 
-          <Row className="g-4">
-            <Col lg={4} md={6}>
-              <article className="aboutCard">
-                <span className="aboutCardNumber">01</span>
-                <p className="aboutCardLabel">SUPPORT</p>
+  <Row className="g-4">
+    <Col lg={4} md={6}>
+      <article className="aboutCard">
+        <span className="aboutCardNumber">01</span>
+        <p className="aboutCardLabel">TROUBLESHOOTING</p>
 
-                <h3>User-focused troubleshooting</h3>
+        <h3>Understand before fixing</h3>
 
-                <p>
-                  Experience helping users with technical issues involving
-                  Microsoft 365, authentication, devices, permissions and
-                  everyday application problems.
-                </p>
-              </article>
-            </Col>
+        <p>
+          When troubleshooting, I try to build a clear picture of the issue before deciding on the fix. That means following the issue across users,
+          permissions, configuration, applications and workflows.
+        </p>
+      </article>
+    </Col>
 
-            <Col lg={4} md={6}>
-              <article className="aboutCard">
-                <span className="aboutCardNumber">02</span>
-                <p className="aboutCardLabel">SYSTEMS</p>
+    <Col lg={4} md={6}>
+      <article className="aboutCard">
+        <span className="aboutCardNumber">02</span>
+        <p className="aboutCardLabel">OWNERSHIP</p>
 
-                <h3>Understanding the underlying problem</h3>
+        <h3>Follow the problem through</h3>
 
-                <p>
-                  I prefer to understand why something fails rather than only
-                  applying a temporary fix. That often means following the issue
-                  across systems, configuration and workflow.
-                </p>
-              </article>
-            </Col>
+        <p>
+          I like taking responsibility for understanding an issue, gathering
+          the right information and making sure it reaches the correct next
+          step when escalation is needed.
+        </p>
+      </article>
+    </Col>
 
-            <Col lg={4} md={12}>
-              <article className="aboutCard">
-                <span className="aboutCardNumber">03</span>
-                <p className="aboutCardLabel">COLLABORATION</p>
+    <Col lg={4} md={12}>
+      <article className="aboutCard">
+        <span className="aboutCardNumber">03</span>
+        <p className="aboutCardLabel">COMMUNICATION</p>
 
-                <h3>Working between users and developers</h3>
+        <h3>Bridge technical and user perspectives</h3>
 
-                <p>
-                  My development background helps me communicate technical
-                  issues clearly, test solutions and work effectively between
-                  support, users and development teams.
-                </p>
-              </article>
-            </Col>
-          </Row>
-        </section>
+        <p>
+          My support and development background helps me translate technical
+          issues into clear information for users, support teams and
+          developers.
+        </p>
+      </article>
+    </Col>
+  </Row>
+</section>
 
         <div className="aboutSeparator" />
 
-        {/* APPROACH */}
-        <section className="aboutSection">
-          <div className="aboutSplit">
-            <div>
-              <p className="aboutSectionLabel">HOW I WORK</p>
+{/* CAREER DIRECTION */}
+<section className="aboutSection">
+  <div className="aboutSplit">
+    <div>
+      <p className="aboutSectionLabel">CAREER DIRECTION</p>
 
-              <h2>Curious, pragmatic and structured</h2>
+      <h2>Moving closer to applications, systems and technical ownership</h2>
 
-              <p className="aboutText">
-                I am a practical problem solver who enjoys learning new systems
-                and understanding how different parts of a workflow connect.
-              </p>
+      <p className="aboutText">
+        My next step is not about moving away from support. It is about moving
+        deeper into the technical side of it.
+      </p>
 
-              <p className="aboutText">
-                I value clear communication, ownership and maintainable
-                solutions. When something does not work as expected, I prefer to
-                reproduce the problem, isolate the cause, verify the solution
-                and document what was learned.
-              </p>
-            </div>
+      <p className="aboutText">
+        I am particularly interested in Application Support, Technical Support
+        and System Support roles where I can take greater responsibility for
+        applications and systems, work with more advanced troubleshooting and
+        collaborate closely with development, product or specialist teams.
+      </p>
+    </div>
 
-            <div className="aboutQuote">
-              <p className="aboutQuoteLabel">WORKING STYLE</p>
+    <div className="aboutQuote">
+      <p className="aboutQuoteLabel">NEXT STEP</p>
 
-              <blockquote>
-                “Understand the problem, trace the cause, test the solution and
-                leave the system clearer than you found it.”
-              </blockquote>
-            </div>
-          </div>
-        </section>
+      <blockquote>
+        “More technical responsibility, deeper troubleshooting and closer
+        collaboration with the teams behind the systems.”
+      </blockquote>
+    </div>
+  </div>
+</section>
 
         <div className="aboutSeparator" />
 
